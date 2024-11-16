@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15BB97E2-0AF7-41BA-93D7-84565FC7754B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CellBlockIM.My.MyApplication</StartupObject>
+    <RootNamespace>CellBlockIM</RootNamespace>
+    <AssemblyName>CellBlockIM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CellBlockIM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CellBlockIM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblock.Designer.vb">
+      <DependentUpon>AddCellblock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockHome.Designer.vb">
+      <DependentUpon>AddCellblockHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AssignStaffControl.Designer.vb">
+      <DependentUpon>AssignStaffControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AssignStaffControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblock.Designer.vb">
+      <DependentUpon>DeleteCellblock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\EditCellblock.Designer.vb">
+      <DependentUpon>EditCellblock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\EditCellblock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddEditDeleteControl.Designer.vb">
+      <DependentUpon>AddEditDeleteControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddEditDeleteControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaff.Designer.vb">
+      <DependentUpon>AddStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaffHome.Designer.vb">
+      <DependentUpon>AddStaffHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaffHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\DeleteStaff.Designer.vb">
+      <DependentUpon>DeleteStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\DeleteStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\EditStaff.Designer.vb">
+      <DependentUpon>EditStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\EditStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.Designer.vb">
+      <DependentUpon>MovepdlHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\MainDashboard.Designer.vb">
+      <DependentUpon>MainDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\MainDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddDashboard.Designer.vb">
+      <DependentUpon>AddDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblock.resx">
+      <DependentUpon>AddCellblock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockHome.resx">
+      <DependentUpon>AddCellblockHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AssignStaffControl.resx">
+      <DependentUpon>AssignStaffControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\DeleteCellblock.resx">
+      <DependentUpon>DeleteCellblock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\EditCellblock.resx">
+      <DependentUpon>EditCellblock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddEditDeleteControl.resx">
+      <DependentUpon>AddEditDeleteControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaff.resx">
+      <DependentUpon>AddStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffHome.resx">
+      <DependentUpon>AddStaffHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\DeleteStaff.resx">
+      <DependentUpon>DeleteStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\EditStaff.resx">
+      <DependentUpon>EditStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\MainDashboard.resx">
+      <DependentUpon>MainDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddDashboard.resx">
+      <DependentUpon>AddDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cellblock-central %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inmate %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
