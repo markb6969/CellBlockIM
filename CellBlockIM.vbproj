@@ -145,6 +145,18 @@
     <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddInmate.Designer.vb">
+      <DependentUpon>AddInmate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddInmate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\InmateHome.Designer.vb">
+      <DependentUpon>InmateHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\InmateHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\MainDashboard.Designer.vb">
       <DependentUpon>MainDashboard.vb</DependentUpon>
     </Compile>
@@ -224,6 +236,12 @@
     <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHome.resx">
       <DependentUpon>MovepdlHome.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmate.resx">
+      <DependentUpon>AddInmate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
+      <DependentUpon>InmateHome.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\MainDashboard.resx">
       <DependentUpon>MainDashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -300,8 +318,6 @@
   <ItemGroup>
     <None Include="Resources\inmate %282%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dashboard\Inmate\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
