@@ -37,6 +37,7 @@ Partial Class EditStaff
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.lblLastName = New System.Windows.Forms.Label()
@@ -44,7 +45,14 @@ Partial Class EditStaff
         Me.txtLastName = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.btnMainDB = New System.Windows.Forms.Button()
+        Me.btnAddEntity = New System.Windows.Forms.Button()
+        Me.btnReport = New System.Windows.Forms.Button()
+        Me.btnManageInmate = New System.Windows.Forms.Button()
+        Me.btnManageUser = New System.Windows.Forms.Button()
+        Me.btnSettings = New System.Windows.Forms.Button()
         Me.btnAddCellblock = New System.Windows.Forms.Button()
         Me.btnAddStaff = New System.Windows.Forms.Button()
         Me.btnMovePDL = New System.Windows.Forms.Button()
@@ -65,6 +73,10 @@ Partial Class EditStaff
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.txtSearch = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -72,7 +84,9 @@ Partial Class EditStaff
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.pbID = New System.Windows.Forms.PictureBox()
         Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.pbImage = New System.Windows.Forms.PictureBox()
         Me.Panel20 = New System.Windows.Forms.Panel()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Panel18 = New System.Windows.Forms.Panel()
@@ -90,45 +104,36 @@ Partial Class EditStaff
         Me.Panel15 = New System.Windows.Forms.Panel()
         Me.txtMunicipality = New System.Windows.Forms.TextBox()
         Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.txtStaffID = New System.Windows.Forms.TextBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.lblTotalStaff = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.txtSearch = New System.Windows.Forms.TextBox()
-        Me.Panel23 = New System.Windows.Forms.Panel()
-        Me.txtStaffID = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnMainDB = New System.Windows.Forms.Button()
-        Me.btnAddEntity = New System.Windows.Forms.Button()
-        Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnManageInmate = New System.Windows.Forms.Button()
-        Me.btnManageUser = New System.Windows.Forms.Button()
-        Me.btnSettings = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.pbID = New System.Windows.Forms.PictureBox()
-        Me.pbImage = New System.Windows.Forms.PictureBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel17.SuspendLayout()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.FlowLayoutPanel2.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
         Me.Panel10.SuspendLayout()
         CType(Me.dgvAllStaff, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        Me.Panel19.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel21.SuspendLayout()
+        CType(Me.pbID, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel22.SuspendLayout()
+        CType(Me.pbImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel20.SuspendLayout()
         Me.Panel18.SuspendLayout()
         Me.Panel11.SuspendLayout()
@@ -138,13 +143,8 @@ Partial Class EditStaff
         Me.Panel14.SuspendLayout()
         Me.Panel15.SuspendLayout()
         Me.Panel16.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel19.SuspendLayout()
         Me.Panel23.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbID, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbImage, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel7.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label7
@@ -308,6 +308,20 @@ Partial Class EditStaff
         Me.Panel13.Size = New System.Drawing.Size(129, 44)
         Me.Panel13.TabIndex = 28
         '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.ForeColor = System.Drawing.Color.Gray
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Single", "Married ", "Widowed", "Separated", "Divorced"})
+        Me.ComboBox4.Location = New System.Drawing.Point(3, 6)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(121, 31)
+        Me.ComboBox4.TabIndex = 55
+        Me.ComboBox4.Text = "Single"
+        '
         'Panel12
         '
         Me.Panel12.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
@@ -379,6 +393,17 @@ Partial Class EditStaff
         Me.Panel4.Size = New System.Drawing.Size(250, 207)
         Me.Panel4.TabIndex = 0
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
+        '
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
@@ -394,6 +419,78 @@ Partial Class EditStaff
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(253, 761)
         Me.FlowLayoutPanel1.TabIndex = 52
+        '
+        'btnMainDB
+        '
+        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnMainDB.FlatAppearance.BorderSize = 0
+        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
+        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
+        Me.btnMainDB.Name = "btnMainDB"
+        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
+        Me.btnMainDB.TabIndex = 1
+        Me.btnMainDB.UseVisualStyleBackColor = False
+        '
+        'btnAddEntity
+        '
+        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnAddEntity.FlatAppearance.BorderSize = 0
+        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus__1_
+        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
+        Me.btnAddEntity.Name = "btnAddEntity"
+        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
+        Me.btnAddEntity.TabIndex = 1
+        Me.btnAddEntity.UseVisualStyleBackColor = False
+        '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnReport.FlatAppearance.BorderSize = 0
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
+        Me.btnReport.Location = New System.Drawing.Point(0, 378)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(250, 75)
+        Me.btnReport.TabIndex = 1
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
+        'btnManageInmate
+        '
+        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageInmate.FlatAppearance.BorderSize = 0
+        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
+        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
+        Me.btnManageInmate.Name = "btnManageInmate"
+        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageInmate.TabIndex = 1
+        Me.btnManageInmate.UseVisualStyleBackColor = False
+        '
+        'btnManageUser
+        '
+        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageUser.FlatAppearance.BorderSize = 0
+        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
+        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
+        Me.btnManageUser.Name = "btnManageUser"
+        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageUser.TabIndex = 1
+        Me.btnManageUser.UseVisualStyleBackColor = False
+        '
+        'btnSettings
+        '
+        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
+        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
+        Me.btnSettings.TabIndex = 1
+        Me.btnSettings.UseVisualStyleBackColor = False
         '
         'btnAddCellblock
         '
@@ -629,6 +726,49 @@ Partial Class EditStaff
         Me.Panel1.Size = New System.Drawing.Size(429, 321)
         Me.Panel1.TabIndex = 0
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Poppins SemiBold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(14, 126)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(66, 37)
+        Me.Label2.TabIndex = 23
+        Me.Label2.Text = "Staff"
+        '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel19.Controls.Add(Me.txtSearch)
+        Me.Panel19.Location = New System.Drawing.Point(21, 166)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(398, 44)
+        Me.Panel19.TabIndex = 24
+        '
+        'txtSearch
+        '
+        Me.txtSearch.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSearch.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSearch.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtSearch.Location = New System.Drawing.Point(12, 9)
+        Me.txtSearch.Name = "txtSearch"
+        Me.txtSearch.Size = New System.Drawing.Size(370, 24)
+        Me.txtSearch.TabIndex = 0
+        Me.txtSearch.Text = "Search Staff"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.edit__1_
+        Me.PictureBox2.Location = New System.Drawing.Point(65, 48)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(39, 38)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 19
+        Me.PictureBox2.TabStop = False
+        '
         'DateTimePicker1
         '
         Me.DateTimePicker1.CustomFormat = "MMMM, dd, yyyy"
@@ -755,6 +895,14 @@ Partial Class EditStaff
         Me.Panel21.Size = New System.Drawing.Size(222, 194)
         Me.Panel21.TabIndex = 49
         '
+        'pbID
+        '
+        Me.pbID.Location = New System.Drawing.Point(8, 7)
+        Me.pbID.Name = "pbID"
+        Me.pbID.Size = New System.Drawing.Size(204, 177)
+        Me.pbID.TabIndex = 0
+        Me.pbID.TabStop = False
+        '
         'Panel22
         '
         Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
@@ -764,6 +912,14 @@ Partial Class EditStaff
         Me.Panel22.Name = "Panel22"
         Me.Panel22.Size = New System.Drawing.Size(222, 194)
         Me.Panel22.TabIndex = 50
+        '
+        'pbImage
+        '
+        Me.pbImage.Location = New System.Drawing.Point(8, 7)
+        Me.pbImage.Name = "pbImage"
+        Me.pbImage.Size = New System.Drawing.Size(204, 177)
+        Me.pbImage.TabIndex = 0
+        Me.pbImage.TabStop = False
         '
         'Panel20
         '
@@ -956,6 +1112,50 @@ Partial Class EditStaff
         Me.Panel16.Size = New System.Drawing.Size(353, 44)
         Me.Panel16.TabIndex = 46
         '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.DarkGray
+        Me.TextBox1.Location = New System.Drawing.Point(12, 8)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(333, 24)
+        Me.TextBox1.TabIndex = 55
+        Me.TextBox1.Text = "Street"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(40, 52)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(51, 21)
+        Me.Label12.TabIndex = 25
+        Me.Label12.Text = "Staff ID"
+        '
+        'Panel23
+        '
+        Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel23.Controls.Add(Me.txtStaffID)
+        Me.Panel23.Location = New System.Drawing.Point(44, 76)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(352, 44)
+        Me.Panel23.TabIndex = 24
+        '
+        'txtStaffID
+        '
+        Me.txtStaffID.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtStaffID.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtStaffID.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStaffID.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtStaffID.Location = New System.Drawing.Point(12, 9)
+        Me.txtStaffID.Name = "txtStaffID"
+        Me.txtStaffID.Size = New System.Drawing.Size(335, 24)
+        Me.txtStaffID.TabIndex = 0
+        Me.txtStaffID.Text = "Enter Staff ID"
+        '
         'Panel7
         '
         Me.Panel7.Controls.Add(Me.btnSave)
@@ -1003,206 +1203,6 @@ Partial Class EditStaff
         Me.lblTotalStaff.TabIndex = 51
         Me.lblTotalStaff.Text = "Total Staff"
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Poppins SemiBold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(14, 126)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 37)
-        Me.Label2.TabIndex = 23
-        Me.Label2.Text = "Staff"
-        '
-        'Panel19
-        '
-        Me.Panel19.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel19.Controls.Add(Me.txtSearch)
-        Me.Panel19.Location = New System.Drawing.Point(21, 166)
-        Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(398, 44)
-        Me.Panel19.TabIndex = 24
-        '
-        'txtSearch
-        '
-        Me.txtSearch.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtSearch.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSearch.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtSearch.Location = New System.Drawing.Point(12, 9)
-        Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(370, 24)
-        Me.txtSearch.TabIndex = 0
-        Me.txtSearch.Text = "Search Staff"
-        '
-        'Panel23
-        '
-        Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel23.Controls.Add(Me.txtStaffID)
-        Me.Panel23.Location = New System.Drawing.Point(44, 76)
-        Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(352, 44)
-        Me.Panel23.TabIndex = 24
-        '
-        'txtStaffID
-        '
-        Me.txtStaffID.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtStaffID.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtStaffID.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStaffID.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtStaffID.Location = New System.Drawing.Point(12, 9)
-        Me.txtStaffID.Name = "txtStaffID"
-        Me.txtStaffID.Size = New System.Drawing.Size(335, 24)
-        Me.txtStaffID.TabIndex = 0
-        Me.txtStaffID.Text = "Enter Staff ID"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(40, 52)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(51, 21)
-        Me.Label12.TabIndex = 25
-        Me.Label12.Text = "Staff ID"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 19
-        Me.PictureBox1.TabStop = False
-        '
-        'btnMainDB
-        '
-        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnMainDB.FlatAppearance.BorderSize = 0
-        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
-        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
-        Me.btnMainDB.Name = "btnMainDB"
-        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
-        Me.btnMainDB.TabIndex = 1
-        Me.btnMainDB.UseVisualStyleBackColor = False
-        '
-        'btnAddEntity
-        '
-        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnAddEntity.FlatAppearance.BorderSize = 0
-        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus__1_
-        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
-        Me.btnAddEntity.Name = "btnAddEntity"
-        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
-        Me.btnAddEntity.TabIndex = 1
-        Me.btnAddEntity.UseVisualStyleBackColor = False
-        '
-        'btnReport
-        '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnReport.FlatAppearance.BorderSize = 0
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
-        Me.btnReport.Location = New System.Drawing.Point(0, 378)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(250, 75)
-        Me.btnReport.TabIndex = 1
-        Me.btnReport.UseVisualStyleBackColor = False
-        '
-        'btnManageInmate
-        '
-        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageInmate.FlatAppearance.BorderSize = 0
-        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
-        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
-        Me.btnManageInmate.Name = "btnManageInmate"
-        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageInmate.TabIndex = 1
-        Me.btnManageInmate.UseVisualStyleBackColor = False
-        '
-        'btnManageUser
-        '
-        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageUser.FlatAppearance.BorderSize = 0
-        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
-        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
-        Me.btnManageUser.Name = "btnManageUser"
-        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageUser.TabIndex = 1
-        Me.btnManageUser.UseVisualStyleBackColor = False
-        '
-        'btnSettings
-        '
-        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnSettings.FlatAppearance.BorderSize = 0
-        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
-        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
-        Me.btnSettings.TabIndex = 1
-        Me.btnSettings.UseVisualStyleBackColor = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.edit__1_
-        Me.PictureBox2.Location = New System.Drawing.Point(65, 48)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(39, 38)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 19
-        Me.PictureBox2.TabStop = False
-        '
-        'pbID
-        '
-        Me.pbID.Location = New System.Drawing.Point(8, 7)
-        Me.pbID.Name = "pbID"
-        Me.pbID.Size = New System.Drawing.Size(204, 177)
-        Me.pbID.TabIndex = 0
-        Me.pbID.TabStop = False
-        '
-        'pbImage
-        '
-        Me.pbImage.Location = New System.Drawing.Point(8, 7)
-        Me.pbImage.Name = "pbImage"
-        Me.pbImage.Size = New System.Drawing.Size(204, 177)
-        Me.pbImage.TabIndex = 0
-        Me.pbImage.TabStop = False
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.ForeColor = System.Drawing.Color.Gray
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Single", "Married ", "Widowed", "Separated", "Divorced"})
-        Me.ComboBox4.Location = New System.Drawing.Point(3, 6)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 31)
-        Me.ComboBox4.TabIndex = 55
-        Me.ComboBox4.Text = "Single"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.DarkGray
-        Me.TextBox1.Location = New System.Drawing.Point(12, 8)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(333, 24)
-        Me.TextBox1.TabIndex = 55
-        Me.TextBox1.Text = "Street"
-        '
         'EditStaff
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1227,6 +1227,7 @@ Partial Class EditStaff
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
         Me.Panel4.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.pnlTxtUsername.ResumeLayout(False)
@@ -1236,12 +1237,17 @@ Partial Class EditStaff
         CType(Me.dgvAllStaff, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel19.ResumeLayout(False)
+        Me.Panel19.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel21.ResumeLayout(False)
+        CType(Me.pbID, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel22.ResumeLayout(False)
+        CType(Me.pbImage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel20.ResumeLayout(False)
         Me.Panel18.ResumeLayout(False)
         Me.Panel11.ResumeLayout(False)
@@ -1257,15 +1263,9 @@ Partial Class EditStaff
         Me.Panel15.PerformLayout()
         Me.Panel16.ResumeLayout(False)
         Me.Panel16.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel19.ResumeLayout(False)
-        Me.Panel19.PerformLayout()
         Me.Panel23.ResumeLayout(False)
         Me.Panel23.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbID, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbImage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel7.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

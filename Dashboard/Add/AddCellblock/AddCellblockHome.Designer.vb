@@ -43,6 +43,7 @@ Partial Class AddCellblockHome
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.AddEditDeleteControl1 = New CellBlockIM.AddEditDeleteControl()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
@@ -51,7 +52,6 @@ Partial Class AddCellblockHome
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.AddEditDeleteControl1 = New CellBlockIM.AddEditDeleteControl()
         Me.FlowLayoutPanel2.SuspendLayout()
         Me.Panel4.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -320,6 +320,14 @@ Partial Class AddCellblockHome
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "Cellblocks"
         '
+        'AddEditDeleteControl1
+        '
+        Me.AddEditDeleteControl1.BackColor = System.Drawing.Color.Transparent
+        Me.AddEditDeleteControl1.Location = New System.Drawing.Point(3, 13)
+        Me.AddEditDeleteControl1.Name = "AddEditDeleteControl1"
+        Me.AddEditDeleteControl1.Size = New System.Drawing.Size(298, 188)
+        Me.AddEditDeleteControl1.TabIndex = 21
+        '
         'TableLayoutPanel3
         '
         Me.TableLayoutPanel3.ColumnCount = 1
@@ -418,14 +426,6 @@ Partial Class AddCellblockHome
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 465)
         Me.TableLayoutPanel1.TabIndex = 26
-        '
-        'AddEditDeleteControl1
-        '
-        Me.AddEditDeleteControl1.BackColor = System.Drawing.Color.Transparent
-        Me.AddEditDeleteControl1.Location = New System.Drawing.Point(3, 13)
-        Me.AddEditDeleteControl1.Name = "AddEditDeleteControl1"
-        Me.AddEditDeleteControl1.Size = New System.Drawing.Size(298, 188)
-        Me.AddEditDeleteControl1.TabIndex = 21
         '
         'AddCellblockHome
         '

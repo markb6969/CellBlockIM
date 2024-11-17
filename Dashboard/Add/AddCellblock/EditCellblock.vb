@@ -33,4 +33,9 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnReport_Click(sender As Object, e As EventArgs) Handles btnReport.Click
+        ReportHome.Show()
+        Me.Hide()
+    End Sub
 End Class

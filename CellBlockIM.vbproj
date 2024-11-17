@@ -157,6 +157,12 @@
     <Compile Include="Dashboard\Add\AddDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Report\ReportHome.Designer.vb">
+      <DependentUpon>ReportHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Report\ReportHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -224,6 +230,9 @@
     <EmbeddedResource Include="Dashboard\Add\AddDashboard.resx">
       <DependentUpon>AddDashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Report\ReportHome.resx">
+      <DependentUpon>ReportHome.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -285,6 +294,14 @@
   <ItemGroup>
     <None Include="Resources\delete %281%29.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\report %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inmate %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dashboard\Inmate\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
