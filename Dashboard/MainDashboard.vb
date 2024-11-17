@@ -14,4 +14,10 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnManageInmate_Click(sender As Object, e As EventArgs) Handles btnManageInmate.Click
+        InmateHome.Show()
+        Me.Hide()
+
+    End Sub
 End Class
