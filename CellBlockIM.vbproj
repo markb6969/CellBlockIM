@@ -133,6 +133,12 @@
     <Compile Include="Dashboard\Add\AddStaff\EditStaff.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\Movepdl.Designer.vb">
+      <DependentUpon>Movepdl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\Movepdl.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.Designer.vb">
       <DependentUpon>MovepdlHome.vb</DependentUpon>
     </Compile>
@@ -205,6 +211,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\EditStaff.resx">
       <DependentUpon>EditStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\MovePDL\Movepdl.resx">
+      <DependentUpon>Movepdl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHome.resx">
+      <DependentUpon>MovepdlHome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\MainDashboard.resx">
       <DependentUpon>MainDashboard.vb</DependentUpon>
