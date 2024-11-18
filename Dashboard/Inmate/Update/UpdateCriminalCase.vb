@@ -1,7 +1,13 @@
-﻿Public Class InmateHome
-    Private Sub InmateHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Public Class UpdateCriminalCase
+    Private Sub UpdateCriminalCase_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
         Me.FormBorderStyle = FormBorderStyle.Sizable
+    End Sub
+
+    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        UpdateMedicalinfo.Show()
+        Me.Hide()
+
     End Sub
 
     Private Sub btnMainDB_Click(sender As Object, e As EventArgs) Handles btnMainDB.Click
@@ -22,14 +28,8 @@
 
     End Sub
 
-    Private Sub btnAddInmate_Click(sender As Object, e As EventArgs) Handles btnAddInmate.Click
-        AddInmate.Show()
-        Me.Hide()
-
-    End Sub
-
-    Private Sub btnUpdateInmate_Click(sender As Object, e As EventArgs) Handles btnUpdateInmate.Click
-        UpdateHome.Show()
+    Private Sub btnManageInmate_Click(sender As Object, e As EventArgs) Handles btnManageInmate.Click
+        InmateHome.Show()
         Me.Hide()
 
     End Sub

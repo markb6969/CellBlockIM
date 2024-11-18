@@ -27,10 +27,13 @@ Partial Class InmateHome
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.dgvAllPdl = New System.Windows.Forms.DataGridView()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.btnAddCellblock = New System.Windows.Forms.Button()
-        Me.btnAddStaff = New System.Windows.Forms.Button()
-        Me.btnMovePDL = New System.Windows.Forms.Button()
+        Me.btnAddInmate = New System.Windows.Forms.Button()
+        Me.btnUpdateInmate = New System.Windows.Forms.Button()
+        Me.btnRemoveInmate = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -40,17 +43,14 @@ Partial Class InmateHome
         Me.btnManageInmate = New System.Windows.Forms.Button()
         Me.btnManageUser = New System.Windows.Forms.Button()
         Me.btnSettings = New System.Windows.Forms.Button()
-        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.dgvAllPdl = New System.Windows.Forms.DataGridView()
         Me.TableLayoutPanel1.SuspendLayout()
+        Me.TableLayoutPanel3.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.dgvAllPdl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.FlowLayoutPanel2.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TableLayoutPanel3.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        CType(Me.dgvAllPdl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblTotalText
@@ -109,58 +109,94 @@ Partial Class InmateHome
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 465.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 455.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 455)
         Me.TableLayoutPanel1.TabIndex = 40
+        '
+        'TableLayoutPanel3
+        '
+        Me.TableLayoutPanel3.ColumnCount = 3
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.57469!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.85061!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.57469!))
+        Me.TableLayoutPanel3.Controls.Add(Me.Panel1, 1, 0)
+        Me.TableLayoutPanel3.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(975, 449)
+        Me.TableLayoutPanel3.TabIndex = 1
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.dgvAllPdl)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(174, 3)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(626, 443)
+        Me.Panel1.TabIndex = 0
+        '
+        'dgvAllPdl
+        '
+        Me.dgvAllPdl.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.dgvAllPdl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvAllPdl.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dgvAllPdl.Location = New System.Drawing.Point(0, 0)
+        Me.dgvAllPdl.Name = "dgvAllPdl"
+        Me.dgvAllPdl.Size = New System.Drawing.Size(626, 443)
+        Me.dgvAllPdl.TabIndex = 0
         '
         'FlowLayoutPanel2
         '
         Me.FlowLayoutPanel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnAddCellblock)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnAddStaff)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnMovePDL)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnAddInmate)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnUpdateInmate)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnRemoveInmate)
         Me.FlowLayoutPanel2.Location = New System.Drawing.Point(253, 194)
         Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
         Me.FlowLayoutPanel2.Size = New System.Drawing.Size(981, 100)
         Me.FlowLayoutPanel2.TabIndex = 46
         '
-        'btnAddCellblock
+        'btnAddInmate
         '
-        Me.btnAddCellblock.FlatAppearance.BorderSize = 0
-        Me.btnAddCellblock.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddCellblock.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAddCellblock.ForeColor = System.Drawing.Color.Black
-        Me.btnAddCellblock.Location = New System.Drawing.Point(3, 3)
-        Me.btnAddCellblock.Name = "btnAddCellblock"
-        Me.btnAddCellblock.Size = New System.Drawing.Size(237, 77)
-        Me.btnAddCellblock.TabIndex = 24
-        Me.btnAddCellblock.Text = "Add "
-        Me.btnAddCellblock.UseVisualStyleBackColor = True
+        Me.btnAddInmate.FlatAppearance.BorderSize = 0
+        Me.btnAddInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddInmate.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddInmate.ForeColor = System.Drawing.Color.Black
+        Me.btnAddInmate.Location = New System.Drawing.Point(3, 3)
+        Me.btnAddInmate.Name = "btnAddInmate"
+        Me.btnAddInmate.Size = New System.Drawing.Size(237, 77)
+        Me.btnAddInmate.TabIndex = 24
+        Me.btnAddInmate.Text = "Add "
+        Me.btnAddInmate.UseVisualStyleBackColor = True
         '
-        'btnAddStaff
+        'btnUpdateInmate
         '
-        Me.btnAddStaff.FlatAppearance.BorderSize = 0
-        Me.btnAddStaff.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddStaff.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAddStaff.Location = New System.Drawing.Point(246, 3)
-        Me.btnAddStaff.Name = "btnAddStaff"
-        Me.btnAddStaff.Size = New System.Drawing.Size(214, 77)
-        Me.btnAddStaff.TabIndex = 24
-        Me.btnAddStaff.Text = "Update"
-        Me.btnAddStaff.UseVisualStyleBackColor = True
+        Me.btnUpdateInmate.FlatAppearance.BorderSize = 0
+        Me.btnUpdateInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUpdateInmate.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdateInmate.Location = New System.Drawing.Point(246, 3)
+        Me.btnUpdateInmate.Name = "btnUpdateInmate"
+        Me.btnUpdateInmate.Size = New System.Drawing.Size(214, 77)
+        Me.btnUpdateInmate.TabIndex = 24
+        Me.btnUpdateInmate.Text = "Update"
+        Me.btnUpdateInmate.UseVisualStyleBackColor = True
         '
-        'btnMovePDL
+        'btnRemoveInmate
         '
-        Me.btnMovePDL.FlatAppearance.BorderSize = 0
-        Me.btnMovePDL.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMovePDL.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMovePDL.Location = New System.Drawing.Point(466, 3)
-        Me.btnMovePDL.Name = "btnMovePDL"
-        Me.btnMovePDL.Size = New System.Drawing.Size(235, 77)
-        Me.btnMovePDL.TabIndex = 24
-        Me.btnMovePDL.Text = "Remove"
-        Me.btnMovePDL.UseVisualStyleBackColor = True
+        Me.btnRemoveInmate.FlatAppearance.BorderSize = 0
+        Me.btnRemoveInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRemoveInmate.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRemoveInmate.Location = New System.Drawing.Point(466, 3)
+        Me.btnRemoveInmate.Name = "btnRemoveInmate"
+        Me.btnRemoveInmate.Size = New System.Drawing.Size(235, 77)
+        Me.btnRemoveInmate.TabIndex = 24
+        Me.btnRemoveInmate.Text = "Remove"
+        Me.btnRemoveInmate.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel1
         '
@@ -269,42 +305,6 @@ Partial Class InmateHome
         Me.btnSettings.TabIndex = 1
         Me.btnSettings.UseVisualStyleBackColor = False
         '
-        'TableLayoutPanel3
-        '
-        Me.TableLayoutPanel3.ColumnCount = 3
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.57469!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.85061!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.57469!))
-        Me.TableLayoutPanel3.Controls.Add(Me.Panel1, 1, 0)
-        Me.TableLayoutPanel3.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 3)
-        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
-        Me.TableLayoutPanel3.RowCount = 1
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(975, 449)
-        Me.TableLayoutPanel3.TabIndex = 1
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.dgvAllPdl)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(174, 3)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(626, 443)
-        Me.Panel1.TabIndex = 0
-        '
-        'dgvAllPdl
-        '
-        Me.dgvAllPdl.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.dgvAllPdl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvAllPdl.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvAllPdl.Location = New System.Drawing.Point(0, 0)
-        Me.dgvAllPdl.Name = "dgvAllPdl"
-        Me.dgvAllPdl.Size = New System.Drawing.Size(626, 443)
-        Me.dgvAllPdl.TabIndex = 0
-        '
         'InmateHome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -321,13 +321,13 @@ Partial Class InmateHome
         Me.Name = "InmateHome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel3.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.dgvAllPdl, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TableLayoutPanel3.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
-        CType(Me.dgvAllPdl, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -338,9 +338,9 @@ Partial Class InmateHome
     Friend WithEvents Label1 As Label
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
-    Friend WithEvents btnAddCellblock As Button
-    Friend WithEvents btnAddStaff As Button
-    Friend WithEvents btnMovePDL As Button
+    Friend WithEvents btnAddInmate As Button
+    Friend WithEvents btnUpdateInmate As Button
+    Friend WithEvents btnRemoveInmate As Button
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents PictureBox1 As PictureBox

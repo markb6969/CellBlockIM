@@ -181,6 +181,30 @@
     <Compile Include="Dashboard\Inmate\InmateHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCase.Designer.vb">
+      <DependentUpon>UpdateCriminalCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateHome.Designer.vb">
+      <DependentUpon>UpdateHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateInmate.Designer.vb">
+      <DependentUpon>UpdateInmate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateInmate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfo.Designer.vb">
+      <DependentUpon>UpdateMedicalinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\MainDashboard.Designer.vb">
       <DependentUpon>MainDashboard.vb</DependentUpon>
     </Compile>
@@ -277,6 +301,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
       <DependentUpon>InmateHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateCriminalCase.resx">
+      <DependentUpon>UpdateCriminalCase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateHome.resx">
+      <DependentUpon>UpdateHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateInmate.resx">
+      <DependentUpon>UpdateInmate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateMedicalinfo.resx">
+      <DependentUpon>UpdateMedicalinfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\MainDashboard.resx">
       <DependentUpon>MainDashboard.vb</DependentUpon>
