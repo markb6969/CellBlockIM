@@ -151,6 +151,12 @@
     <Compile Include="Dashboard\Inmate\Add\AddInmate.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddCriminalCase.Designer.vb">
+      <DependentUpon>AddCriminalCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddCriminalCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Inmate\InmateHome.Designer.vb">
       <DependentUpon>InmateHome.vb</DependentUpon>
     </Compile>
@@ -239,6 +245,9 @@
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmate.resx">
       <DependentUpon>AddInmate.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddCriminalCase.resx">
+      <DependentUpon>AddCriminalCase.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
       <DependentUpon>InmateHome.vb</DependentUpon>
     </EmbeddedResource>
@@ -320,6 +329,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
