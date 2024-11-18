@@ -195,7 +195,7 @@ Partial Class InmateHome
         Me.btnRemoveInmate.Name = "btnRemoveInmate"
         Me.btnRemoveInmate.Size = New System.Drawing.Size(235, 77)
         Me.btnRemoveInmate.TabIndex = 24
-        Me.btnRemoveInmate.Text = "Remove"
+        Me.btnRemoveInmate.Text = "Release"
         Me.btnRemoveInmate.UseVisualStyleBackColor = True
         '
         'FlowLayoutPanel1

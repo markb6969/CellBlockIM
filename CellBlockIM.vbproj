@@ -181,6 +181,24 @@
     <Compile Include="Dashboard\Inmate\InmateHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\ReleaseInmate.Designer.vb">
+      <DependentUpon>ReleaseInmate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\ReleaseInmate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\RemoveHome.Designer.vb">
+      <DependentUpon>RemoveHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\RemoveHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\RemoveOption.Designer.vb">
+      <DependentUpon>RemoveOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\RemoveOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCase.Designer.vb">
       <DependentUpon>UpdateCriminalCase.vb</DependentUpon>
     </Compile>
@@ -301,6 +319,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
       <DependentUpon>InmateHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Remove\ReleaseInmate.resx">
+      <DependentUpon>ReleaseInmate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveHome.resx">
+      <DependentUpon>RemoveHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveOption.resx">
+      <DependentUpon>RemoveOption.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateCriminalCase.resx">
       <DependentUpon>UpdateCriminalCase.vb</DependentUpon>

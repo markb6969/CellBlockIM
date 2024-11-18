@@ -33,4 +33,10 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnRemoveInmate_Click(sender As Object, e As EventArgs) Handles btnRemoveInmate.Click
+        RemoveHome.Show()
+        Me.Hide()
+
+    End Sub
 End Class
