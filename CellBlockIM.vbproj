@@ -145,6 +145,12 @@
     <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddArrestingOfficerControl.Designer.vb">
+      <DependentUpon>AddArrestingOfficerControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddArrestingOfficerControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddInmate.Designer.vb">
       <DependentUpon>AddInmate.vb</DependentUpon>
     </Compile>
@@ -156,6 +162,18 @@
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddCriminalCase.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddMedicalinfo.Designer.vb">
+      <DependentUpon>AddMedicalinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddMedicalinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.Designer.vb">
+      <DependentUpon>AddMultipleOffenseControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\InmateHome.Designer.vb">
       <DependentUpon>InmateHome.vb</DependentUpon>
@@ -242,11 +260,20 @@
     <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHome.resx">
       <DependentUpon>MovepdlHome.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddArrestingOfficerControl.resx">
+      <DependentUpon>AddArrestingOfficerControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmate.resx">
       <DependentUpon>AddInmate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddCriminalCase.resx">
       <DependentUpon>AddCriminalCase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddMedicalinfo.resx">
+      <DependentUpon>AddMedicalinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.resx">
+      <DependentUpon>AddMultipleOffenseControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
       <DependentUpon>InmateHome.vb</DependentUpon>
@@ -332,6 +359,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -28,7 +28,7 @@ Partial Class AddInmate
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
-        Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnNext = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.Panel18 = New System.Windows.Forms.Panel()
         Me.txtPhone = New System.Windows.Forms.TextBox()
@@ -119,13 +119,9 @@ Partial Class AddInmate
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.lblTotal = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.lblTotalText = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnMainDB = New System.Windows.Forms.Button()
         Me.btnAddEntity = New System.Windows.Forms.Button()
@@ -133,7 +129,11 @@ Partial Class AddInmate
         Me.btnManageInmate = New System.Windows.Forms.Button()
         Me.btnManageUser = New System.Windows.Forms.Button()
         Me.btnSettings = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.lblTotal = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.lblTotalText = New System.Windows.Forms.Label()
         Me.TableLayoutPanel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -168,11 +168,11 @@ Partial Class AddInmate
         Me.Panel6.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
-        Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel3
@@ -307,7 +307,7 @@ Partial Class AddInmate
         Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel6.Controls.Add(Me.btnSave, 2, 0)
+        Me.TableLayoutPanel6.Controls.Add(Me.btnNext, 2, 0)
         Me.TableLayoutPanel6.Controls.Add(Me.btnCancel, 1, 0)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel6.Location = New System.Drawing.Point(199, 3)
@@ -317,20 +317,20 @@ Partial Class AddInmate
         Me.TableLayoutPanel6.Size = New System.Drawing.Size(347, 88)
         Me.TableLayoutPanel6.TabIndex = 0
         '
-        'btnSave
+        'btnNext
         '
-        Me.btnSave.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.btnNext.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSave.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSave.ForeColor = System.Drawing.Color.White
-        Me.btnSave.Location = New System.Drawing.Point(175, 3)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(80, 42)
-        Me.btnSave.TabIndex = 41
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = False
+        Me.btnNext.BackColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnNext.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNext.ForeColor = System.Drawing.Color.White
+        Me.btnNext.Location = New System.Drawing.Point(175, 3)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(80, 42)
+        Me.btnNext.TabIndex = 41
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
@@ -865,7 +865,7 @@ Partial Class AddInmate
         Me.Panel15.Controls.Add(Me.txtPhysicalDeformities)
         Me.Panel15.Location = New System.Drawing.Point(59, 1363)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(332, 44)
+        Me.Panel15.Size = New System.Drawing.Size(329, 44)
         Me.Panel15.TabIndex = 32
         '
         'txtPhysicalDeformities
@@ -919,7 +919,7 @@ Partial Class AddInmate
         Me.Panel30.Controls.Add(Me.txtRelationship)
         Me.Panel30.Location = New System.Drawing.Point(61, 2095)
         Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(332, 44)
+        Me.Panel30.Size = New System.Drawing.Size(329, 44)
         Me.Panel30.TabIndex = 32
         '
         'txtRelationship
@@ -953,7 +953,7 @@ Partial Class AddInmate
         Me.Panel29.Controls.Add(Me.txtEmergencyAddress)
         Me.Panel29.Location = New System.Drawing.Point(61, 2015)
         Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(332, 44)
+        Me.Panel29.Size = New System.Drawing.Size(329, 44)
         Me.Panel29.TabIndex = 32
         '
         'txtEmergencyAddress
@@ -977,7 +977,7 @@ Partial Class AddInmate
         Me.Panel27.Controls.Add(Me.txtMotherAddress)
         Me.Panel27.Location = New System.Drawing.Point(59, 1781)
         Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(332, 44)
+        Me.Panel27.Size = New System.Drawing.Size(329, 44)
         Me.Panel27.TabIndex = 32
         '
         'txtMotherAddress
@@ -1001,7 +1001,7 @@ Partial Class AddInmate
         Me.Panel17.Controls.Add(Me.txtFatherAddress)
         Me.Panel17.Location = New System.Drawing.Point(59, 1606)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(332, 44)
+        Me.Panel17.Size = New System.Drawing.Size(329, 44)
         Me.Panel17.TabIndex = 32
         '
         'txtFatherAddress
@@ -1035,7 +1035,7 @@ Partial Class AddInmate
         Me.Panel28.Controls.Add(Me.txtEmergencyName)
         Me.Panel28.Location = New System.Drawing.Point(61, 1935)
         Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(332, 44)
+        Me.Panel28.Size = New System.Drawing.Size(329, 44)
         Me.Panel28.TabIndex = 32
         '
         'txtEmergencyName
@@ -1069,7 +1069,7 @@ Partial Class AddInmate
         Me.Panel26.Controls.Add(Me.txtMotherName)
         Me.Panel26.Location = New System.Drawing.Point(59, 1701)
         Me.Panel26.Name = "Panel26"
-        Me.Panel26.Size = New System.Drawing.Size(332, 44)
+        Me.Panel26.Size = New System.Drawing.Size(329, 44)
         Me.Panel26.TabIndex = 32
         '
         'txtMotherName
@@ -1103,7 +1103,7 @@ Partial Class AddInmate
         Me.Panel16.Controls.Add(Me.txtFatherName)
         Me.Panel16.Location = New System.Drawing.Point(59, 1526)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(332, 44)
+        Me.Panel16.Size = New System.Drawing.Size(329, 44)
         Me.Panel16.TabIndex = 32
         '
         'txtFatherName
@@ -1137,7 +1137,7 @@ Partial Class AddInmate
         Me.Panel14.Controls.Add(Me.txtIdentifyingMarks)
         Me.Panel14.Location = New System.Drawing.Point(59, 1278)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(332, 44)
+        Me.Panel14.Size = New System.Drawing.Size(329, 44)
         Me.Panel14.TabIndex = 32
         '
         'txtIdentifyingMarks
@@ -1171,7 +1171,7 @@ Partial Class AddInmate
         Me.Panel5.Controls.Add(Me.txtLastName)
         Me.Panel5.Location = New System.Drawing.Point(57, 249)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(332, 44)
+        Me.Panel5.Size = New System.Drawing.Size(329, 44)
         Me.Panel5.TabIndex = 32
         '
         'txtLastName
@@ -1205,7 +1205,7 @@ Partial Class AddInmate
         Me.Panel6.Controls.Add(Me.txtMiddleName)
         Me.Panel6.Location = New System.Drawing.Point(58, 169)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(331, 44)
+        Me.Panel6.Size = New System.Drawing.Size(328, 44)
         Me.Panel6.TabIndex = 27
         '
         'txtMiddleName
@@ -1239,7 +1239,7 @@ Partial Class AddInmate
         Me.pnlTxtUsername.Controls.Add(Me.txtFirstName)
         Me.pnlTxtUsername.Location = New System.Drawing.Point(58, 88)
         Me.pnlTxtUsername.Name = "pnlTxtUsername"
-        Me.pnlTxtUsername.Size = New System.Drawing.Size(331, 44)
+        Me.pnlTxtUsername.Size = New System.Drawing.Size(328, 44)
         Me.pnlTxtUsername.TabIndex = 25
         '
         'txtFirstName
@@ -1329,6 +1329,18 @@ Partial Class AddInmate
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(755, 77)
         Me.TableLayoutPanel2.TabIndex = 1
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources._1
+        Me.PictureBox2.Location = New System.Drawing.Point(163, 3)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(427, 71)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 26
+        Me.PictureBox2.TabStop = False
+        '
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
@@ -1352,66 +1364,6 @@ Partial Class AddInmate
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(250, 207)
         Me.Panel4.TabIndex = 0
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.CustomFormat = "MMMM, dd, yyyy"
-        Me.DateTimePicker1.Enabled = False
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(259, 118)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 27)
-        Me.DateTimePicker1.TabIndex = 50
-        '
-        'lblTotal
-        '
-        Me.lblTotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblTotal.AutoSize = True
-        Me.lblTotal.Font = New System.Drawing.Font("Poppins", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotal.Location = New System.Drawing.Point(973, 41)
-        Me.lblTotal.Margin = New System.Windows.Forms.Padding(3, 0, 50, 0)
-        Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(75, 93)
-        Me.lblTotal.TabIndex = 48
-        Me.lblTotal.Text = "0"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins SemiBold", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(240, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(309, 113)
-        Me.Label1.TabIndex = 49
-        Me.Label1.Text = "Add PDL"
-        '
-        'TableLayoutPanel1
-        '
-        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(253, 208)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 1
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 553.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 553)
-        Me.TableLayoutPanel1.TabIndex = 47
-        '
-        'lblTotalText
-        '
-        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblTotalText.AutoSize = True
-        Me.lblTotalText.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalText.Location = New System.Drawing.Point(878, 118)
-        Me.lblTotalText.Name = "lblTotalText"
-        Me.lblTotalText.Size = New System.Drawing.Size(256, 23)
-        Me.lblTotalText.TabIndex = 51
-        Me.lblTotalText.Text = "Total Persons Deprived of Liberty (PDL)"
         '
         'PictureBox1
         '
@@ -1496,17 +1448,65 @@ Partial Class AddInmate
         Me.btnSettings.TabIndex = 1
         Me.btnSettings.UseVisualStyleBackColor = False
         '
-        'PictureBox2
+        'DateTimePicker1
         '
-        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.DateTimePicker1.CustomFormat = "MMMM, dd, yyyy"
+        Me.DateTimePicker1.Enabled = False
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.DateTimePicker1.Location = New System.Drawing.Point(259, 118)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 27)
+        Me.DateTimePicker1.TabIndex = 50
+        '
+        'lblTotal
+        '
+        Me.lblTotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.Font = New System.Drawing.Font("Poppins", 39.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotal.Location = New System.Drawing.Point(973, 41)
+        Me.lblTotal.Margin = New System.Windows.Forms.Padding(3, 0, 50, 0)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(75, 93)
+        Me.lblTotal.TabIndex = 48
+        Me.lblTotal.Text = "0"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poppins SemiBold", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(240, 28)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(309, 113)
+        Me.Label1.TabIndex = 49
+        Me.Label1.Text = "Add PDL"
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources._1
-        Me.PictureBox2.Location = New System.Drawing.Point(163, 3)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(427, 71)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 26
-        Me.PictureBox2.TabStop = False
+        Me.TableLayoutPanel1.ColumnCount = 1
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(253, 208)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 553.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 553)
+        Me.TableLayoutPanel1.TabIndex = 47
+        '
+        'lblTotalText
+        '
+        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblTotalText.AutoSize = True
+        Me.lblTotalText.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalText.Location = New System.Drawing.Point(878, 118)
+        Me.lblTotalText.Name = "lblTotalText"
+        Me.lblTotalText.Size = New System.Drawing.Size(256, 23)
+        Me.lblTotalText.TabIndex = 51
+        Me.lblTotalText.Text = "Total Persons Deprived of Liberty (PDL)"
         '
         'AddInmate
         '
@@ -1581,11 +1581,11 @@ Partial Class AddInmate
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
-        Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1700,6 +1700,6 @@ Partial Class AddInmate
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
-    Friend WithEvents btnSave As Button
+    Friend WithEvents btnNext As Button
     Friend WithEvents btnCancel As Button
 End Class

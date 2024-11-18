@@ -37,7 +37,6 @@ Partial Class EditStaff
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.lblLastName = New System.Windows.Forms.Label()
@@ -112,6 +111,7 @@ Partial Class EditStaff
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.lblTotalStaff = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Panel17.SuspendLayout()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
@@ -307,20 +307,6 @@ Partial Class EditStaff
         Me.Panel13.Name = "Panel13"
         Me.Panel13.Size = New System.Drawing.Size(129, 44)
         Me.Panel13.TabIndex = 28
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.ForeColor = System.Drawing.Color.Gray
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Single", "Married ", "Widowed", "Separated", "Divorced"})
-        Me.ComboBox4.Location = New System.Drawing.Point(3, 6)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 31)
-        Me.ComboBox4.TabIndex = 55
-        Me.ComboBox4.Text = "Single"
         '
         'Panel12
         '
@@ -1203,6 +1189,20 @@ Partial Class EditStaff
         Me.lblTotalStaff.TabIndex = 51
         Me.lblTotalStaff.Text = "Total Staff"
         '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.ForeColor = System.Drawing.Color.Gray
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Single", "Married ", "Widowed", "Separated", "Divorced"})
+        Me.ComboBox4.Location = New System.Drawing.Point(3, 6)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(121, 31)
+        Me.ComboBox4.TabIndex = 55
+        Me.ComboBox4.Text = "Single"
+        '
         'EditStaff
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1359,6 +1359,6 @@ Partial Class EditStaff
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel23 As Panel
     Friend WithEvents txtStaffID As TextBox
-    Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ComboBox4 As ComboBox
 End Class

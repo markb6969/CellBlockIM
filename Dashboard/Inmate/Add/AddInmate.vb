@@ -28,7 +28,7 @@
 
     End Sub
 
-    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnNext.Click
         AddCriminalCase.Show()
         Me.Hide()
 
