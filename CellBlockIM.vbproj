@@ -235,6 +235,30 @@
     <Compile Include="Dashboard\Add\AddDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Manage Access\ManageHome.Designer.vb">
+      <DependentUpon>ManageHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\ManageHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Super\ChangePassword.Designer.vb">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Super\ChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Super\SuperAdmin.Designer.vb">
+      <DependentUpon>SuperAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Super\SuperAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Super\UpdateInfo.Designer.vb">
+      <DependentUpon>UpdateInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Super\UpdateInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Report\ReportHome.Designer.vb">
       <DependentUpon>ReportHome.vb</DependentUpon>
     </Compile>
@@ -347,6 +371,18 @@
     <EmbeddedResource Include="Dashboard\Add\AddDashboard.resx">
       <DependentUpon>AddDashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\ManageHome.resx">
+      <DependentUpon>ManageHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Super\ChangePassword.resx">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Super\SuperAdmin.resx">
+      <DependentUpon>SuperAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Super\UpdateInfo.resx">
+      <DependentUpon>UpdateInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Report\ReportHome.resx">
       <DependentUpon>ReportHome.vb</DependentUpon>
     </EmbeddedResource>
@@ -428,6 +464,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-with-cogwheels %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
