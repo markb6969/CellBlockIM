@@ -235,6 +235,12 @@
     <Compile Include="Dashboard\Add\AddDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Manage Access\Admin\AdminHome.Designer.vb">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Admin\AdminHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Manage Access\ManageHome.Designer.vb">
       <DependentUpon>ManageHome.vb</DependentUpon>
     </Compile>
