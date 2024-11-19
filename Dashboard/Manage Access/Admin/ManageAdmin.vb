@@ -1,7 +1,31 @@
-﻿Public Class AddInmate
-    Private Sub AddInmate_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Public Class ManageAdmin
+    Private Sub AdminHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
         Me.FormBorderStyle = FormBorderStyle.Sizable
+    End Sub
+
+    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        ManageAdminInfo.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        AdminHome.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnSuperAdmin_Click(sender As Object, e As EventArgs) Handles btnSuperAdmin.Click
+        SuperAdmin.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnAdmin_Click(sender As Object, e As EventArgs) Handles btnAdmin.Click
+        AdminHome.Show()
+        Me.Hide()
+
     End Sub
 
     Private Sub btnMainDB_Click(sender As Object, e As EventArgs) Handles btnMainDB.Click
@@ -28,14 +52,14 @@
 
     End Sub
 
-    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-        AddCriminalCase.Show()
+    Private Sub btnManageUser_Click(sender As Object, e As EventArgs) Handles btnManageUser.Click
+        ManageHome.Show()
         Me.Hide()
 
     End Sub
 
-    Private Sub btnManageUser_Click(sender As Object, e As EventArgs) Handles btnManageUser.Click
-        ManageHome.Show()
+    Private Sub btnClient_Click(sender As Object, e As EventArgs) Handles btnClient.Click
+        ClientHome.Show()
         Me.Hide()
 
     End Sub

@@ -24,9 +24,18 @@ Partial Class AddMedicalinfo
     Private Sub InitializeComponent()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnMainDB = New System.Windows.Forms.Button()
+        Me.btnAddEntity = New System.Windows.Forms.Button()
+        Me.btnReport = New System.Windows.Forms.Button()
+        Me.btnManageInmate = New System.Windows.Forms.Button()
+        Me.btnManageUser = New System.Windows.Forms.Button()
+        Me.btnSettings = New System.Windows.Forms.Button()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.btnAddAlergies = New System.Windows.Forms.Button()
+        Me.btnAddChronic = New System.Windows.Forms.Button()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
@@ -35,11 +44,22 @@ Partial Class AddMedicalinfo
         Me.lblDate = New System.Windows.Forms.Label()
         Me.Panel25 = New System.Windows.Forms.Panel()
         Me.dtDateofMedical = New System.Windows.Forms.DateTimePicker()
+        Me.cbNoSelfharm = New System.Windows.Forms.CheckBox()
         Me.cbNoTreatment = New System.Windows.Forms.CheckBox()
+        Me.cbYesSelfharm = New System.Windows.Forms.CheckBox()
         Me.cbYesTreatment = New System.Windows.Forms.CheckBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.txtAlergies = New System.Windows.Forms.TextBox()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.txtLawyerName = New System.Windows.Forms.TextBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -51,37 +71,18 @@ Partial Class AddMedicalinfo
         Me.pnlTxtUsername = New System.Windows.Forms.Panel()
         Me.txtMedicalAddress = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblTotalText = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.lblTotal = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.txtAlergies = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.cbYesSelfharm = New System.Windows.Forms.CheckBox()
-        Me.cbNoSelfharm = New System.Windows.Forms.CheckBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnMainDB = New System.Windows.Forms.Button()
-        Me.btnAddEntity = New System.Windows.Forms.Button()
-        Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnManageInmate = New System.Windows.Forms.Button()
-        Me.btnManageUser = New System.Windows.Forms.Button()
-        Me.btnSettings = New System.Windows.Forms.Button()
-        Me.btnAddAlergies = New System.Windows.Forms.Button()
-        Me.btnAddChronic = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -89,16 +90,15 @@ Partial Class AddMedicalinfo
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
         Me.Panel25.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.Panel5.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
-        Me.TableLayoutPanel1.SuspendLayout()
-        Me.Panel5.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'FlowLayoutPanel1
@@ -124,6 +124,89 @@ Partial Class AddMedicalinfo
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(250, 207)
         Me.Panel4.TabIndex = 0
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
+        '
+        'btnMainDB
+        '
+        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnMainDB.FlatAppearance.BorderSize = 0
+        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
+        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
+        Me.btnMainDB.Name = "btnMainDB"
+        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
+        Me.btnMainDB.TabIndex = 1
+        Me.btnMainDB.UseVisualStyleBackColor = False
+        '
+        'btnAddEntity
+        '
+        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnAddEntity.FlatAppearance.BorderSize = 0
+        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus
+        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
+        Me.btnAddEntity.Name = "btnAddEntity"
+        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
+        Me.btnAddEntity.TabIndex = 1
+        Me.btnAddEntity.UseVisualStyleBackColor = False
+        '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnReport.FlatAppearance.BorderSize = 0
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
+        Me.btnReport.Location = New System.Drawing.Point(0, 378)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(250, 75)
+        Me.btnReport.TabIndex = 1
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
+        'btnManageInmate
+        '
+        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageInmate.FlatAppearance.BorderSize = 0
+        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__2_
+        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
+        Me.btnManageInmate.Name = "btnManageInmate"
+        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageInmate.TabIndex = 1
+        Me.btnManageInmate.UseVisualStyleBackColor = False
+        '
+        'btnManageUser
+        '
+        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageUser.FlatAppearance.BorderSize = 0
+        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
+        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
+        Me.btnManageUser.Name = "btnManageUser"
+        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageUser.TabIndex = 1
+        Me.btnManageUser.UseVisualStyleBackColor = False
+        '
+        'btnSettings
+        '
+        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
+        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
+        Me.btnSettings.TabIndex = 1
+        Me.btnSettings.UseVisualStyleBackColor = False
         '
         'TableLayoutPanel3
         '
@@ -188,6 +271,28 @@ Partial Class AddMedicalinfo
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(755, 464)
         Me.Panel2.TabIndex = 2
+        '
+        'btnAddAlergies
+        '
+        Me.btnAddAlergies.FlatAppearance.BorderSize = 0
+        Me.btnAddAlergies.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddAlergies.Image = Global.CellBlockIM.My.Resources.Resources.add__2_
+        Me.btnAddAlergies.Location = New System.Drawing.Point(59, 660)
+        Me.btnAddAlergies.Name = "btnAddAlergies"
+        Me.btnAddAlergies.Size = New System.Drawing.Size(52, 47)
+        Me.btnAddAlergies.TabIndex = 52
+        Me.btnAddAlergies.UseVisualStyleBackColor = True
+        '
+        'btnAddChronic
+        '
+        Me.btnAddChronic.FlatAppearance.BorderSize = 0
+        Me.btnAddChronic.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddChronic.Image = Global.CellBlockIM.My.Resources.Resources.add__2_
+        Me.btnAddChronic.Location = New System.Drawing.Point(57, 513)
+        Me.btnAddChronic.Name = "btnAddChronic"
+        Me.btnAddChronic.Size = New System.Drawing.Size(52, 47)
+        Me.btnAddChronic.TabIndex = 52
+        Me.btnAddChronic.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel4
         '
@@ -293,6 +398,17 @@ Partial Class AddMedicalinfo
         Me.dtDateofMedical.TabIndex = 24
         Me.dtDateofMedical.Value = New Date(2024, 10, 14, 11, 6, 41, 0)
         '
+        'cbNoSelfharm
+        '
+        Me.cbNoSelfharm.AutoSize = True
+        Me.cbNoSelfharm.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbNoSelfharm.Location = New System.Drawing.Point(218, 1011)
+        Me.cbNoSelfharm.Name = "cbNoSelfharm"
+        Me.cbNoSelfharm.Size = New System.Drawing.Size(52, 30)
+        Me.cbNoSelfharm.TabIndex = 39
+        Me.cbNoSelfharm.Text = "No"
+        Me.cbNoSelfharm.UseVisualStyleBackColor = True
+        '
         'cbNoTreatment
         '
         Me.cbNoTreatment.AutoSize = True
@@ -303,6 +419,17 @@ Partial Class AddMedicalinfo
         Me.cbNoTreatment.TabIndex = 39
         Me.cbNoTreatment.Text = "No"
         Me.cbNoTreatment.UseVisualStyleBackColor = True
+        '
+        'cbYesSelfharm
+        '
+        Me.cbYesSelfharm.AutoSize = True
+        Me.cbYesSelfharm.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbYesSelfharm.Location = New System.Drawing.Point(71, 1009)
+        Me.cbYesSelfharm.Name = "cbYesSelfharm"
+        Me.cbYesSelfharm.Size = New System.Drawing.Size(57, 30)
+        Me.cbYesSelfharm.TabIndex = 39
+        Me.cbYesSelfharm.Text = "Yes"
+        Me.cbYesSelfharm.UseVisualStyleBackColor = True
         '
         'cbYesTreatment
         '
@@ -315,6 +442,46 @@ Partial Class AddMedicalinfo
         Me.cbYesTreatment.Text = "Yes"
         Me.cbYesTreatment.UseVisualStyleBackColor = True
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(113, 672)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(90, 26)
+        Me.Label5.TabIndex = 37
+        Me.Label5.Text = "Add more "
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(56, 985)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(105, 21)
+        Me.Label8.TabIndex = 37
+        Me.Label8.Text = "Risk of self harm"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(56, 1057)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(192, 21)
+        Me.Label7.TabIndex = 37
+        Me.Label7.Text = "Psychiatric Treatment Required"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(56, 889)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(131, 21)
+        Me.Label6.TabIndex = 37
+        Me.Label6.Text = "Mental Health Status"
+        '
         'Label10
         '
         Me.Label10.AutoSize = True
@@ -324,6 +491,16 @@ Partial Class AddMedicalinfo
         Me.Label10.Size = New System.Drawing.Size(81, 21)
         Me.Label10.TabIndex = 37
         Me.Label10.Text = "Other illness"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(55, 574)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(59, 21)
+        Me.Label4.TabIndex = 37
+        Me.Label4.Text = "Allergies"
         '
         'Label9
         '
@@ -344,6 +521,55 @@ Partial Class AddMedicalinfo
         Me.Label3.Size = New System.Drawing.Size(109, 21)
         Me.Label3.TabIndex = 37
         Me.Label3.Text = "Chronic illnesses"
+        '
+        'Panel7
+        '
+        Me.Panel7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Controls.Add(Me.ComboBox4)
+        Me.Panel7.Location = New System.Drawing.Point(60, 913)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(335, 44)
+        Me.Panel7.TabIndex = 32
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.ForeColor = System.Drawing.Color.DimGray
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Stable", "Mild Anxiety", "Moderate Anxiety", "Severe Anxiety", "Mild Depression", "Moderate Depression", "Severe Depression", "Post-Traumatic Stress Disorder (PTSD)", "Bipolar Disorder", "Schizophrenia", "Psychosis", "Substance Use Disorder", "Cognitive Impairment", "Suicidal Ideation", "Self-Harm Risk", "Personality Disorder", "Attention Deficit Hyperactivity Disorder (ADHD)", "Obsessive-Compulsive Disorder (OCD)", "Panic Disorder", "Insomnia or Sleep Disturbance", "Adjustment Disorder", "No Current Mental Health Issues", "Under Observation", "Referred for Further Evaluation", "Not Assessed Yet"})
+        Me.ComboBox4.Location = New System.Drawing.Point(5, 6)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(318, 31)
+        Me.ComboBox4.TabIndex = 56
+        '
+        'Panel5
+        '
+        Me.Panel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel5.Controls.Add(Me.txtAlergies)
+        Me.Panel5.Location = New System.Drawing.Point(59, 598)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(335, 44)
+        Me.Panel5.TabIndex = 32
+        '
+        'txtAlergies
+        '
+        Me.txtAlergies.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtAlergies.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtAlergies.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAlergies.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtAlergies.Location = New System.Drawing.Point(13, 9)
+        Me.txtAlergies.Name = "txtAlergies"
+        Me.txtAlergies.Size = New System.Drawing.Size(311, 24)
+        Me.txtAlergies.TabIndex = 0
+        Me.txtAlergies.Text = "Example: Peanuts"
         '
         'Panel12
         '
@@ -471,6 +697,16 @@ Partial Class AddMedicalinfo
         Me.Label12.TabIndex = 24
         Me.Label12.Text = "Mental Health Assessment"
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Poppins SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(53, 370)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(129, 26)
+        Me.Label11.TabIndex = 24
+        Me.Label11.Text = "Medical History"
+        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -495,6 +731,18 @@ Partial Class AddMedicalinfo
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(755, 77)
         Me.TableLayoutPanel2.TabIndex = 1
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources._3
+        Me.PictureBox2.Location = New System.Drawing.Point(163, 3)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(427, 71)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 26
+        Me.PictureBox2.TabStop = False
         '
         'TableLayoutPanel1
         '
@@ -556,254 +804,6 @@ Partial Class AddMedicalinfo
         Me.lblTotal.TabIndex = 60
         Me.lblTotal.Text = "0"
         '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Poppins SemiBold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(53, 370)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(129, 26)
-        Me.Label11.TabIndex = 24
-        Me.Label11.Text = "Medical History"
-        '
-        'Panel5
-        '
-        Me.Panel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel5.Controls.Add(Me.txtAlergies)
-        Me.Panel5.Location = New System.Drawing.Point(59, 598)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(335, 44)
-        Me.Panel5.TabIndex = 32
-        '
-        'txtAlergies
-        '
-        Me.txtAlergies.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtAlergies.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtAlergies.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAlergies.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtAlergies.Location = New System.Drawing.Point(13, 9)
-        Me.txtAlergies.Name = "txtAlergies"
-        Me.txtAlergies.Size = New System.Drawing.Size(311, 24)
-        Me.txtAlergies.TabIndex = 0
-        Me.txtAlergies.Text = "Example: Peanuts"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(55, 574)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(59, 21)
-        Me.Label4.TabIndex = 37
-        Me.Label4.Text = "Allergies"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(113, 672)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(90, 26)
-        Me.Label5.TabIndex = 37
-        Me.Label5.Text = "Add more "
-        '
-        'Panel7
-        '
-        Me.Panel7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Controls.Add(Me.ComboBox4)
-        Me.Panel7.Location = New System.Drawing.Point(60, 913)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(335, 44)
-        Me.Panel7.TabIndex = 32
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(56, 889)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(131, 21)
-        Me.Label6.TabIndex = 37
-        Me.Label6.Text = "Mental Health Status"
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.ForeColor = System.Drawing.Color.DimGray
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Stable", "Mild Anxiety", "Moderate Anxiety", "Severe Anxiety", "Mild Depression", "Moderate Depression", "Severe Depression", "Post-Traumatic Stress Disorder (PTSD)", "Bipolar Disorder", "Schizophrenia", "Psychosis", "Substance Use Disorder", "Cognitive Impairment", "Suicidal Ideation", "Self-Harm Risk", "Personality Disorder", "Attention Deficit Hyperactivity Disorder (ADHD)", "Obsessive-Compulsive Disorder (OCD)", "Panic Disorder", "Insomnia or Sleep Disturbance", "Adjustment Disorder", "No Current Mental Health Issues", "Under Observation", "Referred for Further Evaluation", "Not Assessed Yet"})
-        Me.ComboBox4.Location = New System.Drawing.Point(5, 6)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(318, 31)
-        Me.ComboBox4.TabIndex = 56
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(56, 1057)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(192, 21)
-        Me.Label7.TabIndex = 37
-        Me.Label7.Text = "Psychiatric Treatment Required"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(56, 985)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(105, 21)
-        Me.Label8.TabIndex = 37
-        Me.Label8.Text = "Risk of self harm"
-        '
-        'cbYesSelfharm
-        '
-        Me.cbYesSelfharm.AutoSize = True
-        Me.cbYesSelfharm.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbYesSelfharm.Location = New System.Drawing.Point(71, 1009)
-        Me.cbYesSelfharm.Name = "cbYesSelfharm"
-        Me.cbYesSelfharm.Size = New System.Drawing.Size(57, 30)
-        Me.cbYesSelfharm.TabIndex = 39
-        Me.cbYesSelfharm.Text = "Yes"
-        Me.cbYesSelfharm.UseVisualStyleBackColor = True
-        '
-        'cbNoSelfharm
-        '
-        Me.cbNoSelfharm.AutoSize = True
-        Me.cbNoSelfharm.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbNoSelfharm.Location = New System.Drawing.Point(218, 1011)
-        Me.cbNoSelfharm.Name = "cbNoSelfharm"
-        Me.cbNoSelfharm.Size = New System.Drawing.Size(52, 30)
-        Me.cbNoSelfharm.TabIndex = 39
-        Me.cbNoSelfharm.Text = "No"
-        Me.cbNoSelfharm.UseVisualStyleBackColor = True
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 19
-        Me.PictureBox1.TabStop = False
-        '
-        'btnMainDB
-        '
-        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnMainDB.FlatAppearance.BorderSize = 0
-        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
-        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
-        Me.btnMainDB.Name = "btnMainDB"
-        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
-        Me.btnMainDB.TabIndex = 1
-        Me.btnMainDB.UseVisualStyleBackColor = False
-        '
-        'btnAddEntity
-        '
-        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnAddEntity.FlatAppearance.BorderSize = 0
-        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus
-        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
-        Me.btnAddEntity.Name = "btnAddEntity"
-        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
-        Me.btnAddEntity.TabIndex = 1
-        Me.btnAddEntity.UseVisualStyleBackColor = False
-        '
-        'btnReport
-        '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnReport.FlatAppearance.BorderSize = 0
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
-        Me.btnReport.Location = New System.Drawing.Point(0, 378)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(250, 75)
-        Me.btnReport.TabIndex = 1
-        Me.btnReport.UseVisualStyleBackColor = False
-        '
-        'btnManageInmate
-        '
-        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageInmate.FlatAppearance.BorderSize = 0
-        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__2_
-        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
-        Me.btnManageInmate.Name = "btnManageInmate"
-        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageInmate.TabIndex = 1
-        Me.btnManageInmate.UseVisualStyleBackColor = False
-        '
-        'btnManageUser
-        '
-        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageUser.FlatAppearance.BorderSize = 0
-        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
-        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
-        Me.btnManageUser.Name = "btnManageUser"
-        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageUser.TabIndex = 1
-        Me.btnManageUser.UseVisualStyleBackColor = False
-        '
-        'btnSettings
-        '
-        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnSettings.FlatAppearance.BorderSize = 0
-        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
-        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
-        Me.btnSettings.TabIndex = 1
-        Me.btnSettings.UseVisualStyleBackColor = False
-        '
-        'btnAddAlergies
-        '
-        Me.btnAddAlergies.FlatAppearance.BorderSize = 0
-        Me.btnAddAlergies.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddAlergies.Image = Global.CellBlockIM.My.Resources.Resources.add__2_
-        Me.btnAddAlergies.Location = New System.Drawing.Point(59, 660)
-        Me.btnAddAlergies.Name = "btnAddAlergies"
-        Me.btnAddAlergies.Size = New System.Drawing.Size(52, 47)
-        Me.btnAddAlergies.TabIndex = 52
-        Me.btnAddAlergies.UseVisualStyleBackColor = True
-        '
-        'btnAddChronic
-        '
-        Me.btnAddChronic.FlatAppearance.BorderSize = 0
-        Me.btnAddChronic.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddChronic.Image = Global.CellBlockIM.My.Resources.Resources.add__2_
-        Me.btnAddChronic.Location = New System.Drawing.Point(57, 513)
-        Me.btnAddChronic.Name = "btnAddChronic"
-        Me.btnAddChronic.Size = New System.Drawing.Size(52, 47)
-        Me.btnAddChronic.TabIndex = 52
-        Me.btnAddChronic.UseVisualStyleBackColor = True
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources._3
-        Me.PictureBox2.Location = New System.Drawing.Point(163, 3)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(427, 71)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 26
-        Me.PictureBox2.TabStop = False
-        '
         'AddMedicalinfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -820,6 +820,7 @@ Partial Class AddMedicalinfo
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel3.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
@@ -828,6 +829,9 @@ Partial Class AddMedicalinfo
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel6.ResumeLayout(False)
         Me.Panel25.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
         Me.Panel12.ResumeLayout(False)
         Me.Panel12.PerformLayout()
         Me.Panel3.ResumeLayout(False)
@@ -837,12 +841,8 @@ Partial Class AddMedicalinfo
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel5.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -24,15 +24,18 @@ Partial Class SuperAdmin
     Private Sub InitializeComponent()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnMainDB = New System.Windows.Forms.Button()
+        Me.btnAdd = New System.Windows.Forms.Button()
+        Me.btnReport = New System.Windows.Forms.Button()
+        Me.btnManageInmate = New System.Windows.Forms.Button()
+        Me.btnManageUser = New System.Windows.Forms.Button()
+        Me.btnSettings = New System.Windows.Forms.Button()
         Me.lblTotalText = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.btnSuperAdmin = New System.Windows.Forms.Button()
-        Me.btnAdmin = New System.Windows.Forms.Button()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.btnClient = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.txtPhoneNum = New System.Windows.Forms.TextBox()
@@ -51,40 +54,37 @@ Partial Class SuperAdmin
         Me.lblShowAdress = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.lblFirstName = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.btnChangePass = New System.Windows.Forms.Button()
-        Me.btnUpdateInfo = New System.Windows.Forms.Button()
-        Me.btnBack = New System.Windows.Forms.Button()
-        Me.btnAccountDetails = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnMainDB = New System.Windows.Forms.Button()
-        Me.btnAdd = New System.Windows.Forms.Button()
-        Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnManageInmate = New System.Windows.Forms.Button()
-        Me.btnManageUser = New System.Windows.Forms.Button()
-        Me.btnSettings = New System.Windows.Forms.Button()
         Me.pbProfilePic = New System.Windows.Forms.PictureBox()
+        Me.Panel7 = New System.Windows.Forms.Panel()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnChangePass = New System.Windows.Forms.Button()
+        Me.btnUpdateInfo = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.btnAccountDetails = New System.Windows.Forms.Button()
+        Me.btnSuperAdmin = New System.Windows.Forms.Button()
+        Me.btnAdmin = New System.Windows.Forms.Button()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.btnClient = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel7.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FlowLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'FlowLayoutPanel1
@@ -110,6 +110,89 @@ Partial Class SuperAdmin
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(250, 207)
         Me.Panel4.TabIndex = 0
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
+        '
+        'btnMainDB
+        '
+        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnMainDB.FlatAppearance.BorderSize = 0
+        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
+        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
+        Me.btnMainDB.Name = "btnMainDB"
+        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
+        Me.btnMainDB.TabIndex = 1
+        Me.btnMainDB.UseVisualStyleBackColor = False
+        '
+        'btnAdd
+        '
+        Me.btnAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnAdd.FlatAppearance.BorderSize = 0
+        Me.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAdd.Image = Global.CellBlockIM.My.Resources.Resources.plus
+        Me.btnAdd.Location = New System.Drawing.Point(0, 297)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(250, 75)
+        Me.btnAdd.TabIndex = 1
+        Me.btnAdd.UseVisualStyleBackColor = False
+        '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnReport.FlatAppearance.BorderSize = 0
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
+        Me.btnReport.Location = New System.Drawing.Point(0, 378)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(250, 75)
+        Me.btnReport.TabIndex = 1
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
+        'btnManageInmate
+        '
+        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageInmate.FlatAppearance.BorderSize = 0
+        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
+        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
+        Me.btnManageInmate.Name = "btnManageInmate"
+        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageInmate.TabIndex = 1
+        Me.btnManageInmate.UseVisualStyleBackColor = False
+        '
+        'btnManageUser
+        '
+        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageUser.FlatAppearance.BorderSize = 0
+        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__4_
+        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
+        Me.btnManageUser.Name = "btnManageUser"
+        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageUser.TabIndex = 1
+        Me.btnManageUser.UseVisualStyleBackColor = False
+        '
+        'btnSettings
+        '
+        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
+        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
+        Me.btnSettings.TabIndex = 1
+        Me.btnSettings.UseVisualStyleBackColor = False
         '
         'lblTotalText
         '
@@ -171,55 +254,6 @@ Partial Class SuperAdmin
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 465)
         Me.TableLayoutPanel1.TabIndex = 33
-        '
-        'btnSuperAdmin
-        '
-        Me.btnSuperAdmin.FlatAppearance.BorderSize = 0
-        Me.btnSuperAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSuperAdmin.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSuperAdmin.ForeColor = System.Drawing.Color.Teal
-        Me.btnSuperAdmin.Location = New System.Drawing.Point(3, 3)
-        Me.btnSuperAdmin.Name = "btnSuperAdmin"
-        Me.btnSuperAdmin.Size = New System.Drawing.Size(203, 77)
-        Me.btnSuperAdmin.TabIndex = 24
-        Me.btnSuperAdmin.Text = "Me"
-        Me.btnSuperAdmin.UseVisualStyleBackColor = True
-        '
-        'btnAdmin
-        '
-        Me.btnAdmin.FlatAppearance.BorderSize = 0
-        Me.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAdmin.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdmin.Location = New System.Drawing.Point(212, 3)
-        Me.btnAdmin.Name = "btnAdmin"
-        Me.btnAdmin.Size = New System.Drawing.Size(207, 77)
-        Me.btnAdmin.TabIndex = 24
-        Me.btnAdmin.Text = "Admin"
-        Me.btnAdmin.UseVisualStyleBackColor = True
-        '
-        'FlowLayoutPanel2
-        '
-        Me.FlowLayoutPanel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnSuperAdmin)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnAdmin)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnClient)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(253, 194)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(981, 100)
-        Me.FlowLayoutPanel2.TabIndex = 39
-        '
-        'btnClient
-        '
-        Me.btnClient.FlatAppearance.BorderSize = 0
-        Me.btnClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClient.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClient.Location = New System.Drawing.Point(425, 3)
-        Me.btnClient.Name = "btnClient"
-        Me.btnClient.Size = New System.Drawing.Size(235, 77)
-        Me.btnClient.TabIndex = 24
-        Me.btnClient.Text = "Client"
-        Me.btnClient.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -422,6 +456,14 @@ Partial Class SuperAdmin
         Me.lblFirstName.TabIndex = 20
         Me.lblFirstName.Text = "Profile Picture"
         '
+        'pbProfilePic
+        '
+        Me.pbProfilePic.Location = New System.Drawing.Point(86, 96)
+        Me.pbProfilePic.Name = "pbProfilePic"
+        Me.pbProfilePic.Size = New System.Drawing.Size(152, 152)
+        Me.pbProfilePic.TabIndex = 0
+        Me.pbProfilePic.TabStop = False
+        '
         'Panel7
         '
         Me.Panel7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -442,6 +484,50 @@ Partial Class SuperAdmin
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(274, 459)
         Me.Panel7.TabIndex = 4
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.key
+        Me.PictureBox8.Location = New System.Drawing.Point(12, 155)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 24
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.edit
+        Me.PictureBox4.Location = New System.Drawing.Point(11, 204)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 24
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(252, Byte), Integer))
+        Me.PictureBox3.Image = Global.CellBlockIM.My.Resources.Resources.admin_with_cogwheels__1_
+        Me.PictureBox3.Location = New System.Drawing.Point(12, 108)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 24
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.left
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 62)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 24
+        Me.PictureBox2.TabStop = False
         '
         'btnChangePass
         '
@@ -500,140 +586,54 @@ Partial Class SuperAdmin
         Me.btnAccountDetails.Text = "View Account Details"
         Me.btnAccountDetails.UseVisualStyleBackColor = False
         '
-        'PictureBox1
+        'btnSuperAdmin
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 19
-        Me.PictureBox1.TabStop = False
+        Me.btnSuperAdmin.FlatAppearance.BorderSize = 0
+        Me.btnSuperAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSuperAdmin.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSuperAdmin.ForeColor = System.Drawing.Color.Teal
+        Me.btnSuperAdmin.Location = New System.Drawing.Point(3, 3)
+        Me.btnSuperAdmin.Name = "btnSuperAdmin"
+        Me.btnSuperAdmin.Size = New System.Drawing.Size(203, 77)
+        Me.btnSuperAdmin.TabIndex = 24
+        Me.btnSuperAdmin.Text = "Me"
+        Me.btnSuperAdmin.UseVisualStyleBackColor = True
         '
-        'btnMainDB
+        'btnAdmin
         '
-        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnMainDB.FlatAppearance.BorderSize = 0
-        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
-        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
-        Me.btnMainDB.Name = "btnMainDB"
-        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
-        Me.btnMainDB.TabIndex = 1
-        Me.btnMainDB.UseVisualStyleBackColor = False
+        Me.btnAdmin.FlatAppearance.BorderSize = 0
+        Me.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAdmin.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAdmin.Location = New System.Drawing.Point(212, 3)
+        Me.btnAdmin.Name = "btnAdmin"
+        Me.btnAdmin.Size = New System.Drawing.Size(207, 77)
+        Me.btnAdmin.TabIndex = 24
+        Me.btnAdmin.Text = "Admin"
+        Me.btnAdmin.UseVisualStyleBackColor = True
         '
-        'btnAdd
+        'FlowLayoutPanel2
         '
-        Me.btnAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnAdd.FlatAppearance.BorderSize = 0
-        Me.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAdd.Image = Global.CellBlockIM.My.Resources.Resources.plus
-        Me.btnAdd.Location = New System.Drawing.Point(0, 297)
-        Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(250, 75)
-        Me.btnAdd.TabIndex = 1
-        Me.btnAdd.UseVisualStyleBackColor = False
+        Me.FlowLayoutPanel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnSuperAdmin)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnAdmin)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnClient)
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(253, 194)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(981, 100)
+        Me.FlowLayoutPanel2.TabIndex = 39
         '
-        'btnReport
+        'btnClient
         '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnReport.FlatAppearance.BorderSize = 0
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
-        Me.btnReport.Location = New System.Drawing.Point(0, 378)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(250, 75)
-        Me.btnReport.TabIndex = 1
-        Me.btnReport.UseVisualStyleBackColor = False
-        '
-        'btnManageInmate
-        '
-        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageInmate.FlatAppearance.BorderSize = 0
-        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
-        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
-        Me.btnManageInmate.Name = "btnManageInmate"
-        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageInmate.TabIndex = 1
-        Me.btnManageInmate.UseVisualStyleBackColor = False
-        '
-        'btnManageUser
-        '
-        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageUser.FlatAppearance.BorderSize = 0
-        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__4_
-        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
-        Me.btnManageUser.Name = "btnManageUser"
-        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageUser.TabIndex = 1
-        Me.btnManageUser.UseVisualStyleBackColor = False
-        '
-        'btnSettings
-        '
-        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnSettings.FlatAppearance.BorderSize = 0
-        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
-        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
-        Me.btnSettings.TabIndex = 1
-        Me.btnSettings.UseVisualStyleBackColor = False
-        '
-        'pbProfilePic
-        '
-        Me.pbProfilePic.Location = New System.Drawing.Point(86, 96)
-        Me.pbProfilePic.Name = "pbProfilePic"
-        Me.pbProfilePic.Size = New System.Drawing.Size(152, 152)
-        Me.pbProfilePic.TabIndex = 0
-        Me.pbProfilePic.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.key
-        Me.PictureBox8.Location = New System.Drawing.Point(12, 155)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 24
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.edit
-        Me.PictureBox4.Location = New System.Drawing.Point(11, 204)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 24
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.PictureBox3.Image = Global.CellBlockIM.My.Resources.Resources.admin_with_cogwheels__1_
-        Me.PictureBox3.Location = New System.Drawing.Point(12, 108)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 24
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.left
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 62)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 24
-        Me.PictureBox2.TabStop = False
+        Me.btnClient.FlatAppearance.BorderSize = 0
+        Me.btnClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClient.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClient.Location = New System.Drawing.Point(425, 3)
+        Me.btnClient.Name = "btnClient"
+        Me.btnClient.Size = New System.Drawing.Size(235, 77)
+        Me.btnClient.TabIndex = 24
+        Me.btnClient.Text = "Client"
+        Me.btnClient.UseVisualStyleBackColor = True
         '
         'SuperAdmin
         '
@@ -652,8 +652,8 @@ Partial Class SuperAdmin
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel6.ResumeLayout(False)
@@ -666,13 +666,13 @@ Partial Class SuperAdmin
         Me.Panel1.PerformLayout()
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbProfilePic, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel7.ResumeLayout(False)
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

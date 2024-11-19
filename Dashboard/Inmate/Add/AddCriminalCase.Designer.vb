@@ -56,6 +56,11 @@ Partial Class AddCriminalCase
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.btnChooseImg = New System.Windows.Forms.Button()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lblUploadImg = New System.Windows.Forms.Label()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.pbMugshot = New System.Windows.Forms.PictureBox()
         Me.btnAddOfficer = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -96,6 +101,8 @@ Partial Class AddCriminalCase
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel22.SuspendLayout()
+        CType(Me.pbMugshot, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel11.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.Panel12.SuspendLayout()
@@ -116,7 +123,7 @@ Partial Class AddCriminalCase
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel4.Controls.Add(Me.TableLayoutPanel5, 0, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(0, 1018)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(0, 1382)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -505,6 +512,10 @@ Partial Class AddCriminalCase
         'Panel2
         '
         Me.Panel2.AutoScroll = True
+        Me.Panel2.Controls.Add(Me.btnChooseImg)
+        Me.Panel2.Controls.Add(Me.Label11)
+        Me.Panel2.Controls.Add(Me.lblUploadImg)
+        Me.Panel2.Controls.Add(Me.Panel22)
         Me.Panel2.Controls.Add(Me.btnAddOfficer)
         Me.Panel2.Controls.Add(Me.TableLayoutPanel4)
         Me.Panel2.Controls.Add(Me.lblDate)
@@ -539,6 +550,58 @@ Partial Class AddCriminalCase
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(755, 464)
         Me.Panel2.TabIndex = 2
+        '
+        'btnChooseImg
+        '
+        Me.btnChooseImg.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnChooseImg.FlatAppearance.BorderSize = 0
+        Me.btnChooseImg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnChooseImg.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnChooseImg.ForeColor = System.Drawing.Color.Black
+        Me.btnChooseImg.Location = New System.Drawing.Point(109, 1340)
+        Me.btnChooseImg.Name = "btnChooseImg"
+        Me.btnChooseImg.Size = New System.Drawing.Size(139, 42)
+        Me.btnChooseImg.TabIndex = 62
+        Me.btnChooseImg.Text = "Browse"
+        Me.btnChooseImg.UseVisualStyleBackColor = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Poppins SemiBold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(66, 1056)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(191, 37)
+        Me.Label11.TabIndex = 60
+        Me.Label11.Text = "Upload Mugshot"
+        '
+        'lblUploadImg
+        '
+        Me.lblUploadImg.AutoSize = True
+        Me.lblUploadImg.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUploadImg.Location = New System.Drawing.Point(66, 1106)
+        Me.lblUploadImg.Name = "lblUploadImg"
+        Me.lblUploadImg.Size = New System.Drawing.Size(94, 21)
+        Me.lblUploadImg.TabIndex = 61
+        Me.lblUploadImg.Text = "Upload Image"
+        '
+        'Panel22
+        '
+        Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel22.Controls.Add(Me.pbMugshot)
+        Me.Panel22.Location = New System.Drawing.Point(70, 1130)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(222, 194)
+        Me.Panel22.TabIndex = 59
+        '
+        'pbMugshot
+        '
+        Me.pbMugshot.Location = New System.Drawing.Point(8, 7)
+        Me.pbMugshot.Name = "pbMugshot"
+        Me.pbMugshot.Size = New System.Drawing.Size(204, 177)
+        Me.pbMugshot.TabIndex = 0
+        Me.pbMugshot.TabStop = False
         '
         'btnAddOfficer
         '
@@ -889,6 +952,8 @@ Partial Class AddCriminalCase
         Me.pnlTxtUsername.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel22.ResumeLayout(False)
+        CType(Me.pbMugshot, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
         Me.Panel9.ResumeLayout(False)
@@ -978,4 +1043,9 @@ Partial Class AddCriminalCase
     Friend WithEvents Label10 As Label
     Friend WithEvents Panel12 As Panel
     Friend WithEvents txtLawyerName As TextBox
+    Friend WithEvents btnChooseImg As Button
+    Friend WithEvents Label11 As Label
+    Friend WithEvents lblUploadImg As Label
+    Friend WithEvents Panel22 As Panel
+    Friend WithEvents pbMugshot As PictureBox
 End Class

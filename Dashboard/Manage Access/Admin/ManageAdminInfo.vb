@@ -1,25 +1,17 @@
-﻿Imports System.ComponentModel.Design.Serialization
-
-Public Class ChangePassword
-    Private Sub ChangePassword_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Public Class ManageAdminInfo
+    Private Sub ManageAdminInfo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
         Me.FormBorderStyle = FormBorderStyle.Sizable
     End Sub
 
-    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        ManageHome.Show()
+    Private Sub btnSave_Click(sender As Object, e As EventArgs)
+        ManageAdmin.Show()
         Me.Hide()
 
     End Sub
 
-    Private Sub btnAccountDetails_Click(sender As Object, e As EventArgs) Handles btnAccountDetails.Click
-        SuperAdmin.Show()
-        Me.Hide()
-
-    End Sub
-
-    Private Sub btnUpdateInfo_Click(sender As Object, e As EventArgs) Handles btnUpdateInfo.Click
-        UpdateInfo.Show()
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs)
+        AdminHome.Show()
         Me.Hide()
 
     End Sub
@@ -30,7 +22,7 @@ Public Class ChangePassword
 
     End Sub
 
-    Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+    Private Sub btnAddEntity_Click(sender As Object, e As EventArgs) Handles btnAddEntity.Click
         AddDashboard.Show()
         Me.Hide()
 
@@ -44,12 +36,6 @@ Public Class ChangePassword
 
     Private Sub btnManageInmate_Click(sender As Object, e As EventArgs) Handles btnManageInmate.Click
         InmateHome.Show()
-        Me.Hide()
-
-    End Sub
-
-    Private Sub btnClient_Click(sender As Object, e As EventArgs) Handles btnClient.Click
-        ClientHome.Show()
         Me.Hide()
 
     End Sub

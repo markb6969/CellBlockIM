@@ -1078,7 +1078,7 @@ Partial Class UpdateInmate
         Me.Panel15.Controls.Add(Me.txtPhysicalDeformities)
         Me.Panel15.Location = New System.Drawing.Point(59, 1363)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(320, 44)
+        Me.Panel15.Size = New System.Drawing.Size(317, 44)
         Me.Panel15.TabIndex = 32
         '
         'txtPhysicalDeformities
@@ -1213,7 +1213,7 @@ Partial Class UpdateInmate
         Me.Panel30.Controls.Add(Me.txtRelationship)
         Me.Panel30.Location = New System.Drawing.Point(61, 2095)
         Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(320, 44)
+        Me.Panel30.Size = New System.Drawing.Size(317, 44)
         Me.Panel30.TabIndex = 32
         '
         'Label17
@@ -1235,7 +1235,7 @@ Partial Class UpdateInmate
         Me.Panel29.Controls.Add(Me.txtEmergencyAddress)
         Me.Panel29.Location = New System.Drawing.Point(61, 2015)
         Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(320, 44)
+        Me.Panel29.Size = New System.Drawing.Size(317, 44)
         Me.Panel29.TabIndex = 32
         '
         'Panel27
@@ -1247,7 +1247,7 @@ Partial Class UpdateInmate
         Me.Panel27.Controls.Add(Me.txtMotherAddress)
         Me.Panel27.Location = New System.Drawing.Point(59, 1781)
         Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(320, 44)
+        Me.Panel27.Size = New System.Drawing.Size(317, 44)
         Me.Panel27.TabIndex = 32
         '
         'Panel17
@@ -1259,7 +1259,7 @@ Partial Class UpdateInmate
         Me.Panel17.Controls.Add(Me.txtFatherAddress)
         Me.Panel17.Location = New System.Drawing.Point(59, 1606)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(320, 44)
+        Me.Panel17.Size = New System.Drawing.Size(317, 44)
         Me.Panel17.TabIndex = 32
         '
         'Label21
@@ -1281,7 +1281,7 @@ Partial Class UpdateInmate
         Me.Panel28.Controls.Add(Me.txtEmergencyName)
         Me.Panel28.Location = New System.Drawing.Point(61, 1935)
         Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(320, 44)
+        Me.Panel28.Size = New System.Drawing.Size(317, 44)
         Me.Panel28.TabIndex = 32
         '
         'Label18
@@ -1303,7 +1303,7 @@ Partial Class UpdateInmate
         Me.Panel26.Controls.Add(Me.txtMotherName)
         Me.Panel26.Location = New System.Drawing.Point(59, 1701)
         Me.Panel26.Name = "Panel26"
-        Me.Panel26.Size = New System.Drawing.Size(320, 44)
+        Me.Panel26.Size = New System.Drawing.Size(317, 44)
         Me.Panel26.TabIndex = 32
         '
         'Label16
@@ -1325,7 +1325,7 @@ Partial Class UpdateInmate
         Me.Panel16.Controls.Add(Me.txtFatherName)
         Me.Panel16.Location = New System.Drawing.Point(59, 1526)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(320, 44)
+        Me.Panel16.Size = New System.Drawing.Size(317, 44)
         Me.Panel16.TabIndex = 32
         '
         'Label13
@@ -1347,7 +1347,7 @@ Partial Class UpdateInmate
         Me.Panel14.Controls.Add(Me.txtIdentifyingMarks)
         Me.Panel14.Location = New System.Drawing.Point(59, 1278)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(320, 44)
+        Me.Panel14.Size = New System.Drawing.Size(317, 44)
         Me.Panel14.TabIndex = 32
         '
         'lblLastName
@@ -1369,7 +1369,7 @@ Partial Class UpdateInmate
         Me.Panel5.Controls.Add(Me.txtLastName)
         Me.Panel5.Location = New System.Drawing.Point(57, 249)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(320, 44)
+        Me.Panel5.Size = New System.Drawing.Size(317, 44)
         Me.Panel5.TabIndex = 32
         '
         'lblMiddle
@@ -1391,7 +1391,7 @@ Partial Class UpdateInmate
         Me.Panel6.Controls.Add(Me.txtMiddleName)
         Me.Panel6.Location = New System.Drawing.Point(58, 169)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(319, 44)
+        Me.Panel6.Size = New System.Drawing.Size(316, 44)
         Me.Panel6.TabIndex = 27
         '
         'lblFirstName
@@ -1413,7 +1413,7 @@ Partial Class UpdateInmate
         Me.pnlTxtUsername.Controls.Add(Me.txtFirstName)
         Me.pnlTxtUsername.Location = New System.Drawing.Point(58, 88)
         Me.pnlTxtUsername.Name = "pnlTxtUsername"
-        Me.pnlTxtUsername.Size = New System.Drawing.Size(319, 44)
+        Me.pnlTxtUsername.Size = New System.Drawing.Size(316, 44)
         Me.pnlTxtUsername.TabIndex = 25
         '
         'lblPdlId

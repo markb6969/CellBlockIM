@@ -1,4 +1,6 @@
-﻿Public Class MovepdlHome
+﻿Imports System.ComponentModel.Design.Serialization
+
+Public Class MovepdlHome
     Private Sub MovepdlHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.WindowState = FormWindowState.Maximized
         Me.FormBorderStyle = FormBorderStyle.Sizable
@@ -32,6 +34,24 @@
 
     Private Sub btnReport_Click(sender As Object, e As EventArgs) Handles btnReport.Click
         ReportHome.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnManageInmate_Click(sender As Object, e As EventArgs) Handles btnManageInmate.Click
+        InmateHome.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnManageUser_Click(sender As Object, e As EventArgs) Handles btnManageUser.Click
+        ManageHome.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
+        SettingsHome.Show()
         Me.Hide()
 
     End Sub

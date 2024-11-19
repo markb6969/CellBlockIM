@@ -33,4 +33,10 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnManageUser_Click(sender As Object, e As EventArgs) Handles btnManageUser.Click
+        ManageHome.Show()
+        Me.Hide()
+
+    End Sub
 End Class

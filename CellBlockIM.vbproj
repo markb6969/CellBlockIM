@@ -241,6 +241,24 @@
     <Compile Include="Dashboard\Manage Access\Admin\AdminHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdmin.Designer.vb">
+      <DependentUpon>ManageAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminInfo.Designer.vb">
+      <DependentUpon>ManageAdminInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ClientHome.Designer.vb">
+      <DependentUpon>ClientHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ClientHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Manage Access\ManageHome.Designer.vb">
       <DependentUpon>ManageHome.vb</DependentUpon>
     </Compile>
@@ -269,6 +287,12 @@
       <DependentUpon>ReportHome.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Report\ReportHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Settings\SettingsHome.Designer.vb">
+      <DependentUpon>SettingsHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Settings\SettingsHome.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -376,6 +400,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddDashboard.resx">
       <DependentUpon>AddDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Admin\AdminHome.resx">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Admin\ManageAdmin.resx">
+      <DependentUpon>ManageAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Admin\ManageAdminInfo.resx">
+      <DependentUpon>ManageAdminInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\ClientHome.resx">
+      <DependentUpon>ClientHome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Manage Access\ManageHome.resx">
       <DependentUpon>ManageHome.vb</DependentUpon>

@@ -26,4 +26,10 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
+        SettingsHome.Show()
+        Me.Hide()
+
+    End Sub
 End Class

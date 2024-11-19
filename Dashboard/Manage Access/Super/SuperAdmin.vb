@@ -45,4 +45,22 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnClient_Click(sender As Object, e As EventArgs) Handles btnClient.Click
+        ClientHome.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
+        SettingsHome.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnAdmin_Click(sender As Object, e As EventArgs) Handles btnAdmin.Click
+        AdminHome.Show()
+        Me.Hide()
+
+    End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class UpdateInfo
+Partial Class ManageAdminInfo
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,29 +22,29 @@ Partial Class UpdateInfo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnUpdateInfo = New System.Windows.Forms.Button()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.btnChangePass = New System.Windows.Forms.Button()
-        Me.btnBack = New System.Windows.Forms.Button()
-        Me.btnAccountDetails = New System.Windows.Forms.Button()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.btnMainDB = New System.Windows.Forms.Button()
-        Me.btnAdd = New System.Windows.Forms.Button()
-        Me.btnReport = New System.Windows.Forms.Button()
         Me.btnManageInmate = New System.Windows.Forms.Button()
-        Me.btnManageUser = New System.Windows.Forms.Button()
         Me.btnSettings = New System.Windows.Forms.Button()
-        Me.lblTotalText = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.lblTotal = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnManageUser = New System.Windows.Forms.Button()
+        Me.btnAddEntity = New System.Windows.Forms.Button()
+        Me.btnMainDB = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.btnReport = New System.Windows.Forms.Button()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.txtConfirmPass = New System.Windows.Forms.TextBox()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.txtNewPass = New System.Windows.Forms.TextBox()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.txtOldPass = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btnSave = New System.Windows.Forms.Button()
@@ -60,7 +60,7 @@ Partial Class UpdateInfo
         Me.lblLastName = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.txtPhone = New System.Windows.Forms.TextBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
         Me.txtLastName = New System.Windows.Forms.TextBox()
         Me.lblMiddle = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
@@ -69,9 +69,9 @@ Partial Class UpdateInfo
         Me.txtZip = New System.Windows.Forms.TextBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.txtRegion = New System.Windows.Forms.TextBox()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.txtCity = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.txtCity = New System.Windows.Forms.TextBox()
+        Me.Panel7 = New System.Windows.Forms.Panel()
         Me.txtMunicipality = New System.Windows.Forms.TextBox()
         Me.Panel14 = New System.Windows.Forms.Panel()
         Me.txtStreet = New System.Windows.Forms.TextBox()
@@ -89,233 +89,35 @@ Partial Class UpdateInfo
         Me.Button3 = New System.Windows.Forms.Button()
         Me.lblFirstName = New System.Windows.Forms.Label()
         Me.pbProfilePic = New System.Windows.Forms.PictureBox()
-        Me.btnSuperAdmin = New System.Windows.Forms.Button()
-        Me.btnAdmin = New System.Windows.Forms.Button()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.btnClient = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel4.SuspendLayout()
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.lblTotalText = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel7.SuspendLayout()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
-        Me.TableLayoutPanel1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel17.SuspendLayout()
+        Me.Panel18.SuspendLayout()
+        Me.Panel19.SuspendLayout()
         Me.Panel13.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel11.SuspendLayout()
-        Me.Panel1.SuspendLayout()
+        Me.Panel5.SuspendLayout()
         Me.Panel10.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.Panel8.SuspendLayout()
-        Me.Panel5.SuspendLayout()
         Me.Panel6.SuspendLayout()
+        Me.Panel7.SuspendLayout()
         Me.Panel14.SuspendLayout()
         Me.Panel15.SuspendLayout()
         Me.Panel16.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
         CType(Me.pbProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.FlowLayoutPanel2.SuspendLayout()
+        Me.TableLayoutPanel3.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Panel4
-        '
-        Me.Panel4.Controls.Add(Me.PictureBox1)
-        Me.Panel4.Location = New System.Drawing.Point(0, 3)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(250, 207)
-        Me.Panel4.TabIndex = 0
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 19
-        Me.PictureBox1.TabStop = False
-        '
-        'btnUpdateInfo
-        '
-        Me.btnUpdateInfo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnUpdateInfo.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.btnUpdateInfo.FlatAppearance.BorderSize = 0
-        Me.btnUpdateInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUpdateInfo.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdateInfo.Location = New System.Drawing.Point(-1, 193)
-        Me.btnUpdateInfo.Name = "btnUpdateInfo"
-        Me.btnUpdateInfo.Size = New System.Drawing.Size(327, 49)
-        Me.btnUpdateInfo.TabIndex = 0
-        Me.btnUpdateInfo.Text = "Update Personal Info"
-        Me.btnUpdateInfo.UseVisualStyleBackColor = False
-        '
-        'Panel7
-        '
-        Me.Panel7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel7.AutoScroll = True
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Controls.Add(Me.PictureBox8)
-        Me.Panel7.Controls.Add(Me.PictureBox4)
-        Me.Panel7.Controls.Add(Me.PictureBox3)
-        Me.Panel7.Controls.Add(Me.PictureBox2)
-        Me.Panel7.Controls.Add(Me.btnChangePass)
-        Me.Panel7.Controls.Add(Me.btnUpdateInfo)
-        Me.Panel7.Controls.Add(Me.btnBack)
-        Me.Panel7.Controls.Add(Me.btnAccountDetails)
-        Me.Panel7.Location = New System.Drawing.Point(3, 3)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(274, 459)
-        Me.Panel7.TabIndex = 4
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.key
-        Me.PictureBox8.Location = New System.Drawing.Point(12, 155)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 24
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.edit
-        Me.PictureBox4.Location = New System.Drawing.Point(11, 204)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 24
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.PictureBox3.Image = Global.CellBlockIM.My.Resources.Resources.admin_with_cogwheels__1_
-        Me.PictureBox3.Location = New System.Drawing.Point(12, 108)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 24
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.left
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 62)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 24
-        Me.PictureBox2.TabStop = False
-        '
-        'btnChangePass
-        '
-        Me.btnChangePass.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnChangePass.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnChangePass.FlatAppearance.BorderSize = 0
-        Me.btnChangePass.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnChangePass.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnChangePass.Location = New System.Drawing.Point(-1, 145)
-        Me.btnChangePass.Name = "btnChangePass"
-        Me.btnChangePass.Size = New System.Drawing.Size(327, 49)
-        Me.btnChangePass.TabIndex = 0
-        Me.btnChangePass.Text = "Change Password"
-        Me.btnChangePass.UseVisualStyleBackColor = False
-        '
-        'btnBack
-        '
-        Me.btnBack.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnBack.FlatAppearance.BorderSize = 0
-        Me.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBack.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBack.Location = New System.Drawing.Point(-1, 50)
-        Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(327, 49)
-        Me.btnBack.TabIndex = 0
-        Me.btnBack.Text = "Back to Home"
-        Me.btnBack.UseVisualStyleBackColor = True
-        '
-        'btnAccountDetails
-        '
-        Me.btnAccountDetails.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnAccountDetails.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnAccountDetails.FlatAppearance.BorderSize = 0
-        Me.btnAccountDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAccountDetails.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAccountDetails.Location = New System.Drawing.Point(-1, 97)
-        Me.btnAccountDetails.Name = "btnAccountDetails"
-        Me.btnAccountDetails.Size = New System.Drawing.Size(327, 49)
-        Me.btnAccountDetails.TabIndex = 0
-        Me.btnAccountDetails.Text = "View Account Details"
-        Me.btnAccountDetails.UseVisualStyleBackColor = False
-        '
-        'FlowLayoutPanel1
-        '
-        Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnMainDB)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnAdd)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnReport)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageInmate)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageUser)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnSettings)
-        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(253, 761)
-        Me.FlowLayoutPanel1.TabIndex = 52
-        '
-        'btnMainDB
-        '
-        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnMainDB.FlatAppearance.BorderSize = 0
-        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
-        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
-        Me.btnMainDB.Name = "btnMainDB"
-        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
-        Me.btnMainDB.TabIndex = 1
-        Me.btnMainDB.UseVisualStyleBackColor = False
-        '
-        'btnAdd
-        '
-        Me.btnAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnAdd.FlatAppearance.BorderSize = 0
-        Me.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAdd.Image = Global.CellBlockIM.My.Resources.Resources.plus
-        Me.btnAdd.Location = New System.Drawing.Point(0, 297)
-        Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(250, 75)
-        Me.btnAdd.TabIndex = 1
-        Me.btnAdd.UseVisualStyleBackColor = False
-        '
-        'btnReport
-        '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnReport.FlatAppearance.BorderSize = 0
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
-        Me.btnReport.Location = New System.Drawing.Point(0, 378)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(250, 75)
-        Me.btnReport.TabIndex = 1
-        Me.btnReport.UseVisualStyleBackColor = False
         '
         'btnManageInmate
         '
@@ -329,18 +131,6 @@ Partial Class UpdateInfo
         Me.btnManageInmate.TabIndex = 1
         Me.btnManageInmate.UseVisualStyleBackColor = False
         '
-        'btnManageUser
-        '
-        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageUser.FlatAppearance.BorderSize = 0
-        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__4_
-        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
-        Me.btnManageUser.Name = "btnManageUser"
-        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageUser.TabIndex = 1
-        Me.btnManageUser.UseVisualStyleBackColor = False
-        '
         'btnSettings
         '
         Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
@@ -353,17 +143,6 @@ Partial Class UpdateInfo
         Me.btnSettings.TabIndex = 1
         Me.btnSettings.UseVisualStyleBackColor = False
         '
-        'lblTotalText
-        '
-        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblTotalText.AutoSize = True
-        Me.lblTotalText.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalText.Location = New System.Drawing.Point(954, 118)
-        Me.lblTotalText.Name = "lblTotalText"
-        Me.lblTotalText.Size = New System.Drawing.Size(106, 23)
-        Me.lblTotalText.TabIndex = 51
-        Me.lblTotalText.Text = "Total Accounts"
-        '
         'DateTimePicker1
         '
         Me.DateTimePicker1.CustomFormat = "MMMM, dd, yyyy"
@@ -373,7 +152,7 @@ Partial Class UpdateInfo
         Me.DateTimePicker1.Location = New System.Drawing.Point(259, 118)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 27)
-        Me.DateTimePicker1.TabIndex = 50
+        Me.DateTimePicker1.TabIndex = 56
         '
         'lblTotal
         '
@@ -384,31 +163,123 @@ Partial Class UpdateInfo
         Me.lblTotal.Margin = New System.Windows.Forms.Padding(3, 0, 50, 0)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(75, 93)
-        Me.lblTotal.TabIndex = 48
+        Me.lblTotal.TabIndex = 54
         Me.lblTotal.Text = "0"
         '
-        'TableLayoutPanel1
+        'Label1
         '
-        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.57143!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.42857!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Panel7, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(253, 294)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 1
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 465)
-        Me.TableLayoutPanel1.TabIndex = 47
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poppins SemiBold", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(240, 28)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(605, 113)
+        Me.Label1.TabIndex = 55
+        Me.Label1.Text = "Manage Account"
+        '
+        'btnManageUser
+        '
+        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageUser.FlatAppearance.BorderSize = 0
+        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__4_
+        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
+        Me.btnManageUser.Name = "btnManageUser"
+        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageUser.TabIndex = 1
+        Me.btnManageUser.UseVisualStyleBackColor = False
+        '
+        'btnAddEntity
+        '
+        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnAddEntity.FlatAppearance.BorderSize = 0
+        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus
+        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
+        Me.btnAddEntity.Name = "btnAddEntity"
+        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
+        Me.btnAddEntity.TabIndex = 1
+        Me.btnAddEntity.UseVisualStyleBackColor = False
+        '
+        'btnMainDB
+        '
+        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnMainDB.FlatAppearance.BorderSize = 0
+        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid
+        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
+        Me.btnMainDB.Name = "btnMainDB"
+        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
+        Me.btnMainDB.TabIndex = 1
+        Me.btnMainDB.UseVisualStyleBackColor = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.PictureBox1)
+        Me.Panel4.Location = New System.Drawing.Point(0, 3)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(250, 207)
+        Me.Panel4.TabIndex = 0
+        '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnReport.FlatAppearance.BorderSize = 0
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
+        Me.btnReport.Location = New System.Drawing.Point(0, 378)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(250, 75)
+        Me.btnReport.TabIndex = 1
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnMainDB)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnAddEntity)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnReport)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageInmate)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageUser)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnSettings)
+        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(253, 761)
+        Me.FlowLayoutPanel1.TabIndex = 58
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Panel2)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(109, 3)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(755, 541)
+        Me.Panel1.TabIndex = 0
         '
         'Panel2
         '
         Me.Panel2.AutoScroll = True
         Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Panel17)
+        Me.Panel2.Controls.Add(Me.Panel18)
+        Me.Panel2.Controls.Add(Me.Panel19)
+        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.Label9)
         Me.Panel2.Controls.Add(Me.Label5)
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.btnSave)
@@ -419,13 +290,13 @@ Partial Class UpdateInfo
         Me.Panel2.Controls.Add(Me.Panel3)
         Me.Panel2.Controls.Add(Me.lblLastName)
         Me.Panel2.Controls.Add(Me.Panel11)
-        Me.Panel2.Controls.Add(Me.Panel1)
+        Me.Panel2.Controls.Add(Me.Panel5)
         Me.Panel2.Controls.Add(Me.lblMiddle)
         Me.Panel2.Controls.Add(Me.Panel10)
         Me.Panel2.Controls.Add(Me.Panel9)
         Me.Panel2.Controls.Add(Me.Panel8)
-        Me.Panel2.Controls.Add(Me.Panel5)
         Me.Panel2.Controls.Add(Me.Panel6)
+        Me.Panel2.Controls.Add(Me.Panel7)
         Me.Panel2.Controls.Add(Me.Panel14)
         Me.Panel2.Controls.Add(Me.Panel15)
         Me.Panel2.Controls.Add(Me.lblDate)
@@ -439,10 +310,103 @@ Partial Class UpdateInfo
         Me.Panel2.Controls.Add(Me.lblFirstName)
         Me.Panel2.Controls.Add(Me.pbProfilePic)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(283, 3)
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(695, 459)
-        Me.Panel2.TabIndex = 5
+        Me.Panel2.Size = New System.Drawing.Size(755, 541)
+        Me.Panel2.TabIndex = 6
+        '
+        'Panel17
+        '
+        Me.Panel17.BackColor = System.Drawing.Color.White
+        Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel17.Controls.Add(Me.txtConfirmPass)
+        Me.Panel17.Location = New System.Drawing.Point(244, 811)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(391, 44)
+        Me.Panel17.TabIndex = 53
+        '
+        'txtConfirmPass
+        '
+        Me.txtConfirmPass.BackColor = System.Drawing.Color.White
+        Me.txtConfirmPass.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtConfirmPass.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtConfirmPass.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtConfirmPass.Location = New System.Drawing.Point(12, 9)
+        Me.txtConfirmPass.Name = "txtConfirmPass"
+        Me.txtConfirmPass.Size = New System.Drawing.Size(371, 24)
+        Me.txtConfirmPass.TabIndex = 0
+        '
+        'Panel18
+        '
+        Me.Panel18.BackColor = System.Drawing.Color.White
+        Me.Panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel18.Controls.Add(Me.txtNewPass)
+        Me.Panel18.Location = New System.Drawing.Point(244, 729)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(391, 44)
+        Me.Panel18.TabIndex = 54
+        '
+        'txtNewPass
+        '
+        Me.txtNewPass.BackColor = System.Drawing.Color.White
+        Me.txtNewPass.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNewPass.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNewPass.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtNewPass.Location = New System.Drawing.Point(12, 9)
+        Me.txtNewPass.Name = "txtNewPass"
+        Me.txtNewPass.Size = New System.Drawing.Size(371, 24)
+        Me.txtNewPass.TabIndex = 0
+        '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.White
+        Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel19.Controls.Add(Me.txtOldPass)
+        Me.Panel19.Location = New System.Drawing.Point(244, 652)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(391, 44)
+        Me.Panel19.TabIndex = 55
+        '
+        'txtOldPass
+        '
+        Me.txtOldPass.BackColor = System.Drawing.Color.White
+        Me.txtOldPass.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtOldPass.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOldPass.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtOldPass.Location = New System.Drawing.Point(12, 9)
+        Me.txtOldPass.Name = "txtOldPass"
+        Me.txtOldPass.Size = New System.Drawing.Size(371, 24)
+        Me.txtOldPass.TabIndex = 0
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(88, 821)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(119, 21)
+        Me.Label7.TabIndex = 50
+        Me.Label7.Text = "Confirm password"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(88, 745)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(96, 21)
+        Me.Label8.TabIndex = 51
+        Me.Label8.Text = "New password"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(88, 667)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(91, 21)
+        Me.Label9.TabIndex = 52
+        Me.Label9.Text = "Old password"
         '
         'Label5
         '
@@ -473,7 +437,7 @@ Partial Class UpdateInfo
         Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSave.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSave.ForeColor = System.Drawing.Color.White
-        Me.btnSave.Location = New System.Drawing.Point(562, 590)
+        Me.btnSave.Location = New System.Drawing.Point(562, 894)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(221, 46)
         Me.btnSave.TabIndex = 23
@@ -614,15 +578,15 @@ Partial Class UpdateInfo
         Me.txtPhone.TabIndex = 0
         Me.txtPhone.Text = "+63 123-4567-890"
         '
-        'Panel1
+        'Panel5
         '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.txtLastName)
-        Me.Panel1.Location = New System.Drawing.Point(84, 374)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(275, 44)
-        Me.Panel1.TabIndex = 40
+        Me.Panel5.BackColor = System.Drawing.Color.White
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel5.Controls.Add(Me.txtLastName)
+        Me.Panel5.Location = New System.Drawing.Point(84, 374)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(275, 44)
+        Me.Panel5.TabIndex = 40
         '
         'txtLastName
         '
@@ -634,7 +598,7 @@ Partial Class UpdateInfo
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(257, 24)
         Me.txtLastName.TabIndex = 0
-        Me.txtLastName.Text = "Enter your Last Name"
+        Me.txtLastName.Text = "Last Name"
         '
         'lblMiddle
         '
@@ -712,15 +676,15 @@ Partial Class UpdateInfo
         Me.txtRegion.TabIndex = 0
         Me.txtRegion.Text = "Region"
         '
-        'Panel5
+        'Panel6
         '
-        Me.Panel5.BackColor = System.Drawing.Color.White
-        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel5.Controls.Add(Me.txtCity)
-        Me.Panel5.Location = New System.Drawing.Point(401, 398)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(139, 44)
-        Me.Panel5.TabIndex = 35
+        Me.Panel6.BackColor = System.Drawing.Color.White
+        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel6.Controls.Add(Me.txtCity)
+        Me.Panel6.Location = New System.Drawing.Point(401, 398)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(139, 44)
+        Me.Panel6.TabIndex = 35
         '
         'txtCity
         '
@@ -734,15 +698,15 @@ Partial Class UpdateInfo
         Me.txtCity.TabIndex = 0
         Me.txtCity.Text = "City/District"
         '
-        'Panel6
+        'Panel7
         '
-        Me.Panel6.BackColor = System.Drawing.Color.White
-        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel6.Controls.Add(Me.txtMunicipality)
-        Me.Panel6.Location = New System.Drawing.Point(401, 348)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(280, 44)
-        Me.Panel6.TabIndex = 34
+        Me.Panel7.BackColor = System.Drawing.Color.White
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Controls.Add(Me.txtMunicipality)
+        Me.Panel7.Location = New System.Drawing.Point(401, 348)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(280, 44)
+        Me.Panel7.TabIndex = 34
         '
         'txtMunicipality
         '
@@ -798,7 +762,7 @@ Partial Class UpdateInfo
         Me.txtMiddleName.Name = "txtMiddleName"
         Me.txtMiddleName.Size = New System.Drawing.Size(257, 24)
         Me.txtMiddleName.TabIndex = 0
-        Me.txtMiddleName.Text = "Enter your Middle Name"
+        Me.txtMiddleName.Text = "Middle Name"
         '
         'lblDate
         '
@@ -881,7 +845,7 @@ Partial Class UpdateInfo
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(257, 24)
         Me.txtFirstName.TabIndex = 0
-        Me.txtFirstName.Text = "Enter your First Name"
+        Me.txtFirstName.Text = "First Name"
         '
         'Button2
         '
@@ -926,91 +890,75 @@ Partial Class UpdateInfo
         Me.pbProfilePic.TabIndex = 0
         Me.pbProfilePic.TabStop = False
         '
-        'btnSuperAdmin
+        'TableLayoutPanel3
         '
-        Me.btnSuperAdmin.FlatAppearance.BorderSize = 0
-        Me.btnSuperAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSuperAdmin.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSuperAdmin.ForeColor = System.Drawing.Color.Teal
-        Me.btnSuperAdmin.Location = New System.Drawing.Point(3, 3)
-        Me.btnSuperAdmin.Name = "btnSuperAdmin"
-        Me.btnSuperAdmin.Size = New System.Drawing.Size(203, 77)
-        Me.btnSuperAdmin.TabIndex = 24
-        Me.btnSuperAdmin.Text = "Me"
-        Me.btnSuperAdmin.UseVisualStyleBackColor = True
+        Me.TableLayoutPanel3.ColumnCount = 3
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.96371!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.07259!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.96371!))
+        Me.TableLayoutPanel3.Controls.Add(Me.Panel1, 1, 0)
+        Me.TableLayoutPanel3.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(975, 547)
+        Me.TableLayoutPanel3.TabIndex = 1
         '
-        'btnAdmin
+        'TableLayoutPanel1
         '
-        Me.btnAdmin.FlatAppearance.BorderSize = 0
-        Me.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAdmin.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdmin.Location = New System.Drawing.Point(212, 3)
-        Me.btnAdmin.Name = "btnAdmin"
-        Me.btnAdmin.Size = New System.Drawing.Size(207, 77)
-        Me.btnAdmin.TabIndex = 24
-        Me.btnAdmin.Text = "Admin"
-        Me.btnAdmin.UseVisualStyleBackColor = True
-        '
-        'FlowLayoutPanel2
-        '
-        Me.FlowLayoutPanel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnSuperAdmin)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnAdmin)
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnClient)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(253, 194)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(981, 100)
-        Me.FlowLayoutPanel2.TabIndex = 53
+        Me.TableLayoutPanel1.ColumnCount = 1
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel3, 0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(253, 208)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 553.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(981, 553)
+        Me.TableLayoutPanel1.TabIndex = 53
         '
-        'btnClient
+        'lblTotalText
         '
-        Me.btnClient.FlatAppearance.BorderSize = 0
-        Me.btnClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClient.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClient.Location = New System.Drawing.Point(425, 3)
-        Me.btnClient.Name = "btnClient"
-        Me.btnClient.Size = New System.Drawing.Size(235, 77)
-        Me.btnClient.TabIndex = 24
-        Me.btnClient.Text = "Client"
-        Me.btnClient.UseVisualStyleBackColor = True
+        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblTotalText.AutoSize = True
+        Me.lblTotalText.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalText.Location = New System.Drawing.Point(951, 118)
+        Me.lblTotalText.Name = "lblTotalText"
+        Me.lblTotalText.Size = New System.Drawing.Size(106, 23)
+        Me.lblTotalText.TabIndex = 59
+        Me.lblTotalText.Text = "Total Accounts"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins SemiBold", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(240, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(605, 113)
-        Me.Label1.TabIndex = 49
-        Me.Label1.Text = "Manage Account"
-        '
-        'UpdateInfo
+        'ManageAdminInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1234, 761)
-        Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.lblTotalText)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.lblTotal)
-        Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Controls.Add(Me.FlowLayoutPanel2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "UpdateInfo"
+        Me.Controls.Add(Me.FlowLayoutPanel1)
+        Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Controls.Add(Me.lblTotal)
+        Me.Name = "ManageAdminInfo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Panel4.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel7.ResumeLayout(False)
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
         Me.FlowLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel17.ResumeLayout(False)
+        Me.Panel17.PerformLayout()
+        Me.Panel18.ResumeLayout(False)
+        Me.Panel18.PerformLayout()
+        Me.Panel19.ResumeLayout(False)
+        Me.Panel19.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         Me.Panel12.ResumeLayout(False)
         Me.Panel12.PerformLayout()
@@ -1018,18 +966,18 @@ Partial Class UpdateInfo
         Me.Panel3.PerformLayout()
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
         Me.Panel10.ResumeLayout(False)
         Me.Panel10.PerformLayout()
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel5.PerformLayout()
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel7.PerformLayout()
         Me.Panel14.ResumeLayout(False)
         Me.Panel14.PerformLayout()
         Me.Panel15.ResumeLayout(False)
@@ -1038,39 +986,28 @@ Partial Class UpdateInfo
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
         CType(Me.pbProfilePic, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.TableLayoutPanel3.ResumeLayout(False)
+        Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents btnMainDB As Button
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents btnAdd As Button
-    Friend WithEvents btnUpdateInfo As Button
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents btnChangePass As Button
-    Friend WithEvents btnBack As Button
-    Friend WithEvents btnAccountDetails As Button
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
-    Friend WithEvents btnReport As Button
     Friend WithEvents btnManageInmate As Button
-    Friend WithEvents btnManageUser As Button
     Friend WithEvents btnSettings As Button
-    Friend WithEvents lblTotalText As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents lblTotal As Label
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents btnSuperAdmin As Button
-    Friend WithEvents btnAdmin As Button
-    Friend WithEvents FlowLayoutPanel2 As FlowLayoutPanel
-    Friend WithEvents btnClient As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnManageUser As Button
+    Friend WithEvents btnAddEntity As Button
+    Friend WithEvents btnMainDB As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents btnReport As Button
+    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents lblTotalText As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
@@ -1087,7 +1024,7 @@ Partial Class UpdateInfo
     Friend WithEvents lblLastName As Label
     Friend WithEvents Panel11 As Panel
     Friend WithEvents txtPhone As TextBox
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel5 As Panel
     Friend WithEvents txtLastName As TextBox
     Friend WithEvents lblMiddle As Label
     Friend WithEvents Panel10 As Panel
@@ -1096,9 +1033,9 @@ Partial Class UpdateInfo
     Friend WithEvents txtZip As TextBox
     Friend WithEvents Panel8 As Panel
     Friend WithEvents txtRegion As TextBox
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents txtCity As TextBox
     Friend WithEvents Panel6 As Panel
+    Friend WithEvents txtCity As TextBox
+    Friend WithEvents Panel7 As Panel
     Friend WithEvents txtMunicipality As TextBox
     Friend WithEvents Panel14 As Panel
     Friend WithEvents txtStreet As TextBox
@@ -1116,4 +1053,13 @@ Partial Class UpdateInfo
     Friend WithEvents Button3 As Button
     Friend WithEvents lblFirstName As Label
     Friend WithEvents pbProfilePic As PictureBox
+    Friend WithEvents Panel17 As Panel
+    Friend WithEvents txtConfirmPass As TextBox
+    Friend WithEvents Panel18 As Panel
+    Friend WithEvents txtNewPass As TextBox
+    Friend WithEvents Panel19 As Panel
+    Friend WithEvents txtOldPass As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class
