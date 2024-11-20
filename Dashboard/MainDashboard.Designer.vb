@@ -22,14 +22,7 @@ Partial Class MainDashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.btnMainDB = New System.Windows.Forms.Button()
-        Me.btnAddEntity = New System.Windows.Forms.Button()
-        Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnManageInmate = New System.Windows.Forms.Button()
-        Me.btnSettings = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.btnManageUser = New System.Windows.Forms.Button()
         Me.lblTotalText = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
@@ -41,84 +34,20 @@ Partial Class MainDashboard
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnMainDB = New System.Windows.Forms.Button()
+        Me.btnAddEntity = New System.Windows.Forms.Button()
+        Me.btnReport = New System.Windows.Forms.Button()
+        Me.btnManageInmate = New System.Windows.Forms.Button()
+        Me.btnManageUser = New System.Windows.Forms.Button()
+        Me.btnSettings = New System.Windows.Forms.Button()
         Me.Panel4.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.tlpMain.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'btnMainDB
-        '
-        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnMainDB.FlatAppearance.BorderSize = 0
-        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid__1_
-        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
-        Me.btnMainDB.Name = "btnMainDB"
-        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
-        Me.btnMainDB.TabIndex = 1
-        Me.btnMainDB.UseVisualStyleBackColor = False
-        '
-        'btnAddEntity
-        '
-        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnAddEntity.FlatAppearance.BorderSize = 0
-        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus
-        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
-        Me.btnAddEntity.Name = "btnAddEntity"
-        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
-        Me.btnAddEntity.TabIndex = 1
-        Me.btnAddEntity.UseVisualStyleBackColor = False
-        '
-        'btnReport
-        '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnReport.FlatAppearance.BorderSize = 0
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
-        Me.btnReport.Location = New System.Drawing.Point(0, 378)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(250, 75)
-        Me.btnReport.TabIndex = 1
-        Me.btnReport.UseVisualStyleBackColor = False
-        '
-        'btnManageInmate
-        '
-        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageInmate.FlatAppearance.BorderSize = 0
-        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
-        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
-        Me.btnManageInmate.Name = "btnManageInmate"
-        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageInmate.TabIndex = 1
-        Me.btnManageInmate.UseVisualStyleBackColor = False
-        '
-        'btnSettings
-        '
-        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnSettings.FlatAppearance.BorderSize = 0
-        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
-        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
-        Me.btnSettings.TabIndex = 1
-        Me.btnSettings.UseVisualStyleBackColor = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 19
-        Me.PictureBox1.TabStop = False
         '
         'Panel4
         '
@@ -127,18 +56,6 @@ Partial Class MainDashboard
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(250, 207)
         Me.Panel4.TabIndex = 0
-        '
-        'btnManageUser
-        '
-        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnManageUser.FlatAppearance.BorderSize = 0
-        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
-        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
-        Me.btnManageUser.Name = "btnManageUser"
-        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
-        Me.btnManageUser.TabIndex = 1
-        Me.btnManageUser.UseVisualStyleBackColor = False
         '
         'lblTotalText
         '
@@ -278,6 +195,89 @@ Partial Class MainDashboard
         Me.Panel2.Size = New System.Drawing.Size(869, 220)
         Me.Panel2.TabIndex = 1
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(47, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(159, 163)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
+        '
+        'btnMainDB
+        '
+        Me.btnMainDB.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnMainDB.FlatAppearance.BorderSize = 0
+        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMainDB.Image = Global.CellBlockIM.My.Resources.Resources.grid__1_
+        Me.btnMainDB.Location = New System.Drawing.Point(0, 216)
+        Me.btnMainDB.Name = "btnMainDB"
+        Me.btnMainDB.Size = New System.Drawing.Size(250, 75)
+        Me.btnMainDB.TabIndex = 1
+        Me.btnMainDB.UseVisualStyleBackColor = False
+        '
+        'btnAddEntity
+        '
+        Me.btnAddEntity.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnAddEntity.FlatAppearance.BorderSize = 0
+        Me.btnAddEntity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddEntity.Image = Global.CellBlockIM.My.Resources.Resources.plus
+        Me.btnAddEntity.Location = New System.Drawing.Point(0, 297)
+        Me.btnAddEntity.Name = "btnAddEntity"
+        Me.btnAddEntity.Size = New System.Drawing.Size(250, 75)
+        Me.btnAddEntity.TabIndex = 1
+        Me.btnAddEntity.UseVisualStyleBackColor = False
+        '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnReport.FlatAppearance.BorderSize = 0
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Image = Global.CellBlockIM.My.Resources.Resources.report
+        Me.btnReport.Location = New System.Drawing.Point(0, 378)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(250, 75)
+        Me.btnReport.TabIndex = 1
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
+        'btnManageInmate
+        '
+        Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageInmate.FlatAppearance.BorderSize = 0
+        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageInmate.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
+        Me.btnManageInmate.Location = New System.Drawing.Point(0, 459)
+        Me.btnManageInmate.Name = "btnManageInmate"
+        Me.btnManageInmate.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageInmate.TabIndex = 1
+        Me.btnManageInmate.UseVisualStyleBackColor = False
+        '
+        'btnManageUser
+        '
+        Me.btnManageUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnManageUser.FlatAppearance.BorderSize = 0
+        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnManageUser.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
+        Me.btnManageUser.Location = New System.Drawing.Point(0, 540)
+        Me.btnManageUser.Name = "btnManageUser"
+        Me.btnManageUser.Size = New System.Drawing.Size(250, 75)
+        Me.btnManageUser.TabIndex = 1
+        Me.btnManageUser.UseVisualStyleBackColor = False
+        '
+        'btnSettings
+        '
+        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
+        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
+        Me.btnSettings.TabIndex = 1
+        Me.btnSettings.UseVisualStyleBackColor = False
+        '
         'MainDashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -293,12 +293,12 @@ Partial Class MainDashboard
         Me.Name = "MainDashboard"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.tlpMain.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

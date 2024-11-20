@@ -193,16 +193,34 @@
     <Compile Include="Dashboard\Add\MovePDL\Movepdl.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\MovepdlControl.Designer.vb">
+      <DependentUpon>MovepdlControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\MovepdlControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.Designer.vb">
       <DependentUpon>MovepdlHome.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\MovepdlHomeControl.Designer.vb">
+      <DependentUpon>MovepdlHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\MovePDL\MovepdlHomeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddArrestingOfficerControl.Designer.vb">
       <DependentUpon>AddArrestingOfficerControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddArrestingOfficerControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddCriminalCaseControl.Designer.vb">
+      <DependentUpon>AddCriminalCaseControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddCriminalCaseControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddInmate.Designer.vb">
@@ -217,11 +235,23 @@
     <Compile Include="Dashboard\Inmate\Add\AddCriminalCase.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddInmateControl.Designer.vb">
+      <DependentUpon>AddInmateControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddInmateControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddMedicalinfo.Designer.vb">
       <DependentUpon>AddMedicalinfo.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddMedicalinfo.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddMedicalinfoControl.Designer.vb">
+      <DependentUpon>AddMedicalinfoControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Add\AddMedicalinfoControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.Designer.vb">
       <DependentUpon>AddMultipleOffenseControl.vb</DependentUpon>
@@ -235,6 +265,12 @@
     <Compile Include="Dashboard\Inmate\InmateHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Inmate\InmateHomeControl.Designer.vb">
+      <DependentUpon>InmateHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\InmateHomeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Inmate\Remove\ReleaseInmate.Designer.vb">
       <DependentUpon>ReleaseInmate.vb</DependentUpon>
     </Compile>
@@ -246,6 +282,12 @@
     </Compile>
     <Compile Include="Dashboard\Inmate\Remove\RemoveHome.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\RemoveHomeControl.Designer.vb">
+      <DependentUpon>RemoveHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Remove\RemoveHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Remove\RemoveOption.Designer.vb">
       <DependentUpon>RemoveOption.vb</DependentUpon>
@@ -264,6 +306,12 @@
     </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateHome.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateHomeControl.Designer.vb">
+      <DependentUpon>UpdateHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Inmate\Update\UpdateHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateInmate.Designer.vb">
       <DependentUpon>UpdateInmate.vb</DependentUpon>
@@ -288,6 +336,12 @@
     </Compile>
     <Compile Include="Dashboard\Add\AddDashboard.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\MainDashboardControl.Designer.vb">
+      <DependentUpon>MainDashboardControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\MainDashboardControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Manage Access\Admin\AdminHome.Designer.vb">
       <DependentUpon>AdminHome.vb</DependentUpon>
@@ -342,6 +396,12 @@
     </Compile>
     <Compile Include="Dashboard\Report\ReportHome.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Report\ReportHomeControl.Designer.vb">
+      <DependentUpon>ReportHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Report\ReportHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Settings\SettingsHome.Designer.vb">
       <DependentUpon>SettingsHome.vb</DependentUpon>
@@ -434,11 +494,20 @@
     <EmbeddedResource Include="Dashboard\Add\MovePDL\Movepdl.resx">
       <DependentUpon>Movepdl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlControl.resx">
+      <DependentUpon>MovepdlControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHome.resx">
       <DependentUpon>MovepdlHome.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHomeControl.resx">
+      <DependentUpon>MovepdlHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddArrestingOfficerControl.resx">
       <DependentUpon>AddArrestingOfficerControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddCriminalCaseControl.resx">
+      <DependentUpon>AddCriminalCaseControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmate.resx">
       <DependentUpon>AddInmate.vb</DependentUpon>
@@ -446,8 +515,14 @@
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddCriminalCase.resx">
       <DependentUpon>AddCriminalCase.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmateControl.resx">
+      <DependentUpon>AddInmateControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddMedicalinfo.resx">
       <DependentUpon>AddMedicalinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Add\AddMedicalinfoControl.resx">
+      <DependentUpon>AddMedicalinfoControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.resx">
       <DependentUpon>AddMultipleOffenseControl.vb</DependentUpon>
@@ -455,11 +530,17 @@
     <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
       <DependentUpon>InmateHome.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\InmateHomeControl.resx">
+      <DependentUpon>InmateHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Remove\ReleaseInmate.resx">
       <DependentUpon>ReleaseInmate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveHome.resx">
       <DependentUpon>RemoveHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveHomeControl.resx">
+      <DependentUpon>RemoveHomeControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveOption.resx">
       <DependentUpon>RemoveOption.vb</DependentUpon>
@@ -469,6 +550,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateHome.resx">
       <DependentUpon>UpdateHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateHomeControl.resx">
+      <DependentUpon>UpdateHomeControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateInmate.resx">
       <DependentUpon>UpdateInmate.vb</DependentUpon>
@@ -481,6 +565,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddDashboard.resx">
       <DependentUpon>AddDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\MainDashboardControl.resx">
+      <DependentUpon>MainDashboardControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Manage Access\Admin\AdminHome.resx">
       <DependentUpon>AdminHome.vb</DependentUpon>
@@ -508,6 +595,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Report\ReportHome.resx">
       <DependentUpon>ReportHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Report\ReportHomeControl.resx">
+      <DependentUpon>ReportHomeControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
