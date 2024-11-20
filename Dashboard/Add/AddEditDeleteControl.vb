@@ -14,4 +14,8 @@
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
         RaiseEvent DeleteButtonClick()
     End Sub
+
+    Private Sub AddEditDeleteControl_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

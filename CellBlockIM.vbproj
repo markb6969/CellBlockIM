@@ -79,6 +79,18 @@
     <Compile Include="Dashboard\Add\AddCellblock\AddCellblock.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControl.Designer.vb">
+      <DependentUpon>AddCellblockControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControlHome.Designer.vb">
+      <DependentUpon>AddCellblockControlHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControlHome.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\AddCellblockHome.Designer.vb">
       <DependentUpon>AddCellblockHome.vb</DependentUpon>
     </Compile>
@@ -97,16 +109,34 @@
     <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblock.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblockControl.Designer.vb">
+      <DependentUpon>DeleteCellblockControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblockControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\EditCellblock.Designer.vb">
       <DependentUpon>EditCellblock.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\EditCellblock.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\EditCellblockControl.Designer.vb">
+      <DependentUpon>EditCellblockControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddCellblock\EditCellblockControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\AddEditDeleteControl.Designer.vb">
       <DependentUpon>AddEditDeleteControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddEditDeleteControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddEntityControl.Designer.vb">
+      <DependentUpon>AddEntityControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddEntityControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\AddStaff.Designer.vb">
@@ -115,11 +145,23 @@
     <Compile Include="Dashboard\Add\AddStaff\AddStaff.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaffControl.Designer.vb">
+      <DependentUpon>AddStaffControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaffControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\AddStaff\AddStaffHome.Designer.vb">
       <DependentUpon>AddStaffHome.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\AddStaffHome.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaffHomeControl.Designer.vb">
+      <DependentUpon>AddStaffHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\AddStaffHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\DeleteStaff.Designer.vb">
       <DependentUpon>DeleteStaff.vb</DependentUpon>
@@ -127,11 +169,23 @@
     <Compile Include="Dashboard\Add\AddStaff\DeleteStaff.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\DeleteStaffControl.Designer.vb">
+      <DependentUpon>DeleteStaffControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\DeleteStaffControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\AddStaff\EditStaff.Designer.vb">
       <DependentUpon>EditStaff.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\EditStaff.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\EditStaffControl.Designer.vb">
+      <DependentUpon>EditStaffControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Add\AddStaff\EditStaffControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\MovePDL\Movepdl.Designer.vb">
       <DependentUpon>Movepdl.vb</DependentUpon>
@@ -323,6 +377,12 @@
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblock.resx">
       <DependentUpon>AddCellblock.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockControl.resx">
+      <DependentUpon>AddCellblockControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockControlHome.resx">
+      <DependentUpon>AddCellblockControlHome.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockHome.resx">
       <DependentUpon>AddCellblockHome.vb</DependentUpon>
     </EmbeddedResource>
@@ -332,23 +392,44 @@
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\DeleteCellblock.resx">
       <DependentUpon>DeleteCellblock.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\DeleteCellblockControl.resx">
+      <DependentUpon>DeleteCellblockControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\EditCellblock.resx">
       <DependentUpon>EditCellblock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddCellblock\EditCellblockControl.resx">
+      <DependentUpon>EditCellblockControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddEditDeleteControl.resx">
       <DependentUpon>AddEditDeleteControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddEntityControl.resx">
+      <DependentUpon>AddEntityControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaff.resx">
       <DependentUpon>AddStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffControl.resx">
+      <DependentUpon>AddStaffControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffHome.resx">
       <DependentUpon>AddStaffHome.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffHomeControl.resx">
+      <DependentUpon>AddStaffHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\DeleteStaff.resx">
       <DependentUpon>DeleteStaff.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\DeleteStaffControl.resx">
+      <DependentUpon>DeleteStaffControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\EditStaff.resx">
       <DependentUpon>EditStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Add\AddStaff\EditStaffControl.resx">
+      <DependentUpon>EditStaffControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\MovePDL\Movepdl.resx">
       <DependentUpon>Movepdl.vb</DependentUpon>
