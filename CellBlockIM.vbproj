@@ -307,6 +307,12 @@
     <Compile Include="Dashboard\Settings\SettingsControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="HomePage\Announcements.Designer.vb">
+      <DependentUpon>Announcements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\Announcements.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="HomePage\Home.Designer.vb">
       <DependentUpon>Home.vb</DependentUpon>
     </Compile>
@@ -447,6 +453,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Settings\SettingsControl.resx">
       <DependentUpon>SettingsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\Announcements.resx">
+      <DependentUpon>Announcements.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
