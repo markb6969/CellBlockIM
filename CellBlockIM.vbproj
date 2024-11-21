@@ -319,6 +319,12 @@
     <Compile Include="HomePage\Home.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="HomePage\ReportsControl.Designer.vb">
+      <DependentUpon>ReportsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\ReportsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -460,6 +466,9 @@
     <EmbeddedResource Include="HomePage\Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\ReportsControl.resx">
+      <DependentUpon>ReportsControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -583,6 +592,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Report3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrontView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf-file %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
