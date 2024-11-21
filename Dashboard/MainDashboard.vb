@@ -112,6 +112,46 @@
     End Sub
 
 
+    ' MANAGE ACCESS CONTROLS
+    Public Sub SwitchToManageHomeControl()
+        switchTableLayoutPanel(tlpMain, New ManageHomeControl())
+    End Sub
+
+
+    ' SUPER ADMIN in manage access
+    Public Sub SwitchToSuperAdminControl()
+        switchTableLayoutPanel(tlpMain, New SuperAdminControl())
+    End Sub
+    Public Sub SwitchToChangePassControl()
+        switchTableLayoutPanel(tlpMain, New ChangePasswordControl())
+    End Sub
+    Public Sub SwitchToUpdateSuperAdminControl()
+        switchTableLayoutPanel(tlpMain, New UpdateInfoControl())
+    End Sub
+
+
+    ' ADMIN in manage access
+    Public Sub SwitchToAdminHomeControl()
+        switchTableLayoutPanel(tlpMain, New AdminHomeControl())
+    End Sub
+    Public Sub SwitchToManageAdminControl()
+        switchTableLayoutPanel(tlpMain, New ManageAdminControl())
+    End Sub
+    Public Sub SwitchToManageAdminInfoControl()
+        switchTableLayoutPanel(tlpMain, New ManageAdminInfoControl())
+    End Sub
+
+
+    ' Client in manage access
+    Public Sub SwitchToClientHomeControl()
+        switchTableLayoutPanel(tlpMain, New ClientHomeControl())
+    End Sub
+
+
+
+
+
+
 
     ' OLD CODE
     Private Sub btnMainDB_Click(sender As Object, e As EventArgs) Handles btnMainDB.Click

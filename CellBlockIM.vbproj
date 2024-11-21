@@ -73,12 +73,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dashboard\Add\AddCellblock\AddCellblock.Designer.vb">
-      <DependentUpon>AddCellblock.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\AddCellblock.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControl.Designer.vb">
       <DependentUpon>AddCellblockControl.vb</DependentUpon>
     </Compile>
@@ -91,35 +85,17 @@
     <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControlHome.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockHome.Designer.vb">
-      <DependentUpon>AddCellblockHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\AddCellblockHome.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\AssignStaffControl.Designer.vb">
       <DependentUpon>AssignStaffControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\AssignStaffControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblock.Designer.vb">
-      <DependentUpon>DeleteCellblock.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblock.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblockControl.Designer.vb">
       <DependentUpon>DeleteCellblockControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\DeleteCellblockControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\EditCellblock.Designer.vb">
-      <DependentUpon>EditCellblock.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddCellblock\EditCellblock.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\EditCellblockControl.Designer.vb">
       <DependentUpon>EditCellblockControl.vb</DependentUpon>
@@ -139,23 +115,11 @@
     <Compile Include="Dashboard\Add\AddEntityControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\AddStaff.Designer.vb">
-      <DependentUpon>AddStaff.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\AddStaff.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Add\AddStaff\AddStaffControl.Designer.vb">
       <DependentUpon>AddStaffControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\AddStaffControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\AddStaffHome.Designer.vb">
-      <DependentUpon>AddStaffHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\AddStaffHome.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\AddStaffHomeControl.Designer.vb">
       <DependentUpon>AddStaffHomeControl.vb</DependentUpon>
@@ -163,23 +127,11 @@
     <Compile Include="Dashboard\Add\AddStaff\AddStaffHomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\DeleteStaff.Designer.vb">
-      <DependentUpon>DeleteStaff.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\DeleteStaff.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Add\AddStaff\DeleteStaffControl.Designer.vb">
       <DependentUpon>DeleteStaffControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\DeleteStaffControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\EditStaff.Designer.vb">
-      <DependentUpon>EditStaff.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddStaff\EditStaff.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\AddStaff\EditStaffControl.Designer.vb">
       <DependentUpon>EditStaffControl.vb</DependentUpon>
@@ -187,23 +139,11 @@
     <Compile Include="Dashboard\Add\AddStaff\EditStaffControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Add\MovePDL\Movepdl.Designer.vb">
-      <DependentUpon>Movepdl.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\MovePDL\Movepdl.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Add\MovePDL\MovepdlControl.Designer.vb">
       <DependentUpon>MovepdlControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Add\MovePDL\MovepdlControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.Designer.vb">
-      <DependentUpon>MovepdlHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\MovePDL\MovepdlHome.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\MovePDL\MovepdlHomeControl.Designer.vb">
       <DependentUpon>MovepdlHomeControl.vb</DependentUpon>
@@ -223,29 +163,11 @@
     <Compile Include="Dashboard\Inmate\Add\AddCriminalCaseControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Inmate\Add\AddInmate.Designer.vb">
-      <DependentUpon>AddInmate.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Add\AddInmate.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Add\AddCriminalCase.Designer.vb">
-      <DependentUpon>AddCriminalCase.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Add\AddCriminalCase.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddInmateControl.Designer.vb">
       <DependentUpon>AddInmateControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddInmateControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Add\AddMedicalinfo.Designer.vb">
-      <DependentUpon>AddMedicalinfo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Add\AddMedicalinfo.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Add\AddMedicalinfoControl.Designer.vb">
       <DependentUpon>AddMedicalinfoControl.vb</DependentUpon>
@@ -259,23 +181,11 @@
     <Compile Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Inmate\InmateHome.Designer.vb">
-      <DependentUpon>InmateHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\InmateHome.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Inmate\InmateHomeControl.Designer.vb">
       <DependentUpon>InmateHomeControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\InmateHomeControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Remove\ReleaseInmate.Designer.vb">
-      <DependentUpon>ReleaseInmate.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Remove\ReleaseInmate.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Remove\ReleaseInmateControl.Designer.vb">
       <DependentUpon>ReleaseInmateControl.vb</DependentUpon>
@@ -283,23 +193,11 @@
     <Compile Include="Dashboard\Inmate\Remove\ReleaseInmateControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Inmate\Remove\RemoveHome.Designer.vb">
-      <DependentUpon>RemoveHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Remove\RemoveHome.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Inmate\Remove\RemoveHomeControl.Designer.vb">
       <DependentUpon>RemoveHomeControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\Remove\RemoveHomeControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Remove\RemoveOption.Designer.vb">
-      <DependentUpon>RemoveOption.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Remove\RemoveOption.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Remove\RemoveOptionControl.Designer.vb">
       <DependentUpon>RemoveOptionControl.vb</DependentUpon>
@@ -307,23 +205,11 @@
     <Compile Include="Dashboard\Inmate\Remove\RemoveOptionControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCase.Designer.vb">
-      <DependentUpon>UpdateCriminalCase.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCase.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCaseControl.Designer.vb">
       <DependentUpon>UpdateCriminalCaseControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateCriminalCaseControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateHome.Designer.vb">
-      <DependentUpon>UpdateHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateHome.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateHomeControl.Designer.vb">
       <DependentUpon>UpdateHomeControl.vb</DependentUpon>
@@ -331,23 +217,11 @@
     <Compile Include="Dashboard\Inmate\Update\UpdateHomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateInmate.Designer.vb">
-      <DependentUpon>UpdateInmate.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateInmate.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateInmateControl.Designer.vb">
       <DependentUpon>UpdateInmateControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateInmateControl.vb">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfo.Designer.vb">
-      <DependentUpon>UpdateMedicalinfo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfo.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfoControl.Designer.vb">
       <DependentUpon>UpdateMedicalinfoControl.vb</DependentUpon>
@@ -361,71 +235,59 @@
     <Compile Include="Dashboard\MainDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard\Add\AddDashboard.Designer.vb">
-      <DependentUpon>AddDashboard.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Add\AddDashboard.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard\MainDashboardControl.Designer.vb">
       <DependentUpon>MainDashboardControl.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard\MainDashboardControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Admin\AdminHome.Designer.vb">
-      <DependentUpon>AdminHome.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Admin\AdminHomeControl.Designer.vb">
+      <DependentUpon>AdminHomeControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Admin\AdminHome.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Admin\AdminHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Admin\ManageAdmin.Designer.vb">
-      <DependentUpon>ManageAdmin.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminControl.Designer.vb">
+      <DependentUpon>ManageAdminControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Admin\ManageAdmin.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminInfo.Designer.vb">
-      <DependentUpon>ManageAdminInfo.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminInfoControl.Designer.vb">
+      <DependentUpon>ManageAdminInfoControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminInfo.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Admin\ManageAdminInfoControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Client\ClientHome.Designer.vb">
-      <DependentUpon>ClientHome.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Client\ClientHomeControl.Designer.vb">
+      <DependentUpon>ClientHomeControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Client\ClientHome.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Client\ClientHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\ManageHome.Designer.vb">
-      <DependentUpon>ManageHome.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\ManageHomeControl.Designer.vb">
+      <DependentUpon>ManageHomeControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\ManageHome.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\ManageHomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Super\ChangePassword.Designer.vb">
-      <DependentUpon>ChangePassword.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Super\ChangePasswordControl.Designer.vb">
+      <DependentUpon>ChangePasswordControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Super\ChangePassword.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Super\ChangePasswordControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Super\SuperAdmin.Designer.vb">
-      <DependentUpon>SuperAdmin.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Super\SuperAdminControl.Designer.vb">
+      <DependentUpon>SuperAdminControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Super\SuperAdmin.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Super\SuperAdminControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Super\UpdateInfo.Designer.vb">
-      <DependentUpon>UpdateInfo.vb</DependentUpon>
+    <Compile Include="Dashboard\Manage Access\Super\UpdateInfoControl.Designer.vb">
+      <DependentUpon>UpdateInfoControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Manage Access\Super\UpdateInfo.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboard\Report\ReportHome.Designer.vb">
-      <DependentUpon>ReportHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard\Report\ReportHome.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Manage Access\Super\UpdateInfoControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboard\Report\ReportHomeControl.Designer.vb">
       <DependentUpon>ReportHomeControl.vb</DependentUpon>
@@ -433,11 +295,11 @@
     <Compile Include="Dashboard\Report\ReportHomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Settings\SettingsHome.Designer.vb">
-      <DependentUpon>SettingsHome.vb</DependentUpon>
+    <Compile Include="Dashboard\Settings\UserControl1.Designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Settings\SettingsHome.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Dashboard\Settings\UserControl1.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -464,29 +326,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblock.resx">
-      <DependentUpon>AddCellblock.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockControl.resx">
       <DependentUpon>AddCellblockControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockControlHome.resx">
       <DependentUpon>AddCellblockControlHome.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockHome.resx">
-      <DependentUpon>AddCellblockHome.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AssignStaffControl.resx">
       <DependentUpon>AssignStaffControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddCellblock\DeleteCellblock.resx">
-      <DependentUpon>DeleteCellblock.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\DeleteCellblockControl.resx">
       <DependentUpon>DeleteCellblockControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddCellblock\EditCellblock.resx">
-      <DependentUpon>EditCellblock.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\EditCellblockControl.resx">
       <DependentUpon>EditCellblockControl.vb</DependentUpon>
@@ -497,38 +347,20 @@
     <EmbeddedResource Include="Dashboard\Add\AddEntityControl.resx">
       <DependentUpon>AddEntityControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaff.resx">
-      <DependentUpon>AddStaff.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffControl.resx">
       <DependentUpon>AddStaffControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffHome.resx">
-      <DependentUpon>AddStaffHome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\AddStaffHomeControl.resx">
       <DependentUpon>AddStaffHomeControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddStaff\DeleteStaff.resx">
-      <DependentUpon>DeleteStaff.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\DeleteStaffControl.resx">
       <DependentUpon>DeleteStaffControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddStaff\EditStaff.resx">
-      <DependentUpon>EditStaff.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddStaff\EditStaffControl.resx">
       <DependentUpon>EditStaffControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\MovePDL\Movepdl.resx">
-      <DependentUpon>Movepdl.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlControl.resx">
       <DependentUpon>MovepdlControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHome.resx">
-      <DependentUpon>MovepdlHome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\MovePDL\MovepdlHomeControl.resx">
       <DependentUpon>MovepdlHomeControl.vb</DependentUpon>
@@ -539,17 +371,8 @@
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddCriminalCaseControl.resx">
       <DependentUpon>AddCriminalCaseControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmate.resx">
-      <DependentUpon>AddInmate.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Add\AddCriminalCase.resx">
-      <DependentUpon>AddCriminalCase.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddInmateControl.resx">
       <DependentUpon>AddInmateControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Add\AddMedicalinfo.resx">
-      <DependentUpon>AddMedicalinfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddMedicalinfoControl.resx">
       <DependentUpon>AddMedicalinfoControl.vb</DependentUpon>
@@ -557,50 +380,26 @@
     <EmbeddedResource Include="Dashboard\Inmate\Add\AddMultipleOffenseControl.resx">
       <DependentUpon>AddMultipleOffenseControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\InmateHome.resx">
-      <DependentUpon>InmateHome.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\InmateHomeControl.resx">
       <DependentUpon>InmateHomeControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Remove\ReleaseInmate.resx">
-      <DependentUpon>ReleaseInmate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Remove\ReleaseInmateControl.resx">
       <DependentUpon>ReleaseInmateControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveHome.resx">
-      <DependentUpon>RemoveHome.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveHomeControl.resx">
       <DependentUpon>RemoveHomeControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveOption.resx">
-      <DependentUpon>RemoveOption.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Remove\RemoveOptionControl.resx">
       <DependentUpon>RemoveOptionControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateCriminalCase.resx">
-      <DependentUpon>UpdateCriminalCase.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateCriminalCaseControl.resx">
       <DependentUpon>UpdateCriminalCaseControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateHome.resx">
-      <DependentUpon>UpdateHome.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateHomeControl.resx">
       <DependentUpon>UpdateHomeControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateInmate.resx">
-      <DependentUpon>UpdateInmate.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateInmateControl.resx">
       <DependentUpon>UpdateInmateControl.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateMedicalinfo.resx">
-      <DependentUpon>UpdateMedicalinfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateMedicalinfoControl.resx">
       <DependentUpon>UpdateMedicalinfoControl.vb</DependentUpon>
@@ -608,41 +407,38 @@
     <EmbeddedResource Include="Dashboard\MainDashboard.resx">
       <DependentUpon>MainDashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Add\AddDashboard.resx">
-      <DependentUpon>AddDashboard.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\MainDashboardControl.resx">
       <DependentUpon>MainDashboardControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Admin\AdminHome.resx">
-      <DependentUpon>AdminHome.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Admin\AdminHomeControl.resx">
+      <DependentUpon>AdminHomeControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Admin\ManageAdmin.resx">
-      <DependentUpon>ManageAdmin.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Admin\ManageAdminControl.resx">
+      <DependentUpon>ManageAdminControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Admin\ManageAdminInfo.resx">
-      <DependentUpon>ManageAdminInfo.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Admin\ManageAdminInfoControl.resx">
+      <DependentUpon>ManageAdminInfoControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Client\ClientHome.resx">
-      <DependentUpon>ClientHome.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\ClientHomeControl.resx">
+      <DependentUpon>ClientHomeControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\ManageHome.resx">
-      <DependentUpon>ManageHome.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\ManageHomeControl.resx">
+      <DependentUpon>ManageHomeControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Super\ChangePassword.resx">
-      <DependentUpon>ChangePassword.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Super\ChangePasswordControl.resx">
+      <DependentUpon>ChangePasswordControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Super\SuperAdmin.resx">
-      <DependentUpon>SuperAdmin.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Super\SuperAdminControl.resx">
+      <DependentUpon>SuperAdminControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Manage Access\Super\UpdateInfo.resx">
-      <DependentUpon>UpdateInfo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Report\ReportHome.resx">
-      <DependentUpon>ReportHome.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Manage Access\Super\UpdateInfoControl.resx">
+      <DependentUpon>UpdateInfoControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Report\ReportHomeControl.resx">
       <DependentUpon>ReportHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Settings\UserControl1.resx">
+      <DependentUpon>UserControl1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -735,5 +531,15 @@
   <ItemGroup>
     <None Include="Resources\key.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
