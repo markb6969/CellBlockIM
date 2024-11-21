@@ -134,16 +134,11 @@
     End Sub
 
     Private Sub btnManageUser_Click(sender As Object, e As EventArgs) Handles btnManageUser.Click
-        ManageHome.Show()
-        Me.Hide()
-
+        Dim ManageControl As New ManageHomeControl()
+        switchTableLayoutPanel(tlpMain, ManageControl)
     End Sub
 
     Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
-        SettingsHome.Show()
-        Me.Hide()
 
     End Sub
-
-
 End Class
