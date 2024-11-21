@@ -307,11 +307,10 @@
     <Compile Include="Dashboard\Settings\SettingsControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
+    <Compile Include="HomePage\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="HomePage\Home.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -449,6 +448,9 @@
     <EmbeddedResource Include="Dashboard\Settings\SettingsControl.resx">
       <DependentUpon>SettingsControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -549,6 +551,29 @@
   <ItemGroup>
     <None Include="Resources\logout %281%29.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Untitled Project.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %282%29 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
