@@ -307,6 +307,18 @@
     <Compile Include="Dashboard\Settings\SettingsControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="HomePage\About\AboutHistoryControl.Designer.vb">
+      <DependentUpon>AboutHistoryControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\About\AboutHistoryControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage\About\AboutHomeControl.Designer.vb">
+      <DependentUpon>AboutHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\About\AboutHomeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="HomePage\Announcements.Designer.vb">
       <DependentUpon>Announcements.vb</DependentUpon>
     </Compile>
@@ -318,6 +330,12 @@
     </Compile>
     <Compile Include="HomePage\Home.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage\HomeControl.Designer.vb">
+      <DependentUpon>HomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\HomeControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="HomePage\ReportsControl.Designer.vb">
       <DependentUpon>ReportsControl.vb</DependentUpon>
@@ -460,11 +478,20 @@
     <EmbeddedResource Include="Dashboard\Settings\SettingsControl.resx">
       <DependentUpon>SettingsControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\About\AboutHistoryControl.resx">
+      <DependentUpon>AboutHistoryControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\About\AboutHomeControl.resx">
+      <DependentUpon>AboutHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage\Announcements.resx">
       <DependentUpon>Announcements.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\HomeControl.resx">
+      <DependentUpon>HomeControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\ReportsControl.resx">
       <DependentUpon>ReportsControl.vb</DependentUpon>
@@ -598,6 +625,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pdf-file %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %284%29 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

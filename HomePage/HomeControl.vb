@@ -1,8 +1,8 @@
-﻿Public Class Home
+﻿Public Class HomeControl
     Dim images(2) As Bitmap
     Dim descriptions(2) As String
     Dim pos As Integer = 0
-    Private Sub Home_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub HomeControl_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         rtxtHeadline.SelectAll()
         rtxtHeadline.SelectionAlignment = HorizontalAlignment.Center
 
@@ -29,7 +29,6 @@
         rtxtHeadline.Text = descriptions(pos)
     End Sub
 
-
     Private Sub btnPreviousImg_Click(sender As Object, e As EventArgs) Handles btnPreviousImg.Click
         pos -= 1
         If pos < 0 Then
@@ -46,35 +45,5 @@
         End If
 
         UpdateImagePositions()
-    End Sub
-
-
-    ' SWITCH PANELS
-
-    Public Sub switchPanel(childPanel As Panel, newControl As UserControl)
-        childPanel.Controls.Clear()
-        newControl.Dock = DockStyle.Fill
-        childPanel.Controls.Add(newControl)
-        newControl.Show()
-    End Sub
-
-
-    Public Sub SwitchToMainHomeControl()
-        switchPanel(pnlMain, New HomeControl())
-    End Sub
-    Public Sub SwitchToAboutHomeControl()
-        switchPanel(pnlMain, New AboutHomeControl())
-    End Sub
-    Public Sub SwitchToAboutHistoryControl()
-        switchPanel(pnlMain, New AboutHistoryControl())
-    End Sub
-
-    'NAV
-    Private Sub btnAbout1_Click(sender As Object, e As EventArgs) Handles btnAbout1.Click
-        SwitchToAboutHomeControl()
-    End Sub
-
-    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
-        SwitchToMainHomeControl()
     End Sub
 End Class

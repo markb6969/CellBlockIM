@@ -153,7 +153,7 @@
 
 
 
-    ' OLD CODE
+    ' NAV
     Private Sub btnMainDB_Click(sender As Object, e As EventArgs) Handles btnMainDB.Click
         Dim mainDashboardControl As New MainDashboardControl()
         switchTableLayoutPanel(tlpMain, mainDashboardControl)
@@ -183,5 +183,7 @@
         switchTableLayoutPanel(tlpMain, SettingsControls)
     End Sub
 
+    Private Sub MainDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class
