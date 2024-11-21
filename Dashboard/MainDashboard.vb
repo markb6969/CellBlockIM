@@ -179,6 +179,9 @@
     End Sub
 
     Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
-
+        Dim SettingsControls As New SettingsControl()
+        switchTableLayoutPanel(tlpMain, SettingsControls)
     End Sub
+
+
 End Class

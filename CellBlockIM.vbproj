@@ -229,6 +229,12 @@
     <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfoControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Dashboard\Logout.Designer.vb">
+      <DependentUpon>Logout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Logout.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\MainDashboard.Designer.vb">
       <DependentUpon>MainDashboard.vb</DependentUpon>
     </Compile>
@@ -295,10 +301,10 @@
     <Compile Include="Dashboard\Report\ReportHomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboard\Settings\UserControl1.Designer.vb">
-      <DependentUpon>UserControl1.vb</DependentUpon>
+    <Compile Include="Dashboard\Settings\SettingsControl.Designer.vb">
+      <DependentUpon>SettingsControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard\Settings\UserControl1.vb">
+    <Compile Include="Dashboard\Settings\SettingsControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -404,6 +410,9 @@
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateMedicalinfoControl.resx">
       <DependentUpon>UpdateMedicalinfoControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Logout.resx">
+      <DependentUpon>Logout.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\MainDashboard.resx">
       <DependentUpon>MainDashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -437,8 +446,8 @@
     <EmbeddedResource Include="Dashboard\Report\ReportHomeControl.resx">
       <DependentUpon>ReportHomeControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard\Settings\UserControl1.resx">
-      <DependentUpon>UserControl1.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard\Settings\SettingsControl.resx">
+      <DependentUpon>SettingsControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

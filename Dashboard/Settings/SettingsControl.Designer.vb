@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class UserControl1
+Partial Class SettingsControl
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
@@ -26,16 +26,16 @@ Partial Class UserControl1
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblTotalText = New System.Windows.Forms.Label()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.btnLogOut = New System.Windows.Forms.Button()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btnInmateInfo = New System.Windows.Forms.Button()
         Me.btnUpdateInfo = New System.Windows.Forms.Button()
         Me.btnMangeAccess = New System.Windows.Forms.Button()
         Me.btnViewLogs = New System.Windows.Forms.Button()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -98,28 +98,18 @@ Partial Class UserControl1
         '
         'lblTotalText
         '
-        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblTotalText.AutoSize = True
         Me.lblTotalText.Font = New System.Drawing.Font("Poppins Medium", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalText.Location = New System.Drawing.Point(21, 23)
+        Me.lblTotalText.Location = New System.Drawing.Point(38, 34)
         Me.lblTotalText.Name = "lblTotalText"
         Me.lblTotalText.Size = New System.Drawing.Size(121, 42)
         Me.lblTotalText.TabIndex = 29
         Me.lblTotalText.Text = "Settings"
         '
-        'PictureBox7
-        '
-        Me.PictureBox7.BackColor = System.Drawing.Color.Firebrick
-        Me.PictureBox7.Image = Global.CellBlockIM.My.Resources.Resources.logout__1_
-        Me.PictureBox7.Location = New System.Drawing.Point(212, 332)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 38
-        Me.PictureBox7.TabStop = False
-        '
         'btnLogOut
         '
+        Me.btnLogOut.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnLogOut.BackColor = System.Drawing.Color.Firebrick
         Me.btnLogOut.FlatAppearance.BorderSize = 0
         Me.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -132,50 +122,6 @@ Partial Class UserControl1
         Me.btnLogOut.Text = "Log out"
         Me.btnLogOut.UseVisualStyleBackColor = False
         '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
-        Me.PictureBox8.Location = New System.Drawing.Point(163, 182)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 31
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
-        Me.PictureBox4.Location = New System.Drawing.Point(162, 231)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 34
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.manual
-        Me.PictureBox1.Location = New System.Drawing.Point(163, 96)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 36
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.people
-        Me.PictureBox2.Location = New System.Drawing.Point(163, 141)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 36
-        Me.PictureBox2.TabStop = False
-        '
         'btnInmateInfo
         '
         Me.btnInmateInfo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -184,7 +130,7 @@ Partial Class UserControl1
         Me.btnInmateInfo.FlatAppearance.BorderSize = 0
         Me.btnInmateInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnInmateInfo.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnInmateInfo.Location = New System.Drawing.Point(151, 172)
+        Me.btnInmateInfo.Location = New System.Drawing.Point(151, 194)
         Me.btnInmateInfo.Name = "btnInmateInfo"
         Me.btnInmateInfo.Size = New System.Drawing.Size(327, 49)
         Me.btnInmateInfo.TabIndex = 25
@@ -199,7 +145,7 @@ Partial Class UserControl1
         Me.btnUpdateInfo.FlatAppearance.BorderSize = 0
         Me.btnUpdateInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUpdateInfo.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdateInfo.Location = New System.Drawing.Point(151, 220)
+        Me.btnUpdateInfo.Location = New System.Drawing.Point(151, 242)
         Me.btnUpdateInfo.Name = "btnUpdateInfo"
         Me.btnUpdateInfo.Size = New System.Drawing.Size(327, 49)
         Me.btnUpdateInfo.TabIndex = 28
@@ -214,7 +160,7 @@ Partial Class UserControl1
         Me.btnMangeAccess.FlatAppearance.BorderSize = 0
         Me.btnMangeAccess.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMangeAccess.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMangeAccess.Location = New System.Drawing.Point(151, 127)
+        Me.btnMangeAccess.Location = New System.Drawing.Point(151, 149)
         Me.btnMangeAccess.Name = "btnMangeAccess"
         Me.btnMangeAccess.Size = New System.Drawing.Size(327, 49)
         Me.btnMangeAccess.TabIndex = 29
@@ -229,19 +175,74 @@ Partial Class UserControl1
         Me.btnViewLogs.FlatAppearance.BorderSize = 0
         Me.btnViewLogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnViewLogs.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnViewLogs.Location = New System.Drawing.Point(151, 86)
+        Me.btnViewLogs.Location = New System.Drawing.Point(151, 108)
         Me.btnViewLogs.Name = "btnViewLogs"
         Me.btnViewLogs.Size = New System.Drawing.Size(327, 49)
         Me.btnViewLogs.TabIndex = 30
         Me.btnViewLogs.Text = "View Logs"
         Me.btnViewLogs.UseVisualStyleBackColor = False
         '
-        'UserControl1
+        'PictureBox7
+        '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Firebrick
+        Me.PictureBox7.Image = Global.CellBlockIM.My.Resources.Resources.logout__1_
+        Me.PictureBox7.Location = New System.Drawing.Point(212, 332)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 38
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.inmate__1_
+        Me.PictureBox8.Location = New System.Drawing.Point(163, 204)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 31
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.setting__3_
+        Me.PictureBox4.Location = New System.Drawing.Point(162, 253)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 34
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.manual
+        Me.PictureBox1.Location = New System.Drawing.Point(163, 118)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 36
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.people
+        Me.PictureBox2.Location = New System.Drawing.Point(163, 163)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 36
+        Me.PictureBox2.TabStop = False
+        '
+        'SettingsControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Name = "UserControl1"
+        Me.Name = "SettingsControl"
         Me.Size = New System.Drawing.Size(972, 545)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
