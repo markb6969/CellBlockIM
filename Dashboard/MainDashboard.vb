@@ -88,6 +88,29 @@
     End Sub
 
 
+    ' Switch to UpdateInmateControl
+    Public Sub SwitchToUpdateAddInmateControl()
+        switchTableLayoutPanel(tlpMain, New UpdateInmateControl())
+    End Sub
+
+    Public Sub SwitchToUpdateCrminalCaseControl()
+        switchTableLayoutPanel(tlpMain, New UpdateCriminalCaseControl())
+    End Sub
+
+    Public Sub SwitchToUpdateMedicalControl()
+        switchTableLayoutPanel(tlpMain, New UpdateMedicalinfoControl())
+    End Sub
+
+
+    ' Switch to ReleaseInmateControl
+    Public Sub SwitchToReleaseInmateControl()
+        switchTableLayoutPanel(tlpMain, New ReleaseInmateControl())
+    End Sub
+
+    Public Sub SwitchToRemoveOptionControl()
+        switchTableLayoutPanel(tlpMain, New RemoveOptionControl())
+    End Sub
+
 
 
     ' OLD CODE
