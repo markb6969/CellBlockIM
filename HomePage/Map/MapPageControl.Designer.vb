@@ -31,6 +31,7 @@ Partial Class MapPageControl
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,9 +85,9 @@ Partial Class MapPageControl
         Me.Label2.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(45, 61)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(205, 85)
+        Me.Label2.Size = New System.Drawing.Size(306, 85)
         Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Map of"
+        Me.Label2.Text = "Location of"
         '
         'Label3
         '
@@ -104,7 +105,7 @@ Partial Class MapPageControl
         Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.Untitled_design__1___3_
-        Me.PictureBox2.Location = New System.Drawing.Point(1, 351)
+        Me.PictureBox2.Location = New System.Drawing.Point(1, 348)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(1213, 317)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -124,26 +125,40 @@ Partial Class MapPageControl
         '
         'Panel2
         '
+        Me.Panel2.BackColor = System.Drawing.Color.Gainsboro
         Me.Panel2.Controls.Add(Me.RichTextBox1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(608, 3)
+        Me.Panel2.Location = New System.Drawing.Point(605, 0)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(600, 341)
+        Me.Panel2.Size = New System.Drawing.Size(606, 347)
         Me.Panel2.TabIndex = 22
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.RichTextBox1.BackColor = System.Drawing.Color.Gainsboro
         Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.RichTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox1.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.RichTextBox1.Location = New System.Drawing.Point(15, 120)
+        Me.RichTextBox1.Location = New System.Drawing.Point(15, 155)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(513, 128)
         Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = "" & Global.Microsoft.VisualBasic.ChrW(10) & "The map of Cellblock Central outlines the facility's layout, including cellblock" &
-    "s, administrative areas, and essential units, ensuring efficient navigation and " &
-    "security."
+        Me.RichTextBox1.Text = "Cellblock Central is located in a secure area, designed to support efficient faci" &
+    "lity operations and public safety."
+        '
+        'TableLayoutPanel2
+        '
+        Me.TableLayoutPanel2.ColumnCount = 2
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(1, 663)
+        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
+        Me.TableLayoutPanel2.RowCount = 2
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1213, 340)
+        Me.TableLayoutPanel2.TabIndex = 2
         '
         'MapPageControl
         '
@@ -151,10 +166,11 @@ Partial Class MapPageControl
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "MapPageControl"
-        Me.Size = New System.Drawing.Size(1214, 800)
+        Me.Size = New System.Drawing.Size(1197, 783)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -174,4 +190,5 @@ Partial Class MapPageControl
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Panel2 As Panel
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
 End Class

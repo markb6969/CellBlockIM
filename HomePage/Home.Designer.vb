@@ -269,7 +269,7 @@ Partial Class Home
         Me.btnLocation1.Name = "btnLocation1"
         Me.btnLocation1.Size = New System.Drawing.Size(114, 40)
         Me.btnLocation1.TabIndex = 8
-        Me.btnLocation1.Text = "Map"
+        Me.btnLocation1.Text = "Location"
         Me.btnLocation1.UseVisualStyleBackColor = True
         '
         'btnContact1
