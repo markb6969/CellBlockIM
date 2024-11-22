@@ -71,6 +71,9 @@
     Public Sub SwitchToInmatePageControl()
         switchPanel(pnlMain, New InmateHomePage())
     End Sub
+    Public Sub SwitchToMapPageControl()
+        switchPanel(pnlMain, New MapPageControl())
+    End Sub
 
     'NAV
     Private Sub btnAbout1_Click(sender As Object, e As EventArgs) Handles btnAbout1.Click
@@ -83,5 +86,9 @@
 
     Private Sub btnInmate1_Click(sender As Object, e As EventArgs) Handles btnInmate1.Click
         SwitchToInmatePageControl()
+    End Sub
+
+    Private Sub btnLocation1_Click(sender As Object, e As EventArgs) Handles btnLocation1.Click
+        SwitchToMapPageControl()
     End Sub
 End Class

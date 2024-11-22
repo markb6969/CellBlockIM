@@ -343,6 +343,12 @@
     <Compile Include="HomePage\InmateHomePage\InmateHomePage.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="HomePage\Map\MapPageControl.Designer.vb">
+      <DependentUpon>MapPageControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\Map\MapPageControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="HomePage\ReportsControl.Designer.vb">
       <DependentUpon>ReportsControl.vb</DependentUpon>
     </Compile>
@@ -501,6 +507,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\InmateHomePage\InmateHomePage.resx">
       <DependentUpon>InmateHomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\Map\MapPageControl.resx">
+      <DependentUpon>MapPageControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\ReportsControl.resx">
       <DependentUpon>ReportsControl.vb</DependentUpon>
@@ -661,6 +670,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\issue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %281%29 %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
