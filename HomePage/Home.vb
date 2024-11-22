@@ -68,6 +68,9 @@
     Public Sub SwitchToAboutHistoryControl()
         switchPanel(pnlMain, New AboutHistoryControl())
     End Sub
+    Public Sub SwitchToInmatePageControl()
+        switchPanel(pnlMain, New InmateHomePage())
+    End Sub
 
     'NAV
     Private Sub btnAbout1_Click(sender As Object, e As EventArgs) Handles btnAbout1.Click
@@ -76,5 +79,9 @@
 
     Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
         SwitchToMainHomeControl()
+    End Sub
+
+    Private Sub btnInmate1_Click(sender As Object, e As EventArgs) Handles btnInmate1.Click
+        SwitchToInmatePageControl()
     End Sub
 End Class

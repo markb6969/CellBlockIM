@@ -337,6 +337,12 @@
     <Compile Include="HomePage\HomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="HomePage\InmateHomePage\InmateHomePage.Designer.vb">
+      <DependentUpon>InmateHomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\InmateHomePage\InmateHomePage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="HomePage\ReportsControl.Designer.vb">
       <DependentUpon>ReportsControl.vb</DependentUpon>
     </Compile>
@@ -493,6 +499,9 @@
     <EmbeddedResource Include="HomePage\HomeControl.resx">
       <DependentUpon>HomeControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\InmateHomePage\InmateHomePage.resx">
+      <DependentUpon>InmateHomePage.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage\ReportsControl.resx">
       <DependentUpon>ReportsControl.vb</DependentUpon>
     </EmbeddedResource>
@@ -631,6 +640,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BBRB-Cebu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\243322008_190892826490082_368692.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-visiting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issue.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

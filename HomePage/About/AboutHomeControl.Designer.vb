@@ -41,7 +41,7 @@ Partial Class AboutHomeControl
         Me.PictureBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.Untitled_design__4___1_
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, -1)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(1214, 290)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -102,7 +102,7 @@ Partial Class AboutHomeControl
         Me.btnLearnMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLearnMore.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLearnMore.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.btnLearnMore.Location = New System.Drawing.Point(205, 231)
+        Me.btnLearnMore.Location = New System.Drawing.Point(200, 231)
         Me.btnLearnMore.Name = "btnLearnMore"
         Me.btnLearnMore.Size = New System.Drawing.Size(274, 49)
         Me.btnLearnMore.TabIndex = 22
@@ -126,15 +126,15 @@ Partial Class AboutHomeControl
         '
         'Label1
         '
-        Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poppins Medium", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(153, 33)
+        Me.Label1.Location = New System.Drawing.Point(8, 32)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(604, 37)
         Me.Label1.TabIndex = 20
         Me.Label1.Text = "Welcome to Cellblock Central, a system like no other"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'AboutHomeControl
         '
