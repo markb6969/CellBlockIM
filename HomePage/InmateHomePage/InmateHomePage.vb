@@ -12,6 +12,24 @@
         RichTextBox5.SelectionAlignment = HorizontalAlignment.Center
         RichTextBox6.SelectAll()
         RichTextBox6.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox7.SelectAll()
+        RichTextBox7.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox8.SelectAll()
+        RichTextBox8.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox9.SelectAll()
+        RichTextBox9.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox10.SelectAll()
+        RichTextBox10.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox11.SelectAll()
+        RichTextBox11.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox12.SelectAll()
+        RichTextBox12.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox14.SelectAll()
+        RichTextBox14.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox15.SelectAll()
+        RichTextBox15.SelectionAlignment = HorizontalAlignment.Center
+        RichTextBox16.SelectAll()
+        RichTextBox16.SelectionAlignment = HorizontalAlignment.Center
     End Sub
 
 

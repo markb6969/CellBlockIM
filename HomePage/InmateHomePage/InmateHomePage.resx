@@ -136,4 +136,7 @@
   <data name="RichTextBox11.Text" xml:space="preserve">
     <value>Our system facilitates communication between clients and their designated contacts via secure phone services. We maintain strict controls to ensure all calls adhere to security guidelines, preventing misuse or inappropriate purposes.</value>
   </data>
+  <data name="RichTextBox12.Text" xml:space="preserve">
+    <value>PDL are not allowed to receive packages from home without prior written approval from the authorized staff member at the institution.  All packages undergo inspection to prevent any security breaches or violations of institutional policies.</value>
+  </data>
 </root>
