@@ -30,10 +30,10 @@ Partial Class ContactedControl
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel23 = New System.Windows.Forms.Panel()
-        Me.txtVisitationId = New System.Windows.Forms.TextBox()
+        Me.txtContactName = New System.Windows.Forms.TextBox()
         Me.lblFirstName = New System.Windows.Forms.Label()
         Me.pnlTxtUsername = New System.Windows.Forms.Panel()
-        Me.txtVisitorName = New System.Windows.Forms.TextBox()
+        Me.txtContactSubject = New System.Windows.Forms.TextBox()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.dgvVisitation = New System.Windows.Forms.DataGridView()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
@@ -151,9 +151,9 @@ Partial Class ContactedControl
         Me.Label12.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(67, 57)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(79, 21)
+        Me.Label12.Size = New System.Drawing.Size(45, 21)
         Me.Label12.TabIndex = 28
-        Me.Label12.Text = "Visitation ID"
+        Me.Label12.Text = "Name"
         '
         'Panel23
         '
@@ -161,23 +161,23 @@ Partial Class ContactedControl
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
         Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel23.Controls.Add(Me.txtVisitationId)
+        Me.Panel23.Controls.Add(Me.txtContactName)
         Me.Panel23.Location = New System.Drawing.Point(71, 81)
         Me.Panel23.Name = "Panel23"
         Me.Panel23.Size = New System.Drawing.Size(331, 44)
         Me.Panel23.TabIndex = 26
         '
-        'txtVisitationId
+        'txtContactName
         '
-        Me.txtVisitationId.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtVisitationId.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtVisitationId.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVisitationId.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtVisitationId.Location = New System.Drawing.Point(12, 9)
-        Me.txtVisitationId.Name = "txtVisitationId"
-        Me.txtVisitationId.ReadOnly = True
-        Me.txtVisitationId.Size = New System.Drawing.Size(318, 24)
-        Me.txtVisitationId.TabIndex = 0
+        Me.txtContactName.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtContactName.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtContactName.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtContactName.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtContactName.Location = New System.Drawing.Point(12, 9)
+        Me.txtContactName.Name = "txtContactName"
+        Me.txtContactName.ReadOnly = True
+        Me.txtContactName.Size = New System.Drawing.Size(318, 24)
+        Me.txtContactName.TabIndex = 0
         '
         'lblFirstName
         '
@@ -185,9 +185,9 @@ Partial Class ContactedControl
         Me.lblFirstName.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFirstName.Location = New System.Drawing.Point(68, 130)
         Me.lblFirstName.Name = "lblFirstName"
-        Me.lblFirstName.Size = New System.Drawing.Size(84, 21)
+        Me.lblFirstName.Size = New System.Drawing.Size(54, 21)
         Me.lblFirstName.TabIndex = 29
-        Me.lblFirstName.Text = "Visitor Name"
+        Me.lblFirstName.Text = "Subject"
         '
         'pnlTxtUsername
         '
@@ -195,23 +195,23 @@ Partial Class ContactedControl
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlTxtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
         Me.pnlTxtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlTxtUsername.Controls.Add(Me.txtVisitorName)
+        Me.pnlTxtUsername.Controls.Add(Me.txtContactSubject)
         Me.pnlTxtUsername.Location = New System.Drawing.Point(72, 154)
         Me.pnlTxtUsername.Name = "pnlTxtUsername"
         Me.pnlTxtUsername.Size = New System.Drawing.Size(330, 44)
         Me.pnlTxtUsername.TabIndex = 27
         '
-        'txtVisitorName
+        'txtContactSubject
         '
-        Me.txtVisitorName.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtVisitorName.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtVisitorName.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVisitorName.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtVisitorName.Location = New System.Drawing.Point(12, 9)
-        Me.txtVisitorName.Name = "txtVisitorName"
-        Me.txtVisitorName.ReadOnly = True
-        Me.txtVisitorName.Size = New System.Drawing.Size(317, 24)
-        Me.txtVisitorName.TabIndex = 0
+        Me.txtContactSubject.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtContactSubject.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtContactSubject.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtContactSubject.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtContactSubject.Location = New System.Drawing.Point(12, 9)
+        Me.txtContactSubject.Name = "txtContactSubject"
+        Me.txtContactSubject.ReadOnly = True
+        Me.txtContactSubject.Size = New System.Drawing.Size(317, 24)
+        Me.txtContactSubject.TabIndex = 0
         '
         'TableLayoutPanel5
         '
@@ -333,10 +333,10 @@ Partial Class ContactedControl
     Friend WithEvents Label3 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel23 As Panel
-    Friend WithEvents txtVisitationId As TextBox
+    Friend WithEvents txtContactName As TextBox
     Friend WithEvents lblFirstName As Label
     Friend WithEvents pnlTxtUsername As Panel
-    Friend WithEvents txtVisitorName As TextBox
+    Friend WithEvents txtContactSubject As TextBox
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
     Friend WithEvents dgvVisitation As DataGridView
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
