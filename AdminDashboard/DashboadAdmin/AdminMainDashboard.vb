@@ -144,7 +144,6 @@
         switchTableLayoutPanel(tlpMain, New ManageAdminInfoControl())
     End Sub
 
-
     ' Client in manage access
     Public Sub SwitchToClientHomeControl()
         switchTableLayoutPanel(tlpMain, New ClientHomeControl())
@@ -169,6 +168,18 @@
     End Sub
 
 
+
+    'ADMIN CONTROLS (ME)
+    Public Sub SwitchToAdminInfoControl()
+        switchTableLayoutPanel(tlpMain, New AdminControl())
+    End Sub
+    Public Sub SwitchToUpdateAdminControl()
+        switchTableLayoutPanel(tlpMain, New AdminUpdateInfo())
+    End Sub
+    Public Sub SwitchToAdminChangePassControl()
+        switchTableLayoutPanel(tlpMain, New AdminChangePassword())
+    End Sub
+
     ' NAV
     Private Sub btnMainDB_Click(sender As Object, e As EventArgs) Handles btnMainDB.Click
         Dim mainDashboardControl As New MainDashboardControl()
@@ -190,8 +201,8 @@
     End Sub
 
     Private Sub btnManageUser_Click(sender As Object, e As EventArgs) Handles btnManageUser.Click
-        Dim ManageControl As New ManageHomeControl()
-        switchTableLayoutPanel(tlpMain, ManageControl)
+        Dim ControlAdmin As New AdminControl()
+        switchTableLayoutPanel(tlpMain, ControlAdmin)
     End Sub
 
     Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
