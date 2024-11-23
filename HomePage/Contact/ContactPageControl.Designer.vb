@@ -89,7 +89,7 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(1174, 224)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(1157, 224)
         Me.TableLayoutPanel29.TabIndex = 34
         '
         'TableLayoutPanel30
@@ -99,12 +99,12 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel30.ColumnCount = 1
         Me.TableLayoutPanel30.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel30.Controls.Add(Me.Panel15, 0, 1)
-        Me.TableLayoutPanel30.Location = New System.Drawing.Point(237, 3)
+        Me.TableLayoutPanel30.Location = New System.Drawing.Point(234, 3)
         Me.TableLayoutPanel30.Name = "TableLayoutPanel30"
         Me.TableLayoutPanel30.RowCount = 2
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.9249!))
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.31158!))
-        Me.TableLayoutPanel30.Size = New System.Drawing.Size(698, 218)
+        Me.TableLayoutPanel30.Size = New System.Drawing.Size(688, 218)
         Me.TableLayoutPanel30.TabIndex = 1
         '
         'Panel15
@@ -117,7 +117,7 @@ Partial Class ContactPageControl
         Me.Panel15.Controls.Add(Me.RichTextBox10)
         Me.Panel15.Location = New System.Drawing.Point(3, 48)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(692, 167)
+        Me.Panel15.Size = New System.Drawing.Size(682, 167)
         Me.Panel15.TabIndex = 0
         '
         'Panel16
@@ -127,7 +127,7 @@ Partial Class ContactPageControl
         Me.Panel16.Controls.Add(Me.TableLayoutPanel31)
         Me.Panel16.Location = New System.Drawing.Point(3, 3)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(688, 88)
+        Me.Panel16.Size = New System.Drawing.Size(678, 88)
         Me.Panel16.TabIndex = 37
         '
         'TableLayoutPanel31
@@ -143,16 +143,16 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel31.Name = "TableLayoutPanel31"
         Me.TableLayoutPanel31.RowCount = 1
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel31.Size = New System.Drawing.Size(688, 88)
+        Me.TableLayoutPanel31.Size = New System.Drawing.Size(678, 88)
         Me.TableLayoutPanel31.TabIndex = 2
         '
         'Panel17
         '
         Me.Panel17.Controls.Add(Me.Label14)
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel17.Location = New System.Drawing.Point(140, 3)
+        Me.Panel17.Location = New System.Drawing.Point(138, 3)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(406, 82)
+        Me.Panel17.Size = New System.Drawing.Size(400, 82)
         Me.Panel17.TabIndex = 0
         '
         'Label14
@@ -160,7 +160,7 @@ Partial Class ContactPageControl
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(49, 0)
+        Me.Label14.Location = New System.Drawing.Point(46, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(306, 85)
         Me.Label14.TabIndex = 35
@@ -179,7 +179,7 @@ Partial Class ContactPageControl
         Me.RichTextBox10.Location = New System.Drawing.Point(71, 97)
         Me.RichTextBox10.Name = "RichTextBox10"
         Me.RichTextBox10.ReadOnly = True
-        Me.RichTextBox10.Size = New System.Drawing.Size(566, 73)
+        Me.RichTextBox10.Size = New System.Drawing.Size(556, 73)
         Me.RichTextBox10.TabIndex = 36
         Me.RichTextBox10.Text = "We value your feedback, questions, and concerns. Feel free to reach out to us thr" &
     "ough the form below, and we will respond as soon as possible."
@@ -197,7 +197,7 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1177, 570)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1160, 570)
         Me.TableLayoutPanel1.TabIndex = 35
         '
         'Panel2
@@ -219,18 +219,18 @@ Partial Class ContactPageControl
         Me.Panel2.Controls.Add(Me.pnlTxtUsername)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(278, 3)
+        Me.Panel2.Location = New System.Drawing.Point(274, 3)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(620, 564)
+        Me.Panel2.Size = New System.Drawing.Size(611, 564)
         Me.Panel2.TabIndex = 2
         '
         'btnSubmit
         '
-        Me.btnSubmit.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnSubmit.BackColor = System.Drawing.Color.Gray
         Me.btnSubmit.FlatAppearance.BorderSize = 0
         Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSubmit.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSubmit.ForeColor = System.Drawing.Color.Black
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Transparent
         Me.btnSubmit.Location = New System.Drawing.Point(445, 715)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(139, 42)
@@ -446,7 +446,7 @@ Partial Class ContactPageControl
         Me.Panel19.Controls.Add(Me.TableLayoutPanel34)
         Me.Panel19.Location = New System.Drawing.Point(3, 226)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(1174, 100)
+        Me.Panel19.Size = New System.Drawing.Size(1157, 100)
         Me.Panel19.TabIndex = 36
         '
         'TableLayoutPanel34
@@ -461,7 +461,7 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel34.Name = "TableLayoutPanel34"
         Me.TableLayoutPanel34.RowCount = 1
         Me.TableLayoutPanel34.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel34.Size = New System.Drawing.Size(1174, 100)
+        Me.TableLayoutPanel34.Size = New System.Drawing.Size(1157, 100)
         Me.TableLayoutPanel34.TabIndex = 5
         '
         'TableLayoutPanel35
@@ -470,13 +470,13 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel35.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel35.Controls.Add(Me.PictureBox9, 0, 1)
         Me.TableLayoutPanel35.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel35.Location = New System.Drawing.Point(237, 3)
+        Me.TableLayoutPanel35.Location = New System.Drawing.Point(234, 3)
         Me.TableLayoutPanel35.Name = "TableLayoutPanel35"
         Me.TableLayoutPanel35.RowCount = 3
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel35.Size = New System.Drawing.Size(698, 94)
+        Me.TableLayoutPanel35.Size = New System.Drawing.Size(688, 94)
         Me.TableLayoutPanel35.TabIndex = 0
         '
         'PictureBox9
@@ -486,7 +486,7 @@ Partial Class ContactPageControl
         Me.PictureBox9.BackColor = System.Drawing.Color.Teal
         Me.PictureBox9.Location = New System.Drawing.Point(3, 40)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(692, 5)
+        Me.PictureBox9.Size = New System.Drawing.Size(682, 5)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 38
         Me.PictureBox9.TabStop = False
@@ -501,7 +501,7 @@ Partial Class ContactPageControl
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.TableLayoutPanel29)
         Me.Name = "ContactPageControl"
-        Me.Size = New System.Drawing.Size(1180, 800)
+        Me.Size = New System.Drawing.Size(1163, 800)
         Me.TableLayoutPanel29.ResumeLayout(False)
         Me.TableLayoutPanel30.ResumeLayout(False)
         Me.Panel15.ResumeLayout(False)

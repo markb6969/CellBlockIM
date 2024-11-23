@@ -155,8 +155,15 @@
     Public Sub SwitchToVisitationStatusControl()
         switchTableLayoutPanel(tlpMain, New VisitorStatus())
     End Sub
-
-
+    Public Sub SwitchToConcernsControl()
+        switchTableLayoutPanel(tlpMain, New ConcernsControl())
+    End Sub
+    Public Sub SwitchToContactControl()
+        switchTableLayoutPanel(tlpMain, New ContactedControl())
+    End Sub
+    Public Sub SwitchToContactRecieveControl()
+        switchTableLayoutPanel(tlpMain, New ContactReply())
+    End Sub
 
 
     ' NAV

@@ -283,6 +283,24 @@
     <Compile Include="Dashboard\Manage Access\Client\ClientHomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ConcernsControl.Designer.vb">
+      <DependentUpon>ConcernsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ConcernsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ContactedControl.Designer.vb">
+      <DependentUpon>ContactedControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ContactedControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ContactReply.Designer.vb">
+      <DependentUpon>ContactReply.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\ContactReply.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Manage Access\Client\VisitorApproveControl.Designer.vb">
       <DependentUpon>VisitorApproveControl.vb</DependentUpon>
     </Compile>
@@ -555,6 +573,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Manage Access\Client\ClientHomeControl.resx">
       <DependentUpon>ClientHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\ConcernsControl.resx">
+      <DependentUpon>ConcernsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\ContactedControl.resx">
+      <DependentUpon>ContactedControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\ContactReply.resx">
+      <DependentUpon>ContactReply.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Manage Access\Client\VisitorApproveControl.resx">
       <DependentUpon>VisitorApproveControl.vb</DependentUpon>
