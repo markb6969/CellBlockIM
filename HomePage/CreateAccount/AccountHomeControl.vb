@@ -12,5 +12,8 @@
         Me.ParentForm.Hide()
     End Sub
 
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim mainForm As Home = TryCast(Me.ParentForm, Home)
+        mainForm.SwitchToAccountCreateControl()
+    End Sub
 End Class

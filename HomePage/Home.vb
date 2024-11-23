@@ -90,8 +90,15 @@
         switchPanel(pnlMain, New AccountHomeControl())
     End Sub
 
-
-
+    Public Sub SwitchToAccountCreateControl()
+        switchPanel(pnlMain, New CreateAccountControl())
+    End Sub
+    Public Sub SwitchToAccountPasswordControl()
+        switchPanel(pnlMain, New CreatePasswordControl())
+    End Sub
+    Public Sub SwitchToAccountImageControl()
+        switchPanel(pnlMain, New CreateImageControl())
+    End Sub
 
     'NAV
     Private Sub btnAbout1_Click(sender As Object, e As EventArgs) Handles btnAbout1.Click

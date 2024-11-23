@@ -146,9 +146,15 @@
     Public Sub SwitchToClientHomeControl()
         switchTableLayoutPanel(tlpMain, New ClientHomeControl())
     End Sub
-
-
-
+    Public Sub SwitchToVisitationControl()
+        switchTableLayoutPanel(tlpMain, New VisitorControl())
+    End Sub
+    Public Sub SwitchToVisitationApproveControl()
+        switchTableLayoutPanel(tlpMain, New VisitorApproveControl())
+    End Sub
+    Public Sub SwitchToVisitationStatusControl()
+        switchTableLayoutPanel(tlpMain, New VisitorStatus())
+    End Sub
 
 
 
@@ -183,7 +189,5 @@
         switchTableLayoutPanel(tlpMain, SettingsControls)
     End Sub
 
-    Private Sub MainDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class

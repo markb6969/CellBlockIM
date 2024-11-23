@@ -283,6 +283,24 @@
     <Compile Include="Dashboard\Manage Access\Client\ClientHomeControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\VisitorApproveControl.Designer.vb">
+      <DependentUpon>VisitorApproveControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\VisitorApproveControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\VisitorControl.Designer.vb">
+      <DependentUpon>VisitorControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\VisitorControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\VisitorStatus.Designer.vb">
+      <DependentUpon>VisitorStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Manage Access\Client\VisitorStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard\Manage Access\ManageHomeControl.Designer.vb">
       <DependentUpon>ManageHomeControl.vb</DependentUpon>
     </Compile>
@@ -347,6 +365,24 @@
       <DependentUpon>AccountHomeControl.vb</DependentUpon>
     </Compile>
     <Compile Include="HomePage\CreateAccount\AccountHomeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\CreateAccountControl.Designer.vb">
+      <DependentUpon>CreateAccountControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\CreateAccountControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\CreateImageControl.Designer.vb">
+      <DependentUpon>CreateImageControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\CreateImageControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\CreatePasswordControl.Designer.vb">
+      <DependentUpon>CreatePasswordControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\CreatePasswordControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="HomePage\Home.Designer.vb">
@@ -520,6 +556,15 @@
     <EmbeddedResource Include="Dashboard\Manage Access\Client\ClientHomeControl.resx">
       <DependentUpon>ClientHomeControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\VisitorApproveControl.resx">
+      <DependentUpon>VisitorApproveControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\VisitorControl.resx">
+      <DependentUpon>VisitorControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\Manage Access\Client\VisitorStatus.resx">
+      <DependentUpon>VisitorStatus.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Manage Access\ManageHomeControl.resx">
       <DependentUpon>ManageHomeControl.vb</DependentUpon>
     </EmbeddedResource>
@@ -552,6 +597,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\CreateAccount\AccountHomeControl.resx">
       <DependentUpon>AccountHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\CreateAccount\CreateAccountControl.resx">
+      <DependentUpon>CreateAccountControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\CreateAccount\CreateImageControl.resx">
+      <DependentUpon>CreateImageControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\CreateAccount\CreatePasswordControl.resx">
+      <DependentUpon>CreatePasswordControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\Home.resx">
       <DependentUpon>Home.vb</DependentUpon>

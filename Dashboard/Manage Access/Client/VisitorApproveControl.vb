@@ -1,5 +1,5 @@
-﻿Public Class ClientHomeControl
-    Private Sub btnVisitor_Click(sender As Object, e As EventArgs) Handles btnVisitor.Click
+﻿Public Class VisitorApproveControl
+    Private Sub btnApprove_Click(sender As Object, e As EventArgs) Handles btnApprove.Click
         Dim mainForm As MainDashboard = TryCast(Me.ParentForm, MainDashboard)
         mainForm.SwitchToVisitationStatusControl()
     End Sub

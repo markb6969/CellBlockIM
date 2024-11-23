@@ -67,7 +67,12 @@ Partial Class UpdateInfoControl
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.lblFirstName = New System.Windows.Forms.Label()
+        Me.pbProfilePic = New System.Windows.Forms.PictureBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btnChangePass = New System.Windows.Forms.Button()
         Me.btnUpdateInfo = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
@@ -76,11 +81,6 @@ Partial Class UpdateInfoControl
         Me.btnSuperAdmin = New System.Windows.Forms.Button()
         Me.btnAdmin = New System.Windows.Forms.Button()
         Me.btnClient = New System.Windows.Forms.Button()
-        Me.pbProfilePic = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel13.SuspendLayout()
@@ -97,13 +97,13 @@ Partial Class UpdateInfoControl
         Me.Panel15.SuspendLayout()
         Me.Panel16.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
         CType(Me.pbProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel7.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FlowLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -170,9 +170,9 @@ Partial Class UpdateInfoControl
         Me.Label5.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(80, 507)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 21)
+        Me.Label5.Size = New System.Drawing.Size(30, 21)
         Me.Label5.TabIndex = 49
-        Me.Label5.Text = "Gender"
+        Me.Label5.Text = "Sex"
         '
         'Label6
         '
@@ -637,6 +637,14 @@ Partial Class UpdateInfoControl
         Me.lblFirstName.TabIndex = 20
         Me.lblFirstName.Text = "Profile Picture"
         '
+        'pbProfilePic
+        '
+        Me.pbProfilePic.Location = New System.Drawing.Point(86, 48)
+        Me.pbProfilePic.Name = "pbProfilePic"
+        Me.pbProfilePic.Size = New System.Drawing.Size(133, 124)
+        Me.pbProfilePic.TabIndex = 0
+        Me.pbProfilePic.TabStop = False
+        '
         'Panel7
         '
         Me.Panel7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -657,6 +665,50 @@ Partial Class UpdateInfoControl
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(272, 444)
         Me.Panel7.TabIndex = 4
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.key
+        Me.PictureBox8.Location = New System.Drawing.Point(12, 155)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 24
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(252, Byte), Integer))
+        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.edit
+        Me.PictureBox4.Location = New System.Drawing.Point(11, 204)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 24
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.PictureBox3.Image = Global.CellBlockIM.My.Resources.Resources.admin_with_cogwheels__1_
+        Me.PictureBox3.Location = New System.Drawing.Point(12, 108)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 24
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.left
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 62)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 24
+        Me.PictureBox2.TabStop = False
         '
         'btnChangePass
         '
@@ -765,58 +817,6 @@ Partial Class UpdateInfoControl
         Me.btnClient.Text = "Client"
         Me.btnClient.UseVisualStyleBackColor = True
         '
-        'pbProfilePic
-        '
-        Me.pbProfilePic.Location = New System.Drawing.Point(86, 48)
-        Me.pbProfilePic.Name = "pbProfilePic"
-        Me.pbProfilePic.Size = New System.Drawing.Size(133, 124)
-        Me.pbProfilePic.TabIndex = 0
-        Me.pbProfilePic.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.PictureBox8.Image = Global.CellBlockIM.My.Resources.Resources.key
-        Me.PictureBox8.Location = New System.Drawing.Point(12, 155)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 24
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(252, Byte), Integer))
-        Me.PictureBox4.Image = Global.CellBlockIM.My.Resources.Resources.edit
-        Me.PictureBox4.Location = New System.Drawing.Point(11, 204)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(27, 27)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 24
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.PictureBox3.Image = Global.CellBlockIM.My.Resources.Resources.admin_with_cogwheels__1_
-        Me.PictureBox3.Location = New System.Drawing.Point(12, 108)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 24
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.left
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 62)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(25, 25)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 24
-        Me.PictureBox2.TabStop = False
-        '
         'UpdateInfoControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -855,13 +855,13 @@ Partial Class UpdateInfoControl
         Me.Panel16.ResumeLayout(False)
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.FlowLayoutPanel2.ResumeLayout(False)
         CType(Me.pbProfilePic, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel7.ResumeLayout(False)
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
