@@ -23,5 +23,8 @@
         End If
     End Sub
 
-
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Dim mainForm As MainDashboard = TryCast(Me.ParentForm, MainDashboard)
+        mainForm.SwitchToAddCellblockControlHome()
+    End Sub
 End Class

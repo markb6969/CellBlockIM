@@ -74,6 +74,18 @@
     Public Sub SwitchToMapPageControl()
         switchPanel(pnlMain, New MapPageControl())
     End Sub
+    Public Sub SwitchToContactPageControl()
+        switchPanel(pnlMain, New ContactPageControl())
+    End Sub
+    Public Sub SwitchToPDLInfoPageControl()
+        switchPanel(pnlMain, New InmateReportControls())
+    End Sub
+    Public Sub SwitchToReportConcernPageControl()
+        switchPanel(pnlMain, New ReportConcernControl())
+    End Sub
+    Public Sub SwitchToVisitationControl()
+        switchPanel(pnlMain, New VisitationControl())
+    End Sub
 
     'NAV
     Private Sub btnAbout1_Click(sender As Object, e As EventArgs) Handles btnAbout1.Click
@@ -88,7 +100,11 @@
         SwitchToInmatePageControl()
     End Sub
 
-    Private Sub btnLocation1_Click(sender As Object, e As EventArgs) Handles btnLocation1.Click
+    Private Sub btnLocation1_Click(sender As Object, e As EventArgs)
         SwitchToMapPageControl()
+    End Sub
+
+    Private Sub btnContact1_Click(sender As Object, e As EventArgs) Handles btnContact1.Click
+        SwitchToContactPageControl()
     End Sub
 End Class

@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RichTextBox3.Text" xml:space="preserve">
-    <value>Our system facilitates communication between clients and their designated contacts via secure phone services. We maintain strict controls to ensure all calls adhere to security guidelines, preventing misuse or inappropriate purposes.</value>
-  </data>
-  <data name="RichTextBox5.Text" xml:space="preserve">
-    <value>To ensure system integrity, certain limitations on phone privileges may be imposed, based on activity or behavior. This guarantees that communication aligns with our security protocols and correctional management responsibilities.
-</value>
-  </data>
-  <data name="RichTextBox6.Text" xml:space="preserve">
-    <value>All phone calls are monitored for security purposes, with the exception of privileged calls, such as legal discussions, which are allowed under specific conditions and may be unmonitored to maintain confidentiality.</value>
-  </data>
-  <data name="RichTextBox12.Text" xml:space="preserve">
-    <value>PDL are not allowed to receive packages from home without prior written approval from the authorized staff member at the institution.  All packages undergo inspection to prevent any security breaches or violations of institutional policies.</value>
-  </data>
-  <data name="RichTextBox2.Text" xml:space="preserve">
-    <value>Our population consists of individuals awaiting trial for violating Philippine laws or those who have already been convicted of crimes. In accordance with national legal provisions, we also confine offenders convicted of serious felonies.</value>
-  </data>
 </root>

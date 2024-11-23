@@ -20,8 +20,6 @@
         RichTextBox9.SelectionAlignment = HorizontalAlignment.Center
         RichTextBox10.SelectAll()
         RichTextBox10.SelectionAlignment = HorizontalAlignment.Center
-        RichTextBox11.SelectAll()
-        RichTextBox11.SelectionAlignment = HorizontalAlignment.Center
         RichTextBox12.SelectAll()
         RichTextBox12.SelectionAlignment = HorizontalAlignment.Center
         RichTextBox14.SelectAll()
@@ -32,5 +30,18 @@
         RichTextBox16.SelectionAlignment = HorizontalAlignment.Center
     End Sub
 
+    Private Sub btnGoGenerate_Click(sender As Object, e As EventArgs)
+        Dim mainForm As Home = TryCast(Me.ParentForm, Home)
+        mainForm.SwitchToPDLInfoPageControl()
+    End Sub
 
+    Private Sub btnVisitation_Click(sender As Object, e As EventArgs) Handles btnVisitation.Click
+        Dim mainForm As Home = TryCast(Me.ParentForm, Home)
+        mainForm.SwitchToVisitationControl()
+    End Sub
+
+    Private Sub btnReportConcern_Click(sender As Object, e As EventArgs) Handles btnReportConcern.Click
+        Dim mainForm As Home = TryCast(Me.ParentForm, Home)
+        mainForm.SwitchToReportConcernPageControl()
+    End Sub
 End Class
