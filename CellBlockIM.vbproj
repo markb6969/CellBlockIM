@@ -79,6 +79,48 @@
     <Compile Include="AdminDashboard\DashboadAdmin\AdminMainDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminClientHome.Designer.vb">
+      <DependentUpon>AdminClientHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminClientHome.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminConcernControl.Designer.vb">
+      <DependentUpon>AdminConcernControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminConcernControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminContactControl.Designer.vb">
+      <DependentUpon>AdminContactControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminContactControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminContactReply.Designer.vb">
+      <DependentUpon>AdminContactReply.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminContactReply.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorApprove.Designer.vb">
+      <DependentUpon>AdminVisitorApprove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorApprove.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorControl.Designer.vb">
+      <DependentUpon>AdminVisitorControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorStatus.Designer.vb">
+      <DependentUpon>AdminVisitorStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Me\AdminChangePassword.Designer.vb">
       <DependentUpon>AdminChangePassword.vb</DependentUpon>
     </Compile>
@@ -97,10 +139,22 @@
     <Compile Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Me\AdminUpdateInfo.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\Settings\AdminSettingsControl.Designer.vb">
+      <DependentUpon>AdminSettingsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\Settings\AdminSettingsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="AdminDashboard\LoginAdmin.Designer.vb">
       <DependentUpon>LoginAdmin.vb</DependentUpon>
     </Compile>
     <Compile Include="AdminDashboard\LoginAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard\LogoutAdmin.Designer.vb">
+      <DependentUpon>LogoutAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\LogoutAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControl.Designer.vb">
@@ -496,6 +550,27 @@
     <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminMainDashboard.resx">
       <DependentUpon>AdminMainDashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminClientHome.resx">
+      <DependentUpon>AdminClientHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminConcernControl.resx">
+      <DependentUpon>AdminConcernControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminContactControl.resx">
+      <DependentUpon>AdminContactControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminContactReply.resx">
+      <DependentUpon>AdminContactReply.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorApprove.resx">
+      <DependentUpon>AdminVisitorApprove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorControl.resx">
+      <DependentUpon>AdminVisitorControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Admin Client\AdminVisitorStatus.resx">
+      <DependentUpon>AdminVisitorStatus.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Me\AdminChangePassword.resx">
       <DependentUpon>AdminChangePassword.vb</DependentUpon>
     </EmbeddedResource>
@@ -505,8 +580,14 @@
     <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminManageInfo\Me\AdminUpdateInfo.resx">
       <DependentUpon>AdminUpdateInfo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\Settings\AdminSettingsControl.resx">
+      <DependentUpon>AdminSettingsControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminDashboard\LoginAdmin.resx">
       <DependentUpon>LoginAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard\LogoutAdmin.resx">
+      <DependentUpon>LogoutAdmin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockControl.resx">
       <DependentUpon>AddCellblockControl.vb</DependentUpon>

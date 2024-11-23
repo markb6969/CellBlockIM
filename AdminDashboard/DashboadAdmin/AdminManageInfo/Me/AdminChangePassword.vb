@@ -17,4 +17,9 @@
         Dim mainForm As AdminMainDashboard = TryCast(Me.ParentForm, AdminMainDashboard)
         mainForm.SwitchToUpdateAdminControl()
     End Sub
+
+    Private Sub btnClient_Click(sender As Object, e As EventArgs) Handles btnClient.Click
+        Dim mainForm As AdminMainDashboard = TryCast(Me.ParentForm, AdminMainDashboard)
+        mainForm.SwitchToAdminClientHomeControl()
+    End Sub
 End Class

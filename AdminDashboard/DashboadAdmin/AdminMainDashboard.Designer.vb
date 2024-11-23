@@ -31,22 +31,22 @@ Partial Class AdminMainDashboard
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.lblTotalText = New System.Windows.Forms.Label()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnMainDB = New System.Windows.Forms.Button()
         Me.btnAddEntity = New System.Windows.Forms.Button()
         Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnSettings = New System.Windows.Forms.Button()
-        Me.lblTotalText = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.btnManageInmate = New System.Windows.Forms.Button()
         Me.btnManageUser = New System.Windows.Forms.Button()
+        Me.btnSettings = New System.Windows.Forms.Button()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.tlpMain.SuspendLayout()
         Me.Panel4.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.FlowLayoutPanel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel2
@@ -157,6 +157,44 @@ Partial Class AdminMainDashboard
         Me.Panel4.Size = New System.Drawing.Size(250, 207)
         Me.Panel4.TabIndex = 0
         '
+        'lblTotalText
+        '
+        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblTotalText.AutoSize = True
+        Me.lblTotalText.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalText.Location = New System.Drawing.Point(878, 118)
+        Me.lblTotalText.Name = "lblTotalText"
+        Me.lblTotalText.Size = New System.Drawing.Size(256, 23)
+        Me.lblTotalText.TabIndex = 34
+        Me.lblTotalText.Text = "Total Persons Deprived of Liberty (PDL)"
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.CustomFormat = "MMMM, dd, yyyy"
+        Me.DateTimePicker1.Enabled = False
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.DateTimePicker1.Location = New System.Drawing.Point(259, 118)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 27)
+        Me.DateTimePicker1.TabIndex = 33
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnMainDB)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnAddEntity)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnReport)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageInmate)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageUser)
+        Me.FlowLayoutPanel1.Controls.Add(Me.btnSettings)
+        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(253, 761)
+        Me.FlowLayoutPanel1.TabIndex = 35
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
@@ -204,56 +242,6 @@ Partial Class AdminMainDashboard
         Me.btnReport.TabIndex = 1
         Me.btnReport.UseVisualStyleBackColor = False
         '
-        'btnSettings
-        '
-        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.btnSettings.FlatAppearance.BorderSize = 0
-        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
-        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
-        Me.btnSettings.TabIndex = 1
-        Me.btnSettings.UseVisualStyleBackColor = False
-        '
-        'lblTotalText
-        '
-        Me.lblTotalText.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblTotalText.AutoSize = True
-        Me.lblTotalText.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalText.Location = New System.Drawing.Point(878, 118)
-        Me.lblTotalText.Name = "lblTotalText"
-        Me.lblTotalText.Size = New System.Drawing.Size(256, 23)
-        Me.lblTotalText.TabIndex = 34
-        Me.lblTotalText.Text = "Total Persons Deprived of Liberty (PDL)"
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.CustomFormat = "MMMM, dd, yyyy"
-        Me.DateTimePicker1.Enabled = False
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(259, 118)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 27)
-        Me.DateTimePicker1.TabIndex = 33
-        '
-        'FlowLayoutPanel1
-        '
-        Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnMainDB)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnAddEntity)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnReport)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageInmate)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageUser)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnSettings)
-        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(253, 761)
-        Me.FlowLayoutPanel1.TabIndex = 35
-        '
         'btnManageInmate
         '
         Me.btnManageInmate.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
@@ -278,6 +266,18 @@ Partial Class AdminMainDashboard
         Me.btnManageUser.TabIndex = 1
         Me.btnManageUser.UseVisualStyleBackColor = False
         '
+        'btnSettings
+        '
+        Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Image = Global.CellBlockIM.My.Resources.Resources.setting__2_
+        Me.btnSettings.Location = New System.Drawing.Point(0, 621)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(250, 75)
+        Me.btnSettings.TabIndex = 1
+        Me.btnSettings.UseVisualStyleBackColor = False
+        '
         'AdminMainDashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -297,8 +297,8 @@ Partial Class AdminMainDashboard
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.tlpMain.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -317,10 +317,10 @@ Partial Class AdminMainDashboard
     Friend WithEvents btnMainDB As Button
     Friend WithEvents btnAddEntity As Button
     Friend WithEvents btnReport As Button
-    Friend WithEvents btnSettings As Button
     Friend WithEvents lblTotalText As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents btnManageInmate As Button
     Friend WithEvents btnManageUser As Button
+    Friend WithEvents btnSettings As Button
 End Class

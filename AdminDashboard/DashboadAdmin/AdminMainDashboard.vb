@@ -179,6 +179,32 @@
     Public Sub SwitchToAdminChangePassControl()
         switchTableLayoutPanel(tlpMain, New AdminChangePassword())
     End Sub
+    Public Sub SwitchToAdminClientHomeControl()
+        switchTableLayoutPanel(tlpMain, New AdminClientHome())
+    End Sub
+    'ADMIN VISITOR
+    Public Sub SwitchToAdminVisitorControl()
+        switchTableLayoutPanel(tlpMain, New AdminVisitorControl())
+    End Sub
+    Public Sub SwitchToAdminVisitorStatusControl()
+        switchTableLayoutPanel(tlpMain, New AdminVisitorStatus())
+    End Sub
+    Public Sub SwitchToAdminVisitorApproveControl()
+        switchTableLayoutPanel(tlpMain, New AdminVisitorApprove())
+    End Sub
+
+    'ADMIN CONCERN
+    Public Sub SwitchToAdminConcernControl()
+        switchTableLayoutPanel(tlpMain, New AdminConcernControl())
+    End Sub
+
+    'ADMIN CONTACT
+    Public Sub SwitchToAdminContactControl()
+        switchTableLayoutPanel(tlpMain, New AdminContactControl())
+    End Sub
+    Public Sub SwitchToAdminContactReplyControl()
+        switchTableLayoutPanel(tlpMain, New AdminContactReply())
+    End Sub
 
     ' NAV
     Private Sub btnMainDB_Click(sender As Object, e As EventArgs) Handles btnMainDB.Click
@@ -206,8 +232,8 @@
     End Sub
 
     Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
-        Dim SettingsControls As New SettingsControl()
-        switchTableLayoutPanel(tlpMain, SettingsControls)
+        Dim AdminSettingsControls As New AdminSettingsControl()
+        switchTableLayoutPanel(tlpMain, AdminSettingsControls)
     End Sub
 
     Private Sub MainDashboard_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
