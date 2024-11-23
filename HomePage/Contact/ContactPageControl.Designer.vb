@@ -33,6 +33,21 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.rtxtMessage = New System.Windows.Forms.RichTextBox()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.txtPhone = New System.Windows.Forms.TextBox()
+        Me.lblSybjet = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.txtSubject = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.lblFirstName = New System.Windows.Forms.Label()
         Me.pnlTxtUsername = New System.Windows.Forms.Panel()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
@@ -41,21 +56,6 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel34 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel35 = New System.Windows.Forms.TableLayoutPanel()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.txtEmail = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.txtSubject = New System.Windows.Forms.TextBox()
-        Me.lblSybjet = New System.Windows.Forms.Label()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.rtxtMessage = New System.Windows.Forms.RichTextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtPhone = New System.Windows.Forms.TextBox()
         Me.TableLayoutPanel29.SuspendLayout()
         Me.TableLayoutPanel30.SuspendLayout()
         Me.Panel15.SuspendLayout()
@@ -64,16 +64,16 @@ Partial Class ContactPageControl
         Me.Panel17.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.Panel8.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
         Me.Panel19.SuspendLayout()
         Me.TableLayoutPanel34.SuspendLayout()
         Me.TableLayoutPanel35.SuspendLayout()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel8.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        Me.Panel3.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Panel5.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel29
@@ -89,7 +89,7 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 1
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel29.Size = New System.Drawing.Size(1191, 224)
+        Me.TableLayoutPanel29.Size = New System.Drawing.Size(1174, 224)
         Me.TableLayoutPanel29.TabIndex = 34
         '
         'TableLayoutPanel30
@@ -99,12 +99,12 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel30.ColumnCount = 1
         Me.TableLayoutPanel30.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel30.Controls.Add(Me.Panel15, 0, 1)
-        Me.TableLayoutPanel30.Location = New System.Drawing.Point(241, 3)
+        Me.TableLayoutPanel30.Location = New System.Drawing.Point(237, 3)
         Me.TableLayoutPanel30.Name = "TableLayoutPanel30"
         Me.TableLayoutPanel30.RowCount = 2
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.9249!))
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.31158!))
-        Me.TableLayoutPanel30.Size = New System.Drawing.Size(708, 218)
+        Me.TableLayoutPanel30.Size = New System.Drawing.Size(698, 218)
         Me.TableLayoutPanel30.TabIndex = 1
         '
         'Panel15
@@ -117,7 +117,7 @@ Partial Class ContactPageControl
         Me.Panel15.Controls.Add(Me.RichTextBox10)
         Me.Panel15.Location = New System.Drawing.Point(3, 48)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(702, 167)
+        Me.Panel15.Size = New System.Drawing.Size(692, 167)
         Me.Panel15.TabIndex = 0
         '
         'Panel16
@@ -127,7 +127,7 @@ Partial Class ContactPageControl
         Me.Panel16.Controls.Add(Me.TableLayoutPanel31)
         Me.Panel16.Location = New System.Drawing.Point(3, 3)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(698, 88)
+        Me.Panel16.Size = New System.Drawing.Size(688, 88)
         Me.Panel16.TabIndex = 37
         '
         'TableLayoutPanel31
@@ -143,16 +143,16 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel31.Name = "TableLayoutPanel31"
         Me.TableLayoutPanel31.RowCount = 1
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel31.Size = New System.Drawing.Size(698, 88)
+        Me.TableLayoutPanel31.Size = New System.Drawing.Size(688, 88)
         Me.TableLayoutPanel31.TabIndex = 2
         '
         'Panel17
         '
         Me.Panel17.Controls.Add(Me.Label14)
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel17.Location = New System.Drawing.Point(142, 3)
+        Me.Panel17.Location = New System.Drawing.Point(140, 3)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(412, 82)
+        Me.Panel17.Size = New System.Drawing.Size(406, 82)
         Me.Panel17.TabIndex = 0
         '
         'Label14
@@ -160,7 +160,7 @@ Partial Class ContactPageControl
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Poppins SemiBold", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(52, 0)
+        Me.Label14.Location = New System.Drawing.Point(49, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(306, 85)
         Me.Label14.TabIndex = 35
@@ -179,7 +179,7 @@ Partial Class ContactPageControl
         Me.RichTextBox10.Location = New System.Drawing.Point(71, 97)
         Me.RichTextBox10.Name = "RichTextBox10"
         Me.RichTextBox10.ReadOnly = True
-        Me.RichTextBox10.Size = New System.Drawing.Size(576, 73)
+        Me.RichTextBox10.Size = New System.Drawing.Size(566, 73)
         Me.RichTextBox10.TabIndex = 36
         Me.RichTextBox10.Text = "We value your feedback, questions, and concerns. Feel free to reach out to us thr" &
     "ough the form below, and we will respond as soon as possible."
@@ -197,7 +197,7 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1194, 570)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1177, 570)
         Me.TableLayoutPanel1.TabIndex = 35
         '
         'Panel2
@@ -219,9 +219,9 @@ Partial Class ContactPageControl
         Me.Panel2.Controls.Add(Me.pnlTxtUsername)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(281, 3)
+        Me.Panel2.Location = New System.Drawing.Point(278, 3)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(630, 564)
+        Me.Panel2.Size = New System.Drawing.Size(620, 564)
         Me.Panel2.TabIndex = 2
         '
         'btnSubmit
@@ -237,6 +237,165 @@ Partial Class ContactPageControl
         Me.btnSubmit.TabIndex = 54
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = False
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(44, 624)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(98, 21)
+        Me.Label5.TabIndex = 25
+        Me.Label5.Text = "Phone number"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(44, 533)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(161, 21)
+        Me.Label3.TabIndex = 25
+        Me.Label3.Text = "Preferred Contact Method"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(44, 307)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(65, 21)
+        Me.Label2.TabIndex = 25
+        Me.Label2.Text = "Message:"
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.rtxtMessage)
+        Me.Panel3.Location = New System.Drawing.Point(48, 331)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(352, 172)
+        Me.Panel3.TabIndex = 24
+        '
+        'rtxtMessage
+        '
+        Me.rtxtMessage.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.rtxtMessage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.rtxtMessage.Font = New System.Drawing.Font("Poppins", 11.25!)
+        Me.rtxtMessage.Location = New System.Drawing.Point(8, 14)
+        Me.rtxtMessage.Name = "rtxtMessage"
+        Me.rtxtMessage.Size = New System.Drawing.Size(331, 143)
+        Me.rtxtMessage.TabIndex = 1
+        Me.rtxtMessage.Text = "--"
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel5.Controls.Add(Me.txtPhone)
+        Me.Panel5.Location = New System.Drawing.Point(48, 648)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(352, 44)
+        Me.Panel5.TabIndex = 24
+        '
+        'txtPhone
+        '
+        Me.txtPhone.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtPhone.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtPhone.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPhone.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtPhone.Location = New System.Drawing.Point(8, 9)
+        Me.txtPhone.Name = "txtPhone"
+        Me.txtPhone.Size = New System.Drawing.Size(335, 24)
+        Me.txtPhone.TabIndex = 1
+        Me.txtPhone.Text = "+63-1234567890"
+        '
+        'lblSybjet
+        '
+        Me.lblSybjet.AutoSize = True
+        Me.lblSybjet.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSybjet.Location = New System.Drawing.Point(44, 221)
+        Me.lblSybjet.Name = "lblSybjet"
+        Me.lblSybjet.Size = New System.Drawing.Size(54, 21)
+        Me.lblSybjet.TabIndex = 25
+        Me.lblSybjet.Text = "Subject"
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.ComboBox1)
+        Me.Panel4.Location = New System.Drawing.Point(48, 557)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(352, 44)
+        Me.Panel4.TabIndex = 24
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {" Email", " Phone", "No Preference"})
+        Me.ComboBox1.Location = New System.Drawing.Point(13, 6)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(327, 31)
+        Me.ComboBox1.TabIndex = 0
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.txtSubject)
+        Me.Panel1.Location = New System.Drawing.Point(45, 245)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(352, 44)
+        Me.Panel1.TabIndex = 24
+        '
+        'txtSubject
+        '
+        Me.txtSubject.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtSubject.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSubject.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSubject.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtSubject.Location = New System.Drawing.Point(12, 9)
+        Me.txtSubject.Name = "txtSubject"
+        Me.txtSubject.Size = New System.Drawing.Size(335, 24)
+        Me.txtSubject.TabIndex = 0
+        Me.txtSubject.Text = "--"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(40, 141)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(42, 21)
+        Me.Label1.TabIndex = 25
+        Me.Label1.Text = "Email"
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel8.Controls.Add(Me.txtEmail)
+        Me.Panel8.Location = New System.Drawing.Point(44, 165)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(352, 44)
+        Me.Panel8.TabIndex = 24
+        '
+        'txtEmail
+        '
+        Me.txtEmail.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtEmail.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEmail.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtEmail.Location = New System.Drawing.Point(12, 9)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(335, 24)
+        Me.txtEmail.TabIndex = 0
+        Me.txtEmail.Text = "Email address"
         '
         'lblFirstName
         '
@@ -287,7 +446,7 @@ Partial Class ContactPageControl
         Me.Panel19.Controls.Add(Me.TableLayoutPanel34)
         Me.Panel19.Location = New System.Drawing.Point(3, 226)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(1191, 100)
+        Me.Panel19.Size = New System.Drawing.Size(1174, 100)
         Me.Panel19.TabIndex = 36
         '
         'TableLayoutPanel34
@@ -302,7 +461,7 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel34.Name = "TableLayoutPanel34"
         Me.TableLayoutPanel34.RowCount = 1
         Me.TableLayoutPanel34.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel34.Size = New System.Drawing.Size(1191, 100)
+        Me.TableLayoutPanel34.Size = New System.Drawing.Size(1174, 100)
         Me.TableLayoutPanel34.TabIndex = 5
         '
         'TableLayoutPanel35
@@ -311,13 +470,13 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel35.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel35.Controls.Add(Me.PictureBox9, 0, 1)
         Me.TableLayoutPanel35.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel35.Location = New System.Drawing.Point(241, 3)
+        Me.TableLayoutPanel35.Location = New System.Drawing.Point(237, 3)
         Me.TableLayoutPanel35.Name = "TableLayoutPanel35"
         Me.TableLayoutPanel35.RowCount = 3
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel35.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel35.Size = New System.Drawing.Size(708, 94)
+        Me.TableLayoutPanel35.Size = New System.Drawing.Size(698, 94)
         Me.TableLayoutPanel35.TabIndex = 0
         '
         'PictureBox9
@@ -327,169 +486,10 @@ Partial Class ContactPageControl
         Me.PictureBox9.BackColor = System.Drawing.Color.Teal
         Me.PictureBox9.Location = New System.Drawing.Point(3, 40)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(702, 5)
+        Me.PictureBox9.Size = New System.Drawing.Size(692, 5)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 38
         Me.PictureBox9.TabStop = False
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel8.Controls.Add(Me.txtEmail)
-        Me.Panel8.Location = New System.Drawing.Point(44, 165)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(352, 44)
-        Me.Panel8.TabIndex = 24
-        '
-        'txtEmail
-        '
-        Me.txtEmail.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtEmail.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtEmail.Location = New System.Drawing.Point(12, 9)
-        Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(335, 24)
-        Me.txtEmail.TabIndex = 0
-        Me.txtEmail.Text = "Email address"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(40, 141)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(42, 21)
-        Me.Label1.TabIndex = 25
-        Me.Label1.Text = "Email"
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.txtSubject)
-        Me.Panel1.Location = New System.Drawing.Point(45, 245)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(352, 44)
-        Me.Panel1.TabIndex = 24
-        '
-        'txtSubject
-        '
-        Me.txtSubject.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtSubject.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtSubject.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSubject.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtSubject.Location = New System.Drawing.Point(12, 9)
-        Me.txtSubject.Name = "txtSubject"
-        Me.txtSubject.Size = New System.Drawing.Size(335, 24)
-        Me.txtSubject.TabIndex = 0
-        Me.txtSubject.Text = "--"
-        '
-        'lblSybjet
-        '
-        Me.lblSybjet.AutoSize = True
-        Me.lblSybjet.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSybjet.Location = New System.Drawing.Point(44, 221)
-        Me.lblSybjet.Name = "lblSybjet"
-        Me.lblSybjet.Size = New System.Drawing.Size(54, 21)
-        Me.lblSybjet.TabIndex = 25
-        Me.lblSybjet.Text = "Subject"
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel3.Controls.Add(Me.rtxtMessage)
-        Me.Panel3.Location = New System.Drawing.Point(48, 331)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(352, 172)
-        Me.Panel3.TabIndex = 24
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(44, 307)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(65, 21)
-        Me.Label2.TabIndex = 25
-        Me.Label2.Text = "Message:"
-        '
-        'rtxtMessage
-        '
-        Me.rtxtMessage.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.rtxtMessage.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.rtxtMessage.Font = New System.Drawing.Font("Poppins", 11.25!)
-        Me.rtxtMessage.Location = New System.Drawing.Point(8, 14)
-        Me.rtxtMessage.Name = "rtxtMessage"
-        Me.rtxtMessage.Size = New System.Drawing.Size(331, 143)
-        Me.rtxtMessage.TabIndex = 1
-        Me.rtxtMessage.Text = "--"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(44, 533)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(161, 21)
-        Me.Label3.TabIndex = 25
-        Me.Label3.Text = "Preferred Contact Method"
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.ComboBox1)
-        Me.Panel4.Location = New System.Drawing.Point(48, 557)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(352, 44)
-        Me.Panel4.TabIndex = 24
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {" Email", " Phone", "No Preference"})
-        Me.ComboBox1.Location = New System.Drawing.Point(13, 6)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(327, 31)
-        Me.ComboBox1.TabIndex = 0
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel5.Controls.Add(Me.txtPhone)
-        Me.Panel5.Location = New System.Drawing.Point(48, 648)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(352, 44)
-        Me.Panel5.TabIndex = 24
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(44, 624)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 21)
-        Me.Label5.TabIndex = 25
-        Me.Label5.Text = "Phone number"
-        '
-        'txtPhone
-        '
-        Me.txtPhone.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtPhone.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtPhone.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPhone.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtPhone.Location = New System.Drawing.Point(8, 9)
-        Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(335, 24)
-        Me.txtPhone.TabIndex = 1
-        Me.txtPhone.Text = "+63-1234567890"
         '
         'ContactPageControl
         '
@@ -501,7 +501,7 @@ Partial Class ContactPageControl
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.TableLayoutPanel29)
         Me.Name = "ContactPageControl"
-        Me.Size = New System.Drawing.Size(1197, 800)
+        Me.Size = New System.Drawing.Size(1180, 800)
         Me.TableLayoutPanel29.ResumeLayout(False)
         Me.TableLayoutPanel30.ResumeLayout(False)
         Me.Panel15.ResumeLayout(False)
@@ -512,20 +512,20 @@ Partial Class ContactPageControl
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
         Me.Panel19.ResumeLayout(False)
         Me.TableLayoutPanel34.ResumeLayout(False)
         Me.TableLayoutPanel35.ResumeLayout(False)
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel5.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

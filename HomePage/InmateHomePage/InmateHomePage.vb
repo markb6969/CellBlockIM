@@ -44,4 +44,9 @@
         Dim mainForm As Home = TryCast(Me.ParentForm, Home)
         mainForm.SwitchToReportConcernPageControl()
     End Sub
+
+    Private Sub btnGenerate_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
+        Dim mainForm As Home = TryCast(Me.ParentForm, Home)
+        mainForm.SwitchToPDLInfoPageControl()
+    End Sub
 End Class

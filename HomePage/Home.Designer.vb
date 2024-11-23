@@ -27,7 +27,6 @@ Partial Class Home
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
-        Me.btnAccount = New System.Windows.Forms.Button()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.btnHome = New System.Windows.Forms.Button()
         Me.btnAbout1 = New System.Windows.Forms.Button()
@@ -35,7 +34,6 @@ Partial Class Home
         Me.btnContact1 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel15 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel8 = New System.Windows.Forms.Panel()
@@ -44,28 +42,21 @@ Partial Class Home
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel19 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel20 = New System.Windows.Forms.TableLayoutPanel()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel11 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.pbNextImage = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.pbMainImage = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel12 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.btnNextImg = New System.Windows.Forms.Button()
-        Me.btnPreviousImg = New System.Windows.Forms.Button()
         Me.TableLayoutPanel13 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel10 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.pbPrevImage = New System.Windows.Forms.PictureBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel17 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel18 = New System.Windows.Forms.TableLayoutPanel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel16 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -73,7 +64,6 @@ Partial Class Home
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel14 = New System.Windows.Forms.TableLayoutPanel()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -82,6 +72,16 @@ Partial Class Home
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.rtxtHeadline = New System.Windows.Forms.RichTextBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.pbNextImage = New System.Windows.Forms.PictureBox()
+        Me.pbMainImage = New System.Windows.Forms.PictureBox()
+        Me.btnNextImg = New System.Windows.Forms.Button()
+        Me.btnPreviousImg = New System.Windows.Forms.Button()
+        Me.pbPrevImage = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnAccount = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
@@ -89,40 +89,40 @@ Partial Class Home
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel15.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.pnlMain.SuspendLayout()
         Me.Panel11.SuspendLayout()
         Me.TableLayoutPanel19.SuspendLayout()
         Me.TableLayoutPanel20.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel8.SuspendLayout()
         Me.TableLayoutPanel11.SuspendLayout()
         Me.Panel4.SuspendLayout()
-        CType(Me.pbNextImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel9.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        CType(Me.pbMainImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel12.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.TableLayoutPanel13.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.TableLayoutPanel10.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        CType(Me.pbPrevImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel10.SuspendLayout()
         Me.TableLayoutPanel17.SuspendLayout()
         Me.TableLayoutPanel18.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel16.SuspendLayout()
         Me.Panel9.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel14.SuspendLayout()
         Me.FlowLayoutPanel2.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel7.SuspendLayout()
         Me.Panel6.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbNextImage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbMainImage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPrevImage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -186,20 +186,6 @@ Partial Class Home
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel4.Size = New System.Drawing.Size(854, 52)
         Me.TableLayoutPanel4.TabIndex = 0
-        '
-        'btnAccount
-        '
-        Me.btnAccount.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnAccount.BackColor = System.Drawing.Color.Transparent
-        Me.btnAccount.FlatAppearance.BorderSize = 0
-        Me.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAccount.Image = CType(resources.GetObject("btnAccount.Image"), System.Drawing.Image)
-        Me.btnAccount.Location = New System.Drawing.Point(3, 3)
-        Me.btnAccount.Name = "btnAccount"
-        Me.btnAccount.Size = New System.Drawing.Size(114, 40)
-        Me.btnAccount.TabIndex = 7
-        Me.btnAccount.UseVisualStyleBackColor = False
         '
         'TableLayoutPanel5
         '
@@ -309,17 +295,6 @@ Partial Class Home
         Me.Panel1.Size = New System.Drawing.Size(278, 96)
         Me.Panel1.TabIndex = 0
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(4, -8)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(116, 113)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 20
-        Me.PictureBox1.TabStop = False
-        '
         'Label20
         '
         Me.Label20.AutoSize = True
@@ -426,18 +401,6 @@ Partial Class Home
         Me.TableLayoutPanel20.Size = New System.Drawing.Size(702, 80)
         Me.TableLayoutPanel20.TabIndex = 0
         '
-        'PictureBox4
-        '
-        Me.PictureBox4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox4.BackColor = System.Drawing.Color.Teal
-        Me.PictureBox4.Location = New System.Drawing.Point(3, 33)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(696, 5)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 38
-        Me.PictureBox4.TabStop = False
-        '
         'TableLayoutPanel8
         '
         Me.TableLayoutPanel8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -454,7 +417,7 @@ Partial Class Home
         Me.TableLayoutPanel8.Name = "TableLayoutPanel8"
         Me.TableLayoutPanel8.RowCount = 1
         Me.TableLayoutPanel8.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel8.Size = New System.Drawing.Size(1194, 505)
+        Me.TableLayoutPanel8.Size = New System.Drawing.Size(1231, 505)
         Me.TableLayoutPanel8.TabIndex = 27
         '
         'TableLayoutPanel11
@@ -463,13 +426,13 @@ Partial Class Home
         Me.TableLayoutPanel11.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel11.Controls.Add(Me.Panel4, 0, 1)
         Me.TableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel11.Location = New System.Drawing.Point(925, 3)
+        Me.TableLayoutPanel11.Location = New System.Drawing.Point(953, 3)
         Me.TableLayoutPanel11.Name = "TableLayoutPanel11"
         Me.TableLayoutPanel11.RowCount = 3
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33333!))
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 73.33333!))
         Me.TableLayoutPanel11.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33333!))
-        Me.TableLayoutPanel11.Size = New System.Drawing.Size(266, 499)
+        Me.TableLayoutPanel11.Size = New System.Drawing.Size(275, 499)
         Me.TableLayoutPanel11.TabIndex = 2
         '
         'Panel4
@@ -478,20 +441,8 @@ Partial Class Home
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(3, 69)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(260, 359)
+        Me.Panel4.Size = New System.Drawing.Size(269, 359)
         Me.Panel4.TabIndex = 0
-        '
-        'pbNextImage
-        '
-        Me.pbNextImage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pbNextImage.Location = New System.Drawing.Point(-3, 62)
-        Me.pbNextImage.Name = "pbNextImage"
-        Me.pbNextImage.Size = New System.Drawing.Size(303, 224)
-        Me.pbNextImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pbNextImage.TabIndex = 7
-        Me.pbNextImage.TabStop = False
         '
         'TableLayoutPanel9
         '
@@ -501,13 +452,13 @@ Partial Class Home
         Me.TableLayoutPanel9.Controls.Add(Me.TableLayoutPanel12, 0, 2)
         Me.TableLayoutPanel9.Controls.Add(Me.TableLayoutPanel13, 0, 0)
         Me.TableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(274, 3)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(282, 3)
         Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
         Me.TableLayoutPanel9.RowCount = 3
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.218885!))
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.93348!))
         Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.84764!))
-        Me.TableLayoutPanel9.Size = New System.Drawing.Size(645, 499)
+        Me.TableLayoutPanel9.Size = New System.Drawing.Size(665, 499)
         Me.TableLayoutPanel9.TabIndex = 0
         '
         'Panel2
@@ -516,20 +467,8 @@ Partial Class Home
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(3, 29)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(639, 407)
+        Me.Panel2.Size = New System.Drawing.Size(659, 407)
         Me.Panel2.TabIndex = 0
-        '
-        'pbMainImage
-        '
-        Me.pbMainImage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pbMainImage.Location = New System.Drawing.Point(42, 0)
-        Me.pbMainImage.Name = "pbMainImage"
-        Me.pbMainImage.Size = New System.Drawing.Size(564, 407)
-        Me.pbMainImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pbMainImage.TabIndex = 7
-        Me.pbMainImage.TabStop = False
         '
         'TableLayoutPanel12
         '
@@ -545,42 +484,17 @@ Partial Class Home
         Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
         Me.TableLayoutPanel12.RowCount = 1
         Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel12.Size = New System.Drawing.Size(639, 54)
+        Me.TableLayoutPanel12.Size = New System.Drawing.Size(659, 54)
         Me.TableLayoutPanel12.TabIndex = 1
         '
         'Panel5
         '
         Me.Panel5.Controls.Add(Me.btnNextImg)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(162, 3)
+        Me.Panel5.Location = New System.Drawing.Point(167, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(153, 48)
+        Me.Panel5.Size = New System.Drawing.Size(158, 48)
         Me.Panel5.TabIndex = 0
-        '
-        'btnNextImg
-        '
-        Me.btnNextImg.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnNextImg.BackColor = System.Drawing.Color.Transparent
-        Me.btnNextImg.FlatAppearance.BorderSize = 0
-        Me.btnNextImg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnNextImg.Image = Global.CellBlockIM.My.Resources.Resources.left2
-        Me.btnNextImg.Location = New System.Drawing.Point(104, -7)
-        Me.btnNextImg.Name = "btnNextImg"
-        Me.btnNextImg.Size = New System.Drawing.Size(48, 48)
-        Me.btnNextImg.TabIndex = 8
-        Me.btnNextImg.UseVisualStyleBackColor = False
-        '
-        'btnPreviousImg
-        '
-        Me.btnPreviousImg.BackColor = System.Drawing.Color.Transparent
-        Me.btnPreviousImg.FlatAppearance.BorderSize = 0
-        Me.btnPreviousImg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPreviousImg.Image = Global.CellBlockIM.My.Resources.Resources.right
-        Me.btnPreviousImg.Location = New System.Drawing.Point(321, 3)
-        Me.btnPreviousImg.Name = "btnPreviousImg"
-        Me.btnPreviousImg.Size = New System.Drawing.Size(51, 33)
-        Me.btnPreviousImg.TabIndex = 8
-        Me.btnPreviousImg.UseVisualStyleBackColor = False
         '
         'TableLayoutPanel13
         '
@@ -594,16 +508,16 @@ Partial Class Home
         Me.TableLayoutPanel13.Name = "TableLayoutPanel13"
         Me.TableLayoutPanel13.RowCount = 1
         Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel13.Size = New System.Drawing.Size(639, 20)
+        Me.TableLayoutPanel13.Size = New System.Drawing.Size(659, 20)
         Me.TableLayoutPanel13.TabIndex = 2
         '
         'Panel7
         '
         Me.Panel7.Controls.Add(Me.Label1)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel7.Location = New System.Drawing.Point(216, 3)
+        Me.Panel7.Location = New System.Drawing.Point(222, 3)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(207, 14)
+        Me.Panel7.Size = New System.Drawing.Size(213, 14)
         Me.Panel7.TabIndex = 0
         '
         'Label1
@@ -611,7 +525,7 @@ Partial Class Home
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Poppins SemiBold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(69, -10)
+        Me.Label1.Location = New System.Drawing.Point(72, -10)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(74, 37)
         Me.Label1.TabIndex = 0
@@ -630,7 +544,7 @@ Partial Class Home
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33333!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 73.33333!))
         Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33333!))
-        Me.TableLayoutPanel10.Size = New System.Drawing.Size(265, 499)
+        Me.TableLayoutPanel10.Size = New System.Drawing.Size(273, 499)
         Me.TableLayoutPanel10.TabIndex = 1
         '
         'Panel3
@@ -639,20 +553,8 @@ Partial Class Home
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(3, 69)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(259, 359)
+        Me.Panel3.Size = New System.Drawing.Size(267, 359)
         Me.Panel3.TabIndex = 0
-        '
-        'pbPrevImage
-        '
-        Me.pbPrevImage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pbPrevImage.Location = New System.Drawing.Point(-50, 62)
-        Me.pbPrevImage.Name = "pbPrevImage"
-        Me.pbPrevImage.Size = New System.Drawing.Size(306, 224)
-        Me.pbPrevImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pbPrevImage.TabIndex = 7
-        Me.pbPrevImage.TabStop = False
         '
         'Panel10
         '
@@ -693,18 +595,6 @@ Partial Class Home
         Me.TableLayoutPanel18.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel18.Size = New System.Drawing.Size(713, 75)
         Me.TableLayoutPanel18.TabIndex = 0
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox3.BackColor = System.Drawing.Color.Teal
-        Me.PictureBox3.Location = New System.Drawing.Point(3, 30)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(707, 5)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 38
-        Me.PictureBox3.TabStop = False
         '
         'TableLayoutPanel16
         '
@@ -797,18 +687,6 @@ Partial Class Home
         Me.Label8.Text = "Cellblock Central -"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.FrontView
-        Me.PictureBox2.Location = New System.Drawing.Point(2, 0)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(1203, 370)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 26
-        Me.PictureBox2.TabStop = False
-        '
         'TableLayoutPanel14
         '
         Me.TableLayoutPanel14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -881,16 +759,16 @@ Partial Class Home
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 1
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(1199, 177)
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(1233, 177)
         Me.TableLayoutPanel7.TabIndex = 29
         '
         'Panel6
         '
         Me.Panel6.Controls.Add(Me.rtxtHeadline)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel6.Location = New System.Drawing.Point(382, 3)
+        Me.Panel6.Location = New System.Drawing.Point(393, 3)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(434, 171)
+        Me.Panel6.Size = New System.Drawing.Size(446, 171)
         Me.Panel6.TabIndex = 0
         '
         'rtxtHeadline
@@ -905,9 +783,131 @@ Partial Class Home
         Me.rtxtHeadline.Location = New System.Drawing.Point(17, 0)
         Me.rtxtHeadline.Name = "rtxtHeadline"
         Me.rtxtHeadline.ReadOnly = True
-        Me.rtxtHeadline.Size = New System.Drawing.Size(404, 171)
+        Me.rtxtHeadline.Size = New System.Drawing.Size(416, 171)
         Me.rtxtHeadline.TabIndex = 15
         Me.rtxtHeadline.Text = ""
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox4.BackColor = System.Drawing.Color.Teal
+        Me.PictureBox4.Location = New System.Drawing.Point(3, 33)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(696, 5)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 38
+        Me.PictureBox4.TabStop = False
+        '
+        'pbNextImage
+        '
+        Me.pbNextImage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbNextImage.Location = New System.Drawing.Point(-3, 62)
+        Me.pbNextImage.Name = "pbNextImage"
+        Me.pbNextImage.Size = New System.Drawing.Size(312, 224)
+        Me.pbNextImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbNextImage.TabIndex = 7
+        Me.pbNextImage.TabStop = False
+        '
+        'pbMainImage
+        '
+        Me.pbMainImage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbMainImage.Location = New System.Drawing.Point(42, 0)
+        Me.pbMainImage.Name = "pbMainImage"
+        Me.pbMainImage.Size = New System.Drawing.Size(584, 407)
+        Me.pbMainImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbMainImage.TabIndex = 7
+        Me.pbMainImage.TabStop = False
+        '
+        'btnNextImg
+        '
+        Me.btnNextImg.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnNextImg.BackColor = System.Drawing.Color.Transparent
+        Me.btnNextImg.FlatAppearance.BorderSize = 0
+        Me.btnNextImg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnNextImg.Image = Global.CellBlockIM.My.Resources.Resources.left2
+        Me.btnNextImg.Location = New System.Drawing.Point(109, -7)
+        Me.btnNextImg.Name = "btnNextImg"
+        Me.btnNextImg.Size = New System.Drawing.Size(48, 48)
+        Me.btnNextImg.TabIndex = 8
+        Me.btnNextImg.UseVisualStyleBackColor = False
+        '
+        'btnPreviousImg
+        '
+        Me.btnPreviousImg.BackColor = System.Drawing.Color.Transparent
+        Me.btnPreviousImg.FlatAppearance.BorderSize = 0
+        Me.btnPreviousImg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPreviousImg.Image = Global.CellBlockIM.My.Resources.Resources.right
+        Me.btnPreviousImg.Location = New System.Drawing.Point(331, 3)
+        Me.btnPreviousImg.Name = "btnPreviousImg"
+        Me.btnPreviousImg.Size = New System.Drawing.Size(51, 33)
+        Me.btnPreviousImg.TabIndex = 8
+        Me.btnPreviousImg.UseVisualStyleBackColor = False
+        '
+        'pbPrevImage
+        '
+        Me.pbPrevImage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbPrevImage.Location = New System.Drawing.Point(-50, 62)
+        Me.pbPrevImage.Name = "pbPrevImage"
+        Me.pbPrevImage.Size = New System.Drawing.Size(314, 224)
+        Me.pbPrevImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbPrevImage.TabIndex = 7
+        Me.pbPrevImage.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox3.BackColor = System.Drawing.Color.Teal
+        Me.PictureBox3.Location = New System.Drawing.Point(3, 30)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(707, 5)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 38
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.Image = Global.CellBlockIM.My.Resources.Resources.FrontView
+        Me.PictureBox2.Location = New System.Drawing.Point(2, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(1232, 370)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 26
+        Me.PictureBox2.TabStop = False
+        '
+        'btnAccount
+        '
+        Me.btnAccount.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnAccount.BackColor = System.Drawing.Color.Transparent
+        Me.btnAccount.FlatAppearance.BorderSize = 0
+        Me.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAccount.Image = CType(resources.GetObject("btnAccount.Image"), System.Drawing.Image)
+        Me.btnAccount.Location = New System.Drawing.Point(3, 3)
+        Me.btnAccount.Name = "btnAccount"
+        Me.btnAccount.Size = New System.Drawing.Size(114, 40)
+        Me.btnAccount.TabIndex = 7
+        Me.btnAccount.UseVisualStyleBackColor = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.CellBlockIM.My.Resources.Resources.cellblock_central__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(4, -8)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(116, 113)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 20
+        Me.PictureBox1.TabStop = False
         '
         'Home
         '
@@ -930,7 +930,6 @@ Partial Class Home
         Me.TableLayoutPanel6.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel15.ResumeLayout(False)
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
@@ -938,14 +937,11 @@ Partial Class Home
         Me.Panel11.ResumeLayout(False)
         Me.TableLayoutPanel19.ResumeLayout(False)
         Me.TableLayoutPanel20.ResumeLayout(False)
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel8.ResumeLayout(False)
         Me.TableLayoutPanel11.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
-        CType(Me.pbNextImage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel9.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
-        CType(Me.pbMainImage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel12.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
         Me.TableLayoutPanel13.ResumeLayout(False)
@@ -953,15 +949,12 @@ Partial Class Home
         Me.Panel7.PerformLayout()
         Me.TableLayoutPanel10.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
-        CType(Me.pbPrevImage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel10.ResumeLayout(False)
         Me.TableLayoutPanel17.ResumeLayout(False)
         Me.TableLayoutPanel18.ResumeLayout(False)
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel16.ResumeLayout(False)
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel14.ResumeLayout(False)
         Me.FlowLayoutPanel2.ResumeLayout(False)
         Me.FlowLayoutPanel2.PerformLayout()
@@ -969,6 +962,13 @@ Partial Class Home
         Me.FlowLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel7.ResumeLayout(False)
         Me.Panel6.ResumeLayout(False)
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbNextImage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbMainImage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPrevImage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
