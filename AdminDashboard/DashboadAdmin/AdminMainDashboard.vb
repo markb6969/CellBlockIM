@@ -1,4 +1,7 @@
-﻿Public Class MainDashboard
+﻿Public Class AdminMainDashboard
+    Private Sub AdminMainDashboard_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Application.Exit()
+    End Sub
 
     Public Sub switchTableLayoutPanel(tlp As TableLayoutPanel, newControl As UserControl)
         tlp.Controls.Clear()

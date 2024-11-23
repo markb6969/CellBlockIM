@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminMainDashboard.Designer.vb">
+      <DependentUpon>AdminMainDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\DashboadAdmin\AdminMainDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AdminDashboard\LoginAdmin.Designer.vb">
       <DependentUpon>LoginAdmin.vb</DependentUpon>
     </Compile>
@@ -469,6 +475,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminDashboard\DashboadAdmin\AdminMainDashboard.resx">
+      <DependentUpon>AdminMainDashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminDashboard\LoginAdmin.resx">
       <DependentUpon>LoginAdmin.vb</DependentUpon>
     </EmbeddedResource>
@@ -833,5 +842,6 @@
   <ItemGroup>
     <None Include="Resources\SuperAd.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
