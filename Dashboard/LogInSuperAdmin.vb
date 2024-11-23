@@ -1,5 +1,5 @@
 ﻿Public Class LogInSuperAdmin
-    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+    Private Sub btnLogin_Click(sender As Object, e As EventArgs)
         MainDashboard.Show()
         Me.Hide()
 
