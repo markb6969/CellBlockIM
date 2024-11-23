@@ -1,14 +1,15 @@
 ﻿Public Class AccountHomeControl
     Private Sub btnAdmin_Click(sender As Object, e As EventArgs) Handles btnAdmin.Click
-        LoginAdmin.Show()
-        Me.Hide()
+        Dim adminLogin As New LoginAdmin()
+        adminLogin.Show()
+        Me.ParentForm.Hide()
 
     End Sub
 
     Private Sub btnSuperAdmin_Click(sender As Object, e As EventArgs) Handles btnSuperAdmin.Click
-        LogInSuperAdmin.Show()
-        Me.Hide()
-
+        Dim superAdminLogin As New LogInSuperAdmin()
+        superAdminLogin.Show()
+        Me.ParentForm.Hide()
     End Sub
 
 

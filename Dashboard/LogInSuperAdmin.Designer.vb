@@ -26,15 +26,25 @@ Partial Class LogInSuperAdmin
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.pnlTxtPass = New System.Windows.Forms.Panel()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.pnlTxtUsername = New System.Windows.Forms.Panel()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.lblPassword = New System.Windows.Forms.Label()
+        Me.lblUserName = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlTxtPass.SuspendLayout()
+        Me.pnlTxtUsername.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -47,7 +57,7 @@ Partial Class LogInSuperAdmin
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.76812!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.11594!))
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(595, -17)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(606, -17)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
@@ -73,60 +83,146 @@ Partial Class LogInSuperAdmin
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Label4)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.pnlTxtPass)
+        Me.Panel1.Controls.Add(Me.pnlTxtUsername)
+        Me.Panel1.Controls.Add(Me.btnLogin)
+        Me.Panel1.Controls.Add(Me.lblPassword)
+        Me.Panel1.Controls.Add(Me.lblUserName)
+        Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(3, 143)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(396, 486)
         Me.Panel1.TabIndex = 0
         '
-        'Label3
-        '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Poppins SemiBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Teal
-        Me.Label3.Location = New System.Drawing.Point(73, 125)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(118, 28)
-        Me.Label3.TabIndex = 38
-        Me.Label3.Text = "Super Admin"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Poppins", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(62, 40)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(362, 85)
-        Me.Label4.TabIndex = 37
-        Me.Label4.Text = "Logging in as"
-        '
         'TableLayoutPanel3
         '
         Me.TableLayoutPanel3.ColumnCount = 1
         Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.Controls.Add(Me.PictureBox1, 0, 0)
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(-1, -20)
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Left
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(598, 800)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(608, 761)
         Me.TableLayoutPanel3.TabIndex = 37
         '
         'PictureBox1
         '
-        Me.PictureBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(592, 794)
+        Me.PictureBox1.Size = New System.Drawing.Size(602, 755)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 26
         Me.PictureBox1.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(118, 114)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(223, 28)
+        Me.Label1.TabIndex = 46
+        Me.Label1.Text = "Logging in as Super Admin"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(128, 64)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(197, 62)
+        Me.Label2.TabIndex = 45
+        Me.Label2.Text = "Welcome"
+        '
+        'pnlTxtPass
+        '
+        Me.pnlTxtPass.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.pnlTxtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlTxtPass.Controls.Add(Me.txtPassword)
+        Me.pnlTxtPass.Location = New System.Drawing.Point(95, 289)
+        Me.pnlTxtPass.Name = "pnlTxtPass"
+        Me.pnlTxtPass.Size = New System.Drawing.Size(275, 44)
+        Me.pnlTxtPass.TabIndex = 43
+        '
+        'txtPassword
+        '
+        Me.txtPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtPassword.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.Location = New System.Drawing.Point(2, 10)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(269, 24)
+        Me.txtPassword.TabIndex = 0
+        Me.txtPassword.UseSystemPasswordChar = True
+        '
+        'pnlTxtUsername
+        '
+        Me.pnlTxtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.pnlTxtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlTxtUsername.Controls.Add(Me.txtUsername)
+        Me.pnlTxtUsername.Location = New System.Drawing.Point(95, 203)
+        Me.pnlTxtUsername.Name = "pnlTxtUsername"
+        Me.pnlTxtUsername.Size = New System.Drawing.Size(275, 44)
+        Me.pnlTxtUsername.TabIndex = 44
+        '
+        'txtUsername
+        '
+        Me.txtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtUsername.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.Location = New System.Drawing.Point(2, 9)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(269, 24)
+        Me.txtUsername.TabIndex = 0
+        '
+        'btnLogin
+        '
+        Me.btnLogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogin.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.btnLogin.Location = New System.Drawing.Point(96, 377)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(274, 49)
+        Me.btnLogin.TabIndex = 42
+        Me.btnLogin.Text = "Log in"
+        Me.btnLogin.UseVisualStyleBackColor = False
+        '
+        'lblPassword
+        '
+        Me.lblPassword.AutoSize = True
+        Me.lblPassword.Font = New System.Drawing.Font("Poppins SemiBold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPassword.Location = New System.Drawing.Point(92, 263)
+        Me.lblPassword.Name = "lblPassword"
+        Me.lblPassword.Size = New System.Drawing.Size(74, 23)
+        Me.lblPassword.TabIndex = 40
+        Me.lblPassword.Text = "Password"
+        '
+        'lblUserName
+        '
+        Me.lblUserName.AutoSize = True
+        Me.lblUserName.Font = New System.Drawing.Font("Poppins SemiBold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUserName.Location = New System.Drawing.Point(91, 177)
+        Me.lblUserName.Name = "lblUserName"
+        Me.lblUserName.Size = New System.Drawing.Size(79, 23)
+        Me.lblUserName.TabIndex = 41
+        Me.lblUserName.Text = "Username"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(303, 272)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(0, 28)
+        Me.Label5.TabIndex = 39
         '
         'LogInSuperAdmin
         '
@@ -138,13 +234,17 @@ Partial Class LogInSuperAdmin
         Me.Controls.Add(Me.TableLayoutPanel3)
         Me.Name = "LogInSuperAdmin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.TableLayoutPanel3.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlTxtPass.ResumeLayout(False)
+        Me.pnlTxtPass.PerformLayout()
+        Me.pnlTxtUsername.ResumeLayout(False)
+        Me.pnlTxtUsername.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -152,8 +252,16 @@ Partial Class LogInSuperAdmin
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents pnlTxtPass As Panel
+    Friend WithEvents txtPassword As TextBox
+    Friend WithEvents pnlTxtUsername As Panel
+    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents btnLogin As Button
+    Friend WithEvents lblPassword As Label
+    Friend WithEvents lblUserName As Label
+    Friend WithEvents Label5 As Label
 End Class
