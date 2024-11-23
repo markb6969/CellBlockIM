@@ -86,6 +86,12 @@
     Public Sub SwitchToVisitationControl()
         switchPanel(pnlMain, New VisitationControl())
     End Sub
+    Public Sub SwitchToCreateAccountControl()
+        switchPanel(pnlMain, New AccountHomeControl())
+    End Sub
+
+
+
 
     'NAV
     Private Sub btnAbout1_Click(sender As Object, e As EventArgs) Handles btnAbout1.Click
@@ -106,5 +112,9 @@
 
     Private Sub btnContact1_Click(sender As Object, e As EventArgs) Handles btnContact1.Click
         SwitchToContactPageControl()
+    End Sub
+
+    Private Sub btnAccount_Click(sender As Object, e As EventArgs) Handles btnAccount.Click
+        SwitchToCreateAccountControl()
     End Sub
 End Class

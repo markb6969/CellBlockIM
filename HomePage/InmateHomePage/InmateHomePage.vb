@@ -35,12 +35,12 @@
         mainForm.SwitchToPDLInfoPageControl()
     End Sub
 
-    Private Sub btnVisitation_Click(sender As Object, e As EventArgs) Handles btnVisitation.Click
+    Private Sub btnVisitation_Click(sender As Object, e As EventArgs)
         Dim mainForm As Home = TryCast(Me.ParentForm, Home)
         mainForm.SwitchToVisitationControl()
     End Sub
 
-    Private Sub btnReportConcern_Click(sender As Object, e As EventArgs) Handles btnReportConcern.Click
+    Private Sub btnReportConcern_Click(sender As Object, e As EventArgs)
         Dim mainForm As Home = TryCast(Me.ParentForm, Home)
         mainForm.SwitchToReportConcernPageControl()
     End Sub

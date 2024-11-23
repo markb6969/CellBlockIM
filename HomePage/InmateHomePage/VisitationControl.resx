@@ -121,13 +121,13 @@
     <value>The PDL might also be moved to receive treatment for a medical condition or for security concerns.
 Therefore, the first step in planning your visit should be to determine where the inmate is currently housed.</value>
   </data>
+  <data name="RichTextBox6.Text" xml:space="preserve">
+    <value>Because many people are usually visiting, it is important visits are quiet, orderly, and dignified. The visiting room officer can require you to leave if either you or the inmate is not acting appropriately.</value>
+  </data>
   <data name="RichTextBox4.Text" xml:space="preserve">
     <value>Wear clothing that is appropriate for a large gathering of men, women, and young children. Wearing inappropriate clothing (such as provocative or revealing clothes) may result in your being denied visitation.</value>
   </data>
   <data name="RichTextBox5.Text" xml:space="preserve">
     <value>By law, an inmate gets at least four hours of visiting time per month but usually the prison can provide more. However, the Warden can restrict the length of visits or the number of people who can visit at once, to avoid overcrowding in the visiting room.</value>
-  </data>
-  <data name="RichTextBox6.Text" xml:space="preserve">
-    <value>Because many people are usually visiting, it is important visits are quiet, orderly, and dignified. The visiting room officer can require you to leave if either you or the inmate is not acting appropriately.</value>
   </data>
 </root>

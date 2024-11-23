@@ -22,7 +22,6 @@ Partial Class Home
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
@@ -190,16 +189,16 @@ Partial Class Home
         'TableLayoutPanel5
         '
         Me.TableLayoutPanel5.ColumnCount = 5
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel5.Controls.Add(Me.btnAccount, 0, 0)
-        Me.TableLayoutPanel5.Controls.Add(Me.btnContact1, 4, 0)
-        Me.TableLayoutPanel5.Controls.Add(Me.btnInmate1, 3, 0)
-        Me.TableLayoutPanel5.Controls.Add(Me.btnAbout1, 2, 0)
-        Me.TableLayoutPanel5.Controls.Add(Me.btnHome, 1, 0)
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667!))
+        Me.TableLayoutPanel5.Controls.Add(Me.btnAccount, 4, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.btnHome, 0, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.btnAbout1, 1, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.btnInmate1, 2, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.btnContact1, 3, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(124, 3)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
@@ -217,7 +216,7 @@ Partial Class Home
         Me.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnHome.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHome.ForeColor = System.Drawing.Color.Teal
-        Me.btnHome.Location = New System.Drawing.Point(123, 3)
+        Me.btnHome.Location = New System.Drawing.Point(3, 3)
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(114, 40)
         Me.btnHome.TabIndex = 11
@@ -233,7 +232,7 @@ Partial Class Home
         Me.btnAbout1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAbout1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAbout1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btnAbout1.Location = New System.Drawing.Point(243, 3)
+        Me.btnAbout1.Location = New System.Drawing.Point(123, 3)
         Me.btnAbout1.Name = "btnAbout1"
         Me.btnAbout1.Size = New System.Drawing.Size(114, 40)
         Me.btnAbout1.TabIndex = 10
@@ -248,7 +247,7 @@ Partial Class Home
         Me.btnInmate1.FlatAppearance.BorderSize = 0
         Me.btnInmate1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnInmate1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnInmate1.Location = New System.Drawing.Point(363, 3)
+        Me.btnInmate1.Location = New System.Drawing.Point(243, 3)
         Me.btnInmate1.Name = "btnInmate1"
         Me.btnInmate1.Size = New System.Drawing.Size(114, 40)
         Me.btnInmate1.TabIndex = 9
@@ -263,9 +262,9 @@ Partial Class Home
         Me.btnContact1.FlatAppearance.BorderSize = 0
         Me.btnContact1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnContact1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnContact1.Location = New System.Drawing.Point(483, 3)
+        Me.btnContact1.Location = New System.Drawing.Point(363, 3)
         Me.btnContact1.Name = "btnContact1"
-        Me.btnContact1.Size = New System.Drawing.Size(118, 40)
+        Me.btnContact1.Size = New System.Drawing.Size(114, 40)
         Me.btnContact1.TabIndex = 7
         Me.btnContact1.Text = "Contact"
         Me.btnContact1.UseVisualStyleBackColor = True
@@ -888,14 +887,16 @@ Partial Class Home
         '
         Me.btnAccount.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnAccount.BackColor = System.Drawing.Color.Transparent
+        Me.btnAccount.BackColor = System.Drawing.Color.Teal
         Me.btnAccount.FlatAppearance.BorderSize = 0
         Me.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAccount.Image = CType(resources.GetObject("btnAccount.Image"), System.Drawing.Image)
-        Me.btnAccount.Location = New System.Drawing.Point(3, 3)
+        Me.btnAccount.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAccount.ForeColor = System.Drawing.Color.White
+        Me.btnAccount.Location = New System.Drawing.Point(483, 3)
         Me.btnAccount.Name = "btnAccount"
-        Me.btnAccount.Size = New System.Drawing.Size(114, 40)
+        Me.btnAccount.Size = New System.Drawing.Size(118, 40)
         Me.btnAccount.TabIndex = 7
+        Me.btnAccount.Text = "Login "
         Me.btnAccount.UseVisualStyleBackColor = False
         '
         'PictureBox1

@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashboard\LoginAdmin.Designer.vb">
+      <DependentUpon>LoginAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard\LoginAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Add\AddCellblock\AddCellblockControl.Designer.vb">
       <DependentUpon>AddCellblockControl.vb</DependentUpon>
     </Compile>
@@ -229,6 +235,12 @@
     <Compile Include="Dashboard\Inmate\Update\UpdateMedicalinfoControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Dashboard\LogInSuperAdmin.Designer.vb">
+      <DependentUpon>LogInSuperAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\LogInSuperAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard\Logout.Designer.vb">
       <DependentUpon>Logout.vb</DependentUpon>
     </Compile>
@@ -331,6 +343,12 @@
     <Compile Include="HomePage\Contact\ContactPageControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="HomePage\CreateAccount\AccountHomeControl.Designer.vb">
+      <DependentUpon>AccountHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\CreateAccount\AccountHomeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="HomePage\Home.Designer.vb">
       <DependentUpon>Home.vb</DependentUpon>
     </Compile>
@@ -397,6 +415,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminDashboard\LoginAdmin.resx">
+      <DependentUpon>LoginAdmin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Add\AddCellblock\AddCellblockControl.resx">
       <DependentUpon>AddCellblockControl.vb</DependentUpon>
     </EmbeddedResource>
@@ -475,6 +496,9 @@
     <EmbeddedResource Include="Dashboard\Inmate\Update\UpdateMedicalinfoControl.resx">
       <DependentUpon>UpdateMedicalinfoControl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\LogInSuperAdmin.resx">
+      <DependentUpon>LogInSuperAdmin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\Logout.resx">
       <DependentUpon>Logout.vb</DependentUpon>
     </EmbeddedResource>
@@ -525,6 +549,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\Contact\ContactPageControl.resx">
       <DependentUpon>ContactPageControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage\CreateAccount\AccountHomeControl.resx">
+      <DependentUpon>AccountHomeControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage\Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
@@ -709,6 +736,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled design %281%29 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-with-cogwheels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Super.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuperAd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
