@@ -11,7 +11,6 @@
         Dim mainForm As MainDashboard = TryCast(Me.ParentForm, MainDashboard)
 
         If mainForm IsNot Nothing Then
-            mainForm.SwitchToAddStaffControlHome()
         End If
     End Sub
 
